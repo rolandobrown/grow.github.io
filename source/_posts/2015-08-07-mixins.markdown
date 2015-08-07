@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Mixins"
+date: 2015-08-07 13:26:50 -0400
+comments: true
+categories: 
+---
