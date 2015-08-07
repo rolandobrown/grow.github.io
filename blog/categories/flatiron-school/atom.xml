@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Flatiron&nbsp;school | Grow with Love. Learn & Code too.]]></title>
+  <link href="http://rolandobrown.github.io/blog/categories/flatiron-school/atom.xml" rel="self"/>
+  <link href="http://rolandobrown.github.io/"/>
+  <updated>2015-08-07T13:33:34-04:00</updated>
+  <id>http://rolandobrown.github.io/</id>
+  <author>
+    <name><![CDATA[Rolando Brown]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mix In]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/15/mix-in/"/>
+    <updated>2015-08-15T08:00:00-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/15/mix-in</id>
+    <content type="html"><![CDATA[<p>Mix In</p>
+]]></content>
+  </entry>
+  
+</feed>
