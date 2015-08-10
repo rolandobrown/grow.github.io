@@ -1,13 +1,19 @@
-{% include head.html %}
-<body id="article">
+---
+layout: default
+is_page: true
+---
 
-  <div id="container">
-    {% include header.html %}
-    {% include page_content.html %}
-    {% include footer.html %}
-  </div>
+<article class="page">
 
-  {% include bottom_scripts.html %}
-</body>
-</html>
+    {% if page.title and page.show_title != false %}
+    <header>
+        <h1 class="page__title">
+            {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+        </h1>
+    </header>
+    <hr class="divider">
+    {% endif %}
 
+    {{ content }}
+
+</article>
