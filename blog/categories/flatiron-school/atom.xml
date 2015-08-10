@@ -4,7 +4,7 @@
     <title><![CDATA[Category: flatiron&nbsp;school | /grow|with|love/]]></title>
     <link href="http://rolandobrown.github.io/blog/categories/flatiron-school/atom.xml" rel="self"/>
     <link href="http://rolandobrown.github.io/"/>
-    <updated>2015-08-10T19:09:13-04:00</updated>
+    <updated>2015-08-10T19:13:17-04:00</updated>
     <id>http://rolandobrown.github.io/</id>
     <author>
         <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -14,11 +14,52 @@
 
     
     <entry>
-        <title type="html"><![CDATA[Regular Expressions aint one of my problems]]></title>
+        <title type="html"><![CDATA[regex aint one of my problems]]></title>
         <link href="http://rolandobrown.github.io/blog/2015/08/11/regex/"/>
         <updated>2015-08-11T08:00:00-04:00</updated>
         <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
         <content type="html"><![CDATA[<p>Post about Regular Expressions</p>
+
+<p><div><script src='https://gist.github.com/b97f23367db94b6a8555.js'></script>
+<noscript><pre><code>class Cohort
+  def initialize(name)
+    @name = name
+  end
+
+  def chorus(chorus)
+    @chorus = chorus  # =&gt; &quot;And if you want beef, then bring the ruckus\nWu Tang Clan ain&#39;t nuttin ta fuck with\nStraight from the motherfucking slums that&#39;s busted\nWu-Tang Clan ain&#39;t nuttin ta fuck with&quot;
+  end
+
+  def expletives(aka)
+    # colorful array of expletives
+    @aka = aka
+  end
+
+  def environment (switchup)
+    @switchup = switchup
+  end
+
+  def alias
+    # kinda colorful transformations using gsub &amp; regex
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i, @name).gsub(/motherfucking slums/i, @switchup).gsub(/fuck/i, @aka).gsub(/busted/i, &quot;trusted&quot;)
+  end
+
+end
+
+song = Cohort.new(&quot;Foo-Tang Clan&quot;)
+song.chorus (&quot;And if you want beef, then bring the ruckus\nWu Tang Clan ain&#39;t nuttin ta fuck with\nStraight from the motherfucking slums that&#39;s busted\nWu-Tang Clan ain&#39;t nuttin ta fuck with&quot;)
+song.expletives (&quot;futz&quot;)                                                                                                                                                                          song.environment (&quot;Flatiron School&quot;)                                                                                                                                                             puts song.alias
+
+# &gt;&gt; And if you want beef, then bring the ruckus
+# &gt;&gt; Foo-Tang Clan ain&#39;t nuttin ta futz with
+# &gt;&gt; Straight from the Flatiron School that&#39;s trusted
+# &gt;&gt; Foo-Tang Clan ain&#39;t nuttin ta futz with
+
+## Notes
+# I grew up singing the chorus in it&#39;s trueschool form, and prefer that. Still, this is an example of using gsub &amp; regular expressions.
+# Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
+</code></pre></noscript></div>
+</p>
 ]]></content>
     </entry>
     
