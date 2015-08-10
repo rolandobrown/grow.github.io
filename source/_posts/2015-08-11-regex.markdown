@@ -8,41 +8,43 @@ categories: Flatiron&nbsp;School
 
 Post about Regular Expressions
 
-<pre><code>
+{% codeblock [lang:language] [title] [url] [link text] %}
 
-  class Cohort
-    def initialize(name)
-      @name = name
-    end
-
-    def chorus(chorus)
-      @chorus = chorus
-    end
-
-    def expletives(aka)
-      # colorful array of expletives
-      @aka = aka
-    end
-
-    def environment (switchup)
-      @switchup = switchup
-    end
-
-    def alias
-      # kinda colorful transformations using gsub & regex
-      @chorus.gsub(/(wu(-|\s)tang\sclan)/i, @name).gsub(/motherfucking slums/i, @switchup).gsub(/fuck/i, @aka).gsub(/busted/i, "trusted")
-    end
-
+class Cohort
+  def initialize(name)
+    @name = name
   end
 
-  song = Cohort.new("Foo-Tang Clan")
-  song.chorus ("And if you want beef, then bring the ruckus\nWu Tang Clan ain't nuttin ta fuck with\nStraight from the motherfucking slums that's busted\nWu-Tang Clan ain't nuttin ta fuck with")
-  song.expletives ("futz")
-  song.environment ("Flatiron School")
-  puts song.alias
+  def chorus(chorus)
+    @chorus = chorus  # => "And if you want beef, then bring the ruckus\nWu Tang Clan ain't nuttin ta fuck with\nStraight from the motherfucking slums that's busted\nWu-Tang Clan ain't nuttin ta fuck with"
+  end
 
-  ## Notes
-  # I grew up singing the chorus in it's trueschool form, and prefer that. Still, this is an example of using gsub & regular expressions.
-  # Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
+  def expletives(aka)
+    # colorful array of expletives
+    @aka = aka
+  end
 
-</code></pre>
+  def environment (switchup)
+    @switchup = switchup
+  end
+
+  def alias
+    # kinda colorful transformations using gsub & regex
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i, @name).gsub(/motherfucking slums/i, @switchup).gsub(/fuck/i, @aka).gsub(/busted/i, "trusted")
+  end
+
+end
+
+song = Cohort.new("Foo-Tang Clan")
+song.chorus ("And if you want beef, then bring the ruckus\nWu Tang Clan ain't nuttin ta fuck with\nStraight from the motherfucking slums that's busted\nWu-Tang Clan ain't nuttin ta fuck with")
+song.expletives ("futz")                                                                                                                                                                          song.environment ("Flatiron School")                                                                                                                                                             puts song.alias
+
+# >> And if you want beef, then bring the ruckus
+# >> Foo-Tang Clan ain't nuttin ta futz with
+# >> Straight from the Flatiron School that's trusted
+# >> Foo-Tang Clan ain't nuttin ta futz with
+
+## Notes
+# I grew up singing the chorus in it's trueschool form, and prefer that. Still, this is an example of using gsub & regular expressions. Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
+
+{% endcodeblock %}
