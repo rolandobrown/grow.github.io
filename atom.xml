@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title><![CDATA[/grow|with|love/]]></title>
-    <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
-    <link href="http://rolandobrown.github.io/"/>
-    <updated>2015-08-10T19:14:29-04:00</updated>
-    <id>http://rolandobrown.github.io/</id>
-    <author>
-        <name><![CDATA[Rolando Brown aka Grow]]></name>
-        
-    </author>
-    <generator uri="http://octopress.org/">Octopress</generator>
-
+  <title><![CDATA[/grow|with|love/]]></title>
+  <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
+  <link href="http://rolandobrown.github.io/"/>
+  <updated>2015-08-10T19:29:58-04:00</updated>
+  <id>http://rolandobrown.github.io/</id>
+  <author>
+    <name><![CDATA[Rolando Brown aka Grow]]></name>
     
-    <entry>
-        <title type="html"><![CDATA[regex aint one of my problems]]></title>
-        <link href="http://rolandobrown.github.io/blog/2015/08/11/regex/"/>
-        <updated>2015-08-11T08:00:00-04:00</updated>
-        <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
-        <content type="html"><![CDATA[<p>Post about Regular Expressions</p>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Regex Aint One of My Problems]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/11/regex/"/>
+    <updated>2015-08-11T08:00:00-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
+    <content type="html"><![CDATA[<p>Post about Regular Expressions</p>
 
 <div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
 <noscript><pre><code>class Cohort
@@ -63,15 +63,15 @@ song.expletives (&quot;futz&quot;)                                              
 
 
 ]]></content>
-    </entry>
-    
-    <entry>
-        <title type="html"><![CDATA[Lorraine]]></title>
-        <link href="http://rolandobrown.github.io/blog/2015/08/10/lorraine/"/>
-        <updated>2015-08-10T15:55:09-04:00</updated>
-        <id>http://rolandobrown.github.io/blog/2015/08/10/lorraine</id>
-        <content type="html"><![CDATA[<p>Post about Lorraine</p>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lorraine]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/10/lorraine/"/>
+    <updated>2015-08-10T15:55:09-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/10/lorraine</id>
+    <content type="html"><![CDATA[<p>Post about Lorraine</p>
 ]]></content>
-    </entry>
-    
+  </entry>
+  
 </feed>
