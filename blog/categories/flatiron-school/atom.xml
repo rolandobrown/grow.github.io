@@ -4,7 +4,7 @@
     <title><![CDATA[Category: flatiron&nbsp;school | /grow|with|love/]]></title>
     <link href="http://rolandobrown.github.io/blog/categories/flatiron-school/atom.xml" rel="self"/>
     <link href="http://rolandobrown.github.io/"/>
-    <updated>2015-08-10T19:13:17-04:00</updated>
+    <updated>2015-08-10T19:14:29-04:00</updated>
     <id>http://rolandobrown.github.io/</id>
     <author>
         <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -20,7 +20,7 @@
         <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
         <content type="html"><![CDATA[<p>Post about Regular Expressions</p>
 
-<p><div><script src='https://gist.github.com/b97f23367db94b6a8555.js'></script>
+<p><div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
 <noscript><pre><code>class Cohort
   def initialize(name)
     @name = name
