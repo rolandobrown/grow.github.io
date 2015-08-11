@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[/grow|with|love/]]></title>
-  <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop | /grow|with|love/]]></title>
+  <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
   <updated>2015-08-11T05:31:13-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
@@ -28,9 +28,9 @@
 
 <p>During this afternoon lecture, Steven&rsquo;s blessing us with a lesson and I&rsquo;m naturally thinking about Hiphop, and something called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions, let me explain Slang Expressions so that you get a gist of the mental rinse and repeat I went through to while listening to his lecture.</p>
 
-<div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
+<p><div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
 <noscript><pre><code>&quot;Slang Expressions&quot; != &quot;Regular Expressions&quot;</code></pre></noscript></div>
-
+</p>
 
 <p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental variables, arrived at through random freestyle. Most are actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by Brolic Scholars, otherwise known as Honorary Sociolinguistic Prodigies using something similar to gsub methods.</p>
 
@@ -47,7 +47,7 @@
 
 <p>We&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta, as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
 
-<div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
+<p><div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
 <noscript><pre><code>elements = [&quot;Breaking&quot;, &quot;Mc&#39;ing&quot;, &quot;Graffiti Art&quot;, &quot;DJ&#39;ing&quot;, &quot;Knowledge&quot;]
 
 def hip_hop_culture(elements)
@@ -62,7 +62,7 @@ puts hip_hop_culture(elements)
 # &gt;&gt; 3. Graffiti Art
 # &gt;&gt; 4. DJ&#39;ing
 # &gt;&gt; 5. Knowledge</code></pre></noscript></div>
-
+</p>
 
 <p>Now, this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression. Both intended to communicate, transform and normalize a set of behaviors. Right? I can&rsquo;t help but do this. So, rather than waste brain cycles fighting my nature, I decided to lean into it.</p>
 
@@ -76,7 +76,7 @@ In Programming, you do the knowledge to gain access to the essence. That essence
 
 <p>I&rsquo;d like to learn to express myself over time at a higher and higher level of abstraction.</p>
 
-<div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
+<p><div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
 <noscript><pre><code>knowledge = []
 %w{tools experiences teachers rabbitholes}.each do |lesson|
   knowledge &lt;&lt; lesson and puts &quot;Added to knowledge&quot; unless lesson.include?(&quot;rabbithole&quot;)
@@ -84,7 +84,7 @@ end
 puts knowledge.inspect
 
 # &gt;&gt; [&quot;tools&quot;, &quot;experiences&quot;, &quot;teachers&quot;]</code></pre></noscript></div>
-
+</p>
 
 <p>So here&rsquo;s a few lessons learned on my road to being fully expressed as a Master Programmer, and an invitation to learn more about Hiphop.
 Now, let&rsquo;s do the knowledge.</p>
@@ -155,7 +155,7 @@ Wu-Tang Clan ain&rsquo;t nuttin ta fuck with*</p></blockquote>
 
 <p><strong>Ok, now that this is done. Here&rsquo;s how I used the following regular expressions:</strong></p>
 
-<div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
+<p><div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
 <noscript><pre><code>  def alias
     # kinda colorful transformations using gsub &amp; regexp
     @chorus.gsub(/(wu(-|\s)tang\sclan)/i,
@@ -163,11 +163,11 @@ Wu-Tang Clan ain&rsquo;t nuttin ta fuck with*</p></blockquote>
     @switchup).gsub(/fuck/i,
     @aka).gsub(/busted/i, &quot;trusted&quot;)
   end</code></pre></noscript></div>
-
+</p>
 
 <p>Once I figured out this Method of transforming, I went ahead and build the Class Cohort, and following methods: <em>initialize</em>, <em>chorus</em>, <em>expletives</em> and <em>environment</em>. I designed these methods to take arguments. I imagine that a future Cohort might want to transform their favorite song into a Flatiron theme song.</p>
 
-<div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
+<p><div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
 <noscript><pre><code>class Cohort
   def initialize(name)
     @name = name
@@ -206,7 +206,7 @@ song.expletives (&quot;futz&quot;)                                              
 # I grew up singing the chorus in it&#39;s trueschool form, and prefer that. Still, this is an example of using gsub &amp; regular expressions.
 # Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
 </code></pre></noscript></div>
-
+</p>
 
 <p>Enough respect to   Nikila Saravanan &amp; George Tootheman.
 Nikila helped me craft the code above, and George accelerated my Octopress deployment.
@@ -247,20 +247,9 @@ I&rsquo;ve found the same to be true in Programming.</p>
 </ul>
 
 
-<div><script src='https://gist.github.com/dc999c5ed85a530896c8.js?file=footang_disclaimer.rb'></script>
+<p><div><script src='https://gist.github.com/dc999c5ed85a530896c8.js?file=footang_disclaimer.rb'></script>
 <noscript><pre><code>puts &quot;I grew up understanding that Wu-Tang Is Forever, never to be imitated or duplicated. This is simply an example of using gsub &amp; regular expressions.&quot;</code></pre></noscript></div>
-
-
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lorraine]]></title>
-    <link href="http://rolandobrown.github.io/blog/2015/08/10/lorraine/"/>
-    <updated>2015-08-10T15:55:09-04:00</updated>
-    <id>http://rolandobrown.github.io/blog/2015/08/10/lorraine</id>
-    <content type="html"><![CDATA[<p>Post about Lorraine</p>
+</p>
 ]]></content>
   </entry>
   
