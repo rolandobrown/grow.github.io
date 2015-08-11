@@ -43,8 +43,12 @@ This "can't help but lean in," better described as "can't stop won't stop" is a 
 Why does one "do the Knowledge" before we talk about the gsub and the Regular Expression?
 Well, because in Hip Hop Culture, we always do the Knowledge first.
 
-In Hip Hop, you do the knowledge to gain access to the essence. That essence is a superpower: the ability to fully express yourself.
-In Programming, you do the knowledge to gain access to the essence. That essence is a superpower: the ability to fully express yourself.
+In Hip Hop, you do the knowledge to gain access to the essence. That essence is a superpower.
+In Programming, you do the knowledge to gain access to the essence. That essence is a superpower.
+
+  <blockquote>
+  superpower = "the ability to fully express yourself.""
+  </blockquote>
 
 I'd like to learn to express myself over time at a higher and higher level of abstraction.
 
@@ -59,21 +63,22 @@ Now, let's do the knowledge.
 
 #Side A: gsub & Regular Expressions
 
-
 The sub and gsub methods (.sub & .gsub) are used to replace Strings, or String objects if we want to be literal.
 In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable.
 A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.
 
-Not characters like this below.
+**Not characters like this:**
 
 {insert image of Steven Octo image over the 9 members of the wu-tang clan}
 
-More like these types of characters:
+**More like these types of characters:**
 
-> And if you want beef, then bring the ruckus
-> Wu Tang Clan ain't nuttin ta fuck with
-> Straight from the motherfucking slums that's busted
-> Wu-Tang Clan ain't nuttin ta fuck with*
+  <blockquote>
+  And if you want beef, then bring the ruckus
+  Wu Tang Clan ain't nuttin ta fuck with
+  Straight from the motherfucking slums that's busted
+  Wu-Tang Clan ain't nuttin ta fuck with*
+  </blockquote>
 
 **gsub(pattern, replacement) → new_str**
 
@@ -103,13 +108,15 @@ Now, knowing how a Regular Expression is written is only half-time. To gain any 
 
 There's this popular wisdom about Regular expressions, a quote that's pretty much internet famous among Programmers. I read it. It goes a little something like this:
 
-*Some people, when confronted with a problem, think
-“I know, I'll use regular expressions.” Now they have two problems.
--Jamie Zawinski*
+  <blockquote>
+  Some people, when confronted with a problem, think
+  “I know, I'll use regular expressions.” Now they have two problems.
+  -Jamie Zawinski*
+  </blockquote>
 
 Here are a few ideas that came to mind reading this quote.
 
-In other words, this is how grow.rb thinks about the relationship between Jamie Zawinski & Jay-Z
+In other words, this is how grow.rb thinks about the relationship between Jamie Zawinski & Jay-Z:
 
 <iframe src="//slides.com/rolandobrown/deck/embed" width="700" height="500" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
