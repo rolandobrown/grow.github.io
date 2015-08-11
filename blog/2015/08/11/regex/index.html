@@ -9,7 +9,7 @@
   <meta name="author" content="Rolando Brown aka Grow">
 
   
-  <meta name="description" content="tldr = &ldquo;This post is intended to familiarize you with two methods—gsub and regular expressions.&rdquo; summary = &ldquo;This post outlines how &hellip;">
+  <meta name="description" content="tldr = &ldquo;This post familiarizes you with two methods—gsub and regular expressions.&rdquo; summary = &ldquo;This post outlines how I designed a &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -102,17 +102,17 @@
       <h1 class="entry-title">Regex Ain't One of My Problems</h1>
     </header>
   
-  <div class="entry-content"><p><strong>tldr = &ldquo;This post is intended to familiarize you with two methods—gsub and regular expressions.&rdquo;</strong></p>
+  <div class="entry-content"><p><strong>tldr = &ldquo;This post familiarizes you with two methods—gsub and regular expressions.&rdquo;</strong></p>
 
-<p>summary = &ldquo;This post outlines how I designed a simple Ruby program that uses the gsub and regular expressions methods to transform four lines from the award winning, world renowned, chorus from &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; It also shares how I internalized knowledge of these methods, and their founders, by binding their definitions to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
+<p>summary = &ldquo;This post outlines how I designed a simple Ruby program that uses the gsub and regular expressions methods to transform four lines from the award winning, world renowned, chorus from &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; The file is named footang.rb. It also shares how I internalized knowledge of these methods, and their founders, through binding their definitions to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
-<p><strong>note:</strong></p>
+<p><strong>note:</strong>
+<em>42 years ago, on August 11, 1973, D.J. Kool Herc &amp; Cindy Campbell didn’t know they were revolutionizing pop music—they were just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, hard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant and his sister changed pop music forever while.</em></p>
 
-<p>42 years ago, on August 11, 1973, D.J. Kool Herc didn’t know he was revolutionizing pop music—he was just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, hard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant changed pop music forever.</p>
+<blockquote><p>#I be tossin, enforcin, my style is awesome</p></blockquote>
 
-<h1>I be tossin, enforcin, my style is awesome</h1>
 
-<p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing  Regular Expressions to a room full of soon to be Master Programmers. Last week, Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo; Note, we were initially named &ldquo;web_0715.&rdquo;&ldquo; That&rsquo;s a significant improvement. An improvement that signals we&rsquo;ve tapped into the larger Hiphop consciousness.</p>
+<p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing  Regular Expressions to a room full of soon to be Master Programmers. Last week, Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo; Note, we were initially named &ldquo;web_0715.&rdquo;&ldquo; That&rsquo;s a significant improvement. An improvement that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy because I grew up in Staten Island aka Shaolin. Also, the serendipity is => :awesome.</p>
 
 <p>During this afternoon lecture, Steven&rsquo;s blessing us with a lesson and I&rsquo;m naturally thinking about Hiphop, and something called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions, let me explain Slang Expressions so that you get a gist of the mental rinse and repeat I went through to while listening to his lecture.</p>
 
@@ -162,9 +162,8 @@ Well, because in Hip Hop Culture, we always do the Knowledge first.</p>
 <p>In Hip Hop, you do the knowledge to gain access to the essence. That essence is a superpower.
 In Programming, you do the knowledge to gain access to the essence. That essence is a superpower.</p>
 
-<p>  <blockquote>
-  superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
-  </blockquote></p>
+<blockquote><p>superpower = "the ability to fully express yourself.""</p></blockquote>
+
 
 <p>I&rsquo;d like to learn to express myself over time at a higher and higher level of abstraction.</p>
 
@@ -198,12 +197,7 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 
 <p><strong>More like these types of characters:</strong></p>
 
-<p>  <blockquote>
-  And if you want beef, then bring the ruckus
-  Wu Tang Clan ain&rsquo;t nuttin ta fuck with
-  Straight from the motherfucking slums that&rsquo;s busted
-  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with*
-  </blockquote></p>
+<p>  <blockquote><p>And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with*</p></blockquote></p>
 
 <p><strong>gsub(pattern, replacement) → new_str</strong></p>
 
@@ -241,11 +235,7 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 
 <p>There&rsquo;s this popular wisdom about Regular expressions, a quote that&rsquo;s pretty much internet famous among Programmers. I read it. It goes a little something like this:</p>
 
-<p>  <blockquote>
-  Some people, when confronted with a problem, think
-  “I know, I&rsquo;ll use regular expressions.” Now they have two problems.
-  -Jamie Zawinski*
-  </blockquote></p>
+<p>  <blockquote><p>Some people, when confronted with a problem, think<br/>  “I know, I&rsquo;ll use regular expressions.” Now they have two problems.<br/>  -Jamie Zawinski*</p></blockquote></p>
 
 <p>Here are a few ideas that came to mind reading this quote.</p>
 
