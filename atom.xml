@@ -4,7 +4,7 @@
   <title><![CDATA[/grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-11T09:18:24-04:00</updated>
+  <updated>2015-08-11T13:24:16-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -20,7 +20,7 @@
     <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
     <content type="html"><![CDATA[<p><strong>tldr = &ldquo;This post familiarizes you with two methods—gsub and regular expressions.&rdquo;</strong></p>
 
-<p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.I share how I did that, as well as how I internalized knowledge of these methods, and their founders, through a binding of their definitions to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
+<p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
 <p><strong>Today in Hiphop:</strong>
 <em>42 years ago, on August 11, 1973, D.J. Kool Herc &amp; Cindy Campbell didn’t know they were revolutionizing pop music—they were just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, hard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant and his sister changed pop music forever while.</em></p>
@@ -33,15 +33,17 @@
 
 <p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing  Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo; Note, we were initially named &ldquo;web_0715.&rdquo; Foo-Tang Clan is a significant improvement, one that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island <em>aka</em> Shaolin. The serendipity is => :awesome.</p>
 
-<p>Back to Steven, whose blessing us with a lesson on regular expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions, let me explain Slang Expressions. You might get a gist of what my mind went through to while listening to his lecture.</p>
+<p>Back to Steven, whose blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
 
 <div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
 <noscript><pre><code>&quot;Slang Expressions&quot; != &quot;Regular Expressions&quot;</code></pre></noscript></div>
 
 
-<p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental variables, arrived at through random freestyle. Most are actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by Brolic Scholars, otherwise known as Honorary Sociolinguistic Prodigies using something similar to gsub methods.</p>
+<p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental. They are not variables defined randomly. Most slang is actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions in Hip Hop as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by <em>Brolic Scholars</em>, otherwise known as <em>Honorary Sociolinguistic Prodigies</em> using something similar to gsub methods.</p>
 
-<p>So, Steven introduces &ldquo;Regular Expressions&rdquo;, and I&rsquo;m parallel processing. &ldquo;So far, we&rsquo;ve been talking Classes, Methods, and RSpec&hellip;&rdquo; Which reminds me of RESPECT. How do you respect code that can&rsquo;t pass a behavior-driven development test (BDD)?</p>
+<p>With that said, Steven introduces &ldquo;Regular Expressions&rdquo;, and I begin parallel processing.</p>
+
+<p>&ldquo;So far, we&rsquo;ve been talking Classes, Methods, and RSpec. RSpec reminds me of RESPECT. How respectable is code if it can&rsquo;t pass a self described behavior-driven development test (BDD)?</p>
 
 <p><strong>Quick Review:</strong></p>
 
@@ -52,7 +54,7 @@
 </ul>
 
 
-<p>We&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta, as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
+<p>If not for the Computers, and the Atom or Sublime Text Text Editors, someone might mistake our conversation for one about cultural intelligence, solving social problems, and gaining increased levels of Class mobility. In part it&rsquo;s because Ruby was made to make Humans Happy, and maybe there are some baseline human-oriented operating principles. Maybe? For example, we&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta, as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
 
 <div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
 <noscript><pre><code>elements = [&quot;Breaking&quot;, &quot;Mc&#39;ing&quot;, &quot;Graffiti Art&quot;, &quot;DJ&#39;ing&quot;, &quot;Knowledge&quot;]
@@ -71,21 +73,28 @@ puts hip_hop_culture(elements)
 # &gt;&gt; 5. Knowledge</code></pre></noscript></div>
 
 
-<p>Now, this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression. Both intended to communicate, transform and normalize a set of behaviors. Right? I can&rsquo;t help but do this. So, rather than waste brain cycles fighting my nature, I decided to lean into it.</p>
+<p>Now, this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression. Both intended to communicate, transform and normalize a set of behaviors. Right? I can&rsquo;t help but do this. So, rather than waste brain cycles fighting my nature, I decided to lean into it. I&rsquo;m learning to love this code, by doing a little &ldquo;code mixing.&rdquo;</p>
 
-<p>This &ldquo;can&rsquo;t help but lean in,&rdquo; better described as &ldquo;can&rsquo;t stop won&rsquo;t stop&rdquo; is a manifestation of two personal habits: reconciling languages and seeking the internalization of knowledge. It&rsquo;s also the result of a larger cultural phenomena I imagine both Programmers and Hiphoppas share: the desire to do the Knowledge.</p>
+<p>This &ldquo;can&rsquo;t help but lean in,&rdquo; better described as &ldquo;can&rsquo;t stop won&rsquo;t stop&rdquo; is a manifestation of two personal habits: I ritually reconcile languages and seek to internalize lessons. It&rsquo;s also the result of a larger cultural phenomena I imagine both Programmers and Hiphoppas share: the desire to do the Knowledge.</p>
 
-<p>Why does one &ldquo;do the Knowledge&rdquo; before we talk about the gsub and the Regular Expression?
-Well, because in Hip Hop Culture, we always do the Knowledge first.</p>
+<p>What does it mean to &ldquo;do the Knowledge?&rdquo; Why does one &ldquo;do the knowledge&rdquo; of Hiphop consciousness and Hip Hop culture before talking about gsub and Regular Expressions?</p>
 
-<p>In Hip Hop, you do the knowledge to gain access to the <em>essence</em>. That essence is a <em>superpower</em>.</p>
+<p>Well, because in Hip Hop Culture, we always do the knowledge first. We&rsquo;re always defining and redefining our Self.class in relationship to the objects we&rsquo;re in relationship with.</p>
 
-<p>In Programming, you do the knowledge to gain access to the <em>essence</em>. That essence is a <em>superpower</em>.</p>
+<p><strong>Some big bold statements:</strong></p>
 
-<blockquote><p>superpower = "the ability to fully express yourself.""</p></blockquote>
+<ol>
+<li>In Hip Hop, you do the knowledge to gain access to the <em>essence</em>. That essence is a <em>superpower</em>.</li>
+<li>In Programming, you do the knowledge to gain access to the <em>essence</em>. That essence is a <em>superpower</em>.</li>
+</ol>
 
 
-<p>I&rsquo;d like to learn to express myself over time at a higher and higher level of abstraction.</p>
+<p>  <blockquote><p>superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;</p></blockquote></p>
+
+<ol>
+<li>I will collect eventually this superpower.</li>
+</ol>
+
 
 <div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
 <noscript><pre><code>knowledge = []
@@ -97,8 +106,7 @@ puts knowledge.inspect
 # &gt;&gt; [&quot;tools&quot;, &quot;experiences&quot;, &quot;teachers&quot;]</code></pre></noscript></div>
 
 
-<p>So here&rsquo;s a few lessons learned on my road to being fully expressed as a Master Programmer, and an invitation to learn more about Hiphop.
-Now, let&rsquo;s do the knowledge.</p>
+<p>This rest of this post includes a few lessons learned on my road to being fully expressed as a Master Programmer. It&rsquo;s also an invitation to learn more about Hiphop and Hip Hop. Now, let&rsquo;s do the knowledge!</p>
 
 <h2>Here&rsquo;s how I used the gsub &amp; Regular Expression methods to create a remixed theme song for the Foo-Tang Clan.</h2>
 
@@ -112,7 +120,7 @@ Now, let&rsquo;s do the knowledge.</p>
 <p>The sub and gsub methods (.sub &amp; .gsub) are used to replace Strings, or String objects if we want to be literal.
 In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.</p>
 
-<p><strong>For example, these is a single string of characters:</strong></p>
+<p><strong>For example, this is a single string of characters:</strong></p>
 
 <p>  <blockquote><p>&ldquo;And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with</p></blockquote></p>
 
@@ -137,16 +145,16 @@ In computer programming, a string is traditionally a sequence of characters, eit
 
 <p>The gsub method returns a new_str (a new copy of str) with all occurrences of pattern replaced with either replacement or the value of the block. The pattern will typically be a Regular Expressions (regexp).</p>
 
-<p>Regular expressions originated in 1956 when mathematician Stephen Cole Kleene described regular languages using his mathematical notation called regular sets. Regular expressions entered popular use as early as 1968 in several iterations by the following people: Ken Thompson, Douglas T. Ross, Henry Spencer, Jeffrey Fried, and Philip Hazel. Regular expression support is part of the standard library of many programming languages, including Java and Python, and Ruby.</p>
+<p>Regular Expressions originated in 1956 when mathematician Stephen Cole Kleene described regular languages using his mathematical notation called regular sets. Regular Expressions entered popular use as early as 1968 in several iterations by the following people: Ken Thompson, Douglas T. Ross, Henry Spencer, Jeffrey Fried, and Philip Hazel. Regular expression support is part of the standard library of many programming languages, including Java and Python, and Ruby.</p>
 
-<p>Regular expressions are used to search for text patterns. Programmers use regular expressions to validate emails and URLs, capture information and use simple patterns to save themselves development time. Below are a few resources intended to avoid regular expressions being one of your problems.</p>
+<p>Regular expressions are used to search for text patterns. Programmers use Regular Expressions to validate emails and URLs, capture information and use simple patterns to save themselves development time. Below are a few resources intended to avoid Regular Expressions being one of your problems.</p>
 
 <p><strong>Study Your Lessons:</strong></p>
 
 <p>I recommend the following process:</p>
 
 <ol>
-<li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School Course &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a>.</li>
+<li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a>.</li>
 <li><a href="http://www.regexr.com">Learn, build, &amp; test Regular Expressions (RegEx / RegExp)"</a>.</li>
 <li><a href="https://www.youtube.com/watch?v=fOH62XXGdLs">Watch this RegExr Tutorial"</a>.</li>
 <li>Find patterns with RegExr in Text you &hearts;. Poems, Songs, Speeches, etc.).</li>
@@ -154,11 +162,11 @@ In computer programming, a string is traditionally a sequence of characters, eit
 </ol>
 
 
-<p>The Codeschool course provided several use cases that gave Regular Expressions an immediate utility. That made it relevant.</p>
+<p>The Codeschool course provided several use cases and made Regular Expressions immediately useful. This made it real-time relevant.</p>
 
-<p>I found it notably faster to learn using RegExp compared to reading articles or using other tools. The video tutorial was brief, simple and easy to follow. The built in Help, Reference library, Cheatsheet and Community Examples made it easy to see different regular expressions in action. One thing to keep in mind for those programming in Ruby: the &ldquo;/img&rdquo; in the code snippet provided by RegExp are expression flags.</p>
+<p>I chose to practice with RegExp instead of read dozens of articles. I found it notably faster to learn by doing. The video tutorial explaining the features of RegExp was brief, simple and easy to mimic. The built in Help, Reference library, Cheatsheet and Community Examples made it easy to see different Regular Expressions in action.</p>
 
-<p>Expression flags change how the expression is interpreted. There are three flags in JS: i, g, and m. There are two flags in Ruby: i, m and x. i = case insensitive. m = make dot match newlines. x = ignore whitespace in regex. Flags follow the closing backslash of the expression (ex. /.+/ixm).</p>
+<p>One thing to keep in mind for those programming in Ruby: the &ldquo;/img&rdquo; in the code snippet provided by RegExp are expression flags. Expression flags change how the expression is interpreted. There are three flags in JS: i, g, and m. There are two flags in Ruby: i, m and x. i = case insensitive. m = make dot match newlines. x = ignore whitespace in regex. Flags follow the closing backslash of the expression (ex. /.+/ixm).</p>
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/fOH62XXGdLs?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -167,20 +175,18 @@ In computer programming, a string is traditionally a sequence of characters, eit
 
 <h2>Know when to use Regular Expressions</h2>
 
-<p>Now, knowing how a Regular Expression is written is only half-time. To gain any real win from them you have to know how to use them too. Regular expressions are used for complex replacements. Replacing multiple lyrics with different patterns in a song is a complex replacement. Hence, I used a gsub method with a regex pattern.</p>
+<p>Now, knowing how a Regular Expression is written is only half-time. To gain any real win from them you have to know how to use them too. Regular Expressions are used for complex replacements. Replacing multiple lyrics with different patterns in a song is a complex replacement. Hence, I used a gsub method with a regex pattern.</p>
 
-<p>There&rsquo;s this popular wisdom about Regular expressions, a quote that&rsquo;s pretty much internet famous among Programmers. I read it. It goes a little something like this:</p>
+<p>There&rsquo;s this popular wisdom about Regular Expressions, a quote that&rsquo;s pretty much internet famous among Programmers. I read it. It goes a little something like this:</p>
 
 <p>  <blockquote><p>Some people, when confronted with a problem, think<br/>  “I know, I&rsquo;ll use regular expressions.” Now they have two problems.<br/>  -Jamie Zawinski*</p></blockquote></p>
 
-<p>Here are a few ideas that came to mind while reading this quote and doing a little research.</p>
-
-<p>In other words, this is how grow.rb thinks about the relationship between Jamie Zawinski &amp; Jay-Z:</p>
+<p>Below is a slide of a few ideas that came to mind thinking about the relationship between Jamie Zawinski &amp; Jay-Z:</p>
 
 <iframe src="//slides.com/rolandobrown/deck/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
-<p><strong>Ok, now that this is done. Here&rsquo;s how I used the following regular expressions:</strong></p>
+<p><strong>Ok, now that we know what Regular Expressions are, here&rsquo;s how I used the following Regular Expressions:</strong></p>
 
 <div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
 <noscript><pre><code>  def alias
@@ -305,7 +311,10 @@ Here&rsquo;s to searching for every opportunity to /grow|with|love/im</p>
 - <a href="https://youtu.be/REpSdgORU5A?t=1h5m19s">KRS-One on Hiphop conciousness</a>
 - <a href="http://nymag.com/anniversary/40th/50665">The Holy House of Hip-hop, August 11, 1973</a>
 - <a href="http://cantstopwontstop.com">Can&rsquo;t Stop Won&rsquo;t Stop</a>
-- <a href="http://hiphopeducation.org">Hip-Hop Education</a></p>
+- <a href="http://hiphopeducation.org">Hip-Hop Education</a>
+- <a href="ruby-doc.org/core-2.2.0/String.html">Ruby String</a>
+- <a href="ruby-doc.org/core-2.2.2/Enumerable.html">Ruby Enumerable</a>
+- <a href="http://octopress.org">Octopress</a></p>
 
 <div><script src='https://gist.github.com/dc999c5ed85a530896c8.js?file=footang_disclaimer.rb'></script>
 <noscript><pre><code>puts &quot;I grew up understanding that Wu-Tang Is Forever, never to be imitated or duplicated. This is simply an example of using gsub &amp; regular expressions.&quot;</code></pre></noscript></div>
