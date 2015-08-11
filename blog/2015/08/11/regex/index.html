@@ -71,10 +71,6 @@
         <a href="/blog/2015/08/11/regex/">Regex Ain't One of My Problems</a>
       </li>
     
-      <li class="post">
-        <a href="/blog/2015/08/10/lorraine/">Lorraine</a>
-      </li>
-    
   </ul>
 </section>
 
@@ -111,6 +107,8 @@
 
 <blockquote><p>#I be tossin, enforcin, my style is awesome</p></blockquote>
 
+
+<p>Picture me listening&hellip;</p>
 
 <p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing  Regular Expressions to a room full of soon to be Master Programmers. Last week, Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo; Note, we were initially named &ldquo;web_0715.&rdquo;&ldquo; That&rsquo;s a significant improvement. An improvement that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy because I grew up in Staten Island aka Shaolin. Also, the serendipity is => :awesome.</p>
 
@@ -182,8 +180,10 @@ Now, let&rsquo;s do the knowledge.</p>
 
 <h2>Here&rsquo;s how I used the gsub &amp; Regular Expression methods to create a remixed theme song for the Foo-Tang Clan.</h2>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/88jr9QUxbcs?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/88jr9QUxbcs?rel=0" frameborder="0" allowfullscreen></iframe>
 
+
+<p><strong>Sketching the Program</strong></p>
 
 <h1>Side A: gsub &amp; Regular Expressions</h1>
 
@@ -198,6 +198,19 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 <p><strong>More like these types of characters:</strong></p>
 
 <p>  <blockquote><p>And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with*</p></blockquote></p>
+
+<p><strong>I want to perform the following actions on this text:</strong></p>
+
+<ul>
+<li>Find &ldquo;Wu-Tang Clan&rdquo; or &ldquo;Wu Tang Clan&rdquo; and Replace with &ldquo;Foo-Tang Clan&rdquo;</li>
+<li>Find explicatives and Replace with &ldquo;futz&rdquo;</li>
+<li>Find &ldquo;slum&rdquo; and Replace with &ldquo;Flatiron School&rdquo;</li>
+<li>Find &ldquo;busted&rdquo; and Replace with &ldquo;Trusted&rdquo;</li>
+</ul>
+
+
+<iframe src="//slides.com/rolandobrown/deck-1/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 <p><strong>gsub(pattern, replacement) → new_str</strong></p>
 
@@ -226,7 +239,7 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 
 <p>Expression flags change how the expression is interpreted. There are three flags in JS: i, g, and m. There are two flags in Ruby: i, m and x. i = case insensitive. m = make dot match newlines. x = ignore whitespace in regex. Flags follow the closing backslash of the expression (ex. /.+/ixm).</p>
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/fOH62XXGdLs?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/fOH62XXGdLs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
 <h1>Side B: Knowing when to use Regular Expressions</h1>
@@ -262,7 +275,10 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 
 <p>Once I figured out this Method of transforming, I went ahead and build the Class Cohort, and following methods: <em>initialize</em>, <em>chorus</em>, <em>expletives</em> and <em>environment</em>. I designed these methods to take arguments. I imagine that a future Cohort might want to transform their favorite song into a Flatiron theme song.</p>
 
-<h1>Foo-Tang Clan ain&rsquo;t nuttin ta futz with.</h1>
+<blockquote><p>#Foo-Tang Clan ain't nuttin ta futz with.</p></blockquote>
+
+
+
 
 <div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
 <noscript><pre><code>class Cohort
@@ -312,11 +328,19 @@ I&rsquo;ve found the same to be true in Programming.</p>
 
 <p>Thank you Nikila &amp; George!</p>
 
+<p>Also, peace to Tariq Zaid, Mike Alvarez, Malcolm Penn, Iron Mic, Paul Cantor, Rigz, RAM, Martha Diaz, Bobbito Garcia, Raquel Wilson, James Bartlett, Ricky Brown, Donald Brown, Baruthi Harith, Marc Bamuthi Joseph, Eli Jacobs Fantuzzi, Kahlil Fantuzzi, Rha Goddess, JLove Calderon, Purple Ray, Maggie Williams, James Schaffer, and the entire Ruthless Bastards, T.M.I. Productions plus Genocide squads.</p>
+
+<p>RIP Lorraine Brown, Rolando Hernandez, Illiana Rodriquez, Sandy Brock, Brook Stephenson, Martha Glinski and Duane Bellamy.</p>
+
+<p>All of you have very squarely supported my intention to realize the promise.
+Here&rsquo;s to /grow|with|love/</p>
+
 <h1>Next</h1>
 
 <ul>
 <li>Pass an argument from data sraped from the Internet (e.g. lyrics from genius.com)</li>
 <li>Allow array of expletives to be set, so that those words automatically get replaced with a string of your choice.</li>
+<li>Build Command Line Interface (CLI)</li>
 </ul>
 
 
@@ -358,7 +382,8 @@ I&rsquo;ve found the same to be true in Programming.</p>
 - <a href="https://www.youtube.com/watch?v=DGQ0tBfoRVw">KRS-One on 9 Elements</a>
 - <a href="https://youtu.be/REpSdgORU5A?t=1h5m19s">KRS-One on Hiphop conciousness</a>
 - <a href="http://nymag.com/anniversary/40th/50665">The Holy House of Hip-hop, August 11, 1973</a>
-- <a href="http://cantstopwontstop.com/">Can&rsquo;t Stop Won&rsquo;t Stop</a></p>
+- <a href="http://cantstopwontstop.com">Can&rsquo;t Stop Won&rsquo;t Stop</a>
+- <a href="http://hiphopeducation.org">Hip-Hop Education</a></p>
 
 <div><script src='https://gist.github.com/dc999c5ed85a530896c8.js?file=footang_disclaimer.rb'></script>
 <noscript><pre><code>puts &quot;I grew up understanding that Wu-Tang Is Forever, never to be imitated or duplicated. This is simply an example of using gsub &amp; regular expressions.&quot;</code></pre></noscript></div>
@@ -409,8 +434,6 @@ I&rsquo;ve found the same to be true in Programming.</p>
 
     
     <div class="meta">
-      
-        <a class="basic-alignment left" href="/blog/2015/08/10/lorraine/" title="Previous Post: Lorraine">&laquo; Lorraine</a>
       
     </div>
   </footer>
