@@ -4,7 +4,7 @@
   <title><![CDATA[/grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-11T13:38:33-04:00</updated>
+  <updated>2015-08-11T13:42:25-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -89,7 +89,7 @@ puts hip_hop_culture(elements)
 <ol>
 <li>In Hip Hop, you do the knowledge to access to the <em>essence</em>. Essence is a <em>superpower</em>.</li>
 <li>In Programming, you do the knowledge to access to the <em>essence</em>. Essence is a <em>superpower</em>.</li>
-<li>Eventually, I will get and set this superpower.</li>
+<li>Eventually, I will get and set this <em>superpower</em>.</li>
 </ol>
 
 
@@ -103,7 +103,9 @@ puts knowledge.inspect
 # &gt;&gt; [&quot;tools&quot;, &quot;experiences&quot;, &quot;teachers&quot;]</code></pre></noscript></div>
 
 
-<p>This rest of this post includes a few lessons learned on my road to being fully expressed as a Master Programmer. It&rsquo;s also an invitation to learn more about Hiphop and Hip Hop. Now, let&rsquo;s do the knowledge!</p>
+<p>This rest of this post includes a few lessons learned on my road to being fully expressed as a Master Programmer. It&rsquo;s also an invitation to learn more about Hiphop and Hip Hop.</p>
+
+<p>Now, let&rsquo;s do the knowledge!</p>
 
 <h2>Here&rsquo;s how I used the gsub &amp; Regular Expression methods to create a remixed theme song for the Foo-Tang Clan.</h2>
 
