@@ -4,7 +4,7 @@
   <title><![CDATA[/grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-11T07:47:59-04:00</updated>
+  <updated>2015-08-11T08:00:34-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -22,11 +22,12 @@
 
 <p>summary = &ldquo;This post outlines how I designed a simple Ruby program that uses the gsub and regular expressions methods to transform four lines from the award winning, world renowned, chorus from &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; The file is named footang.rb. It also shares how I internalized knowledge of these methods, and their founders, through binding their definitions to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
-<p><strong>note:</strong>
+<p><strong>Today in Hiphop:</strong>
 <em>42 years ago, on August 11, 1973, D.J. Kool Herc &amp; Cindy Campbell didn’t know they were revolutionizing pop music—they were just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, hard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant and his sister changed pop music forever while.</em></p>
 
-<blockquote><p>#I be tossin, enforcin, my style is awesome</p></blockquote>
+<h1>I be tossin, enforcin,</h1>
 
+<h1>my style is awesome</h1>
 
 <p>Picture me listening&hellip;</p>
 
@@ -103,21 +104,16 @@ Now, let&rsquo;s do the knowledge.</p>
 <iframe width="853" height="480" src="https://www.youtube.com/embed/88jr9QUxbcs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-<p><strong>Sketching the Program</strong></p>
+<h1>Side A:</h1>
 
-<h1>Side A: gsub &amp; Regular Expressions</h1>
+<h1>gsub &amp; Regular Expressions</h1>
 
 <p>The sub and gsub methods (.sub &amp; .gsub) are used to replace Strings, or String objects if we want to be literal.
-In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable.
-A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.</p>
+In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.</p>
 
-<p><strong>Not characters like this:</strong></p>
+<p><strong>For example, these is a single string of characters:</strong></p>
 
-<p>{insert image of Steven Octo image over the 9 members of the wu-tang clan}</p>
-
-<p><strong>More like these types of characters:</strong></p>
-
-<p>  <blockquote><p>And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with*</p></blockquote></p>
+<p>  <blockquote><p>&ldquo;And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with</p></blockquote>&rdquo;"</p>
 
 <p><strong>I want to perform the following actions on this text:</strong></p>
 
@@ -128,6 +124,8 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 <li>Find &ldquo;busted&rdquo; and Replace with &ldquo;Trusted&rdquo;</li>
 </ul>
 
+
+<p><strong>Sketching the Program</strong></p>
 
 <iframe src="//slides.com/rolandobrown/deck-1/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -144,13 +142,13 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 
 <p>I recommend the following process:</p>
 
-<ul>
+<ol>
 <li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School Course &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a></li>
 <li><a href="http://www.regexr.com">Learn, build, &amp; test Regular Expressions (RegEx / RegExp)"</a></li>
 <li><a href="https://www.youtube.com/watch?v=fOH62XXGdLs">Watch this RegExr Tutorial"</a></li>
 <li>Text you &hearts;. Poems, Songs, Speeches, etc.). Find patterns with RegExr</li>
 <li><a href="http://rubular.com">Then see this Regular Expressions tool for Ruby</a></li>
-</ul>
+</ol>
 
 
 <p>The Codeschool course provided several use cases that gave Regular Expressions an immediate utility. That made it relevant.</p>
@@ -162,7 +160,9 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/fOH62XXGdLs?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-<h1>Side B: Knowing when to use Regular Expressions</h1>
+<h1>Side B:</h1>
+
+<h1>Know when to use Regular Expressions</h1>
 
 <p>Now, knowing how a Regular Expression is written is only half-time. To gain any real win from them you have to know how to use them too. Regular expressions are used for complex replacements. Replacing multiple lyrics with different patterns in a song is a complex replacement. Hence, I used a gsub method with a regex pattern.</p>
 
@@ -195,10 +195,9 @@ A String object holds and manipulates an arbitrary sequence of bytes, typically 
 
 <p>Once I figured out this Method of transforming, I went ahead and build the Class Cohort, and following methods: <em>initialize</em>, <em>chorus</em>, <em>expletives</em> and <em>environment</em>. I designed these methods to take arguments. I imagine that a future Cohort might want to transform their favorite song into a Flatiron theme song.</p>
 
-<blockquote><p>#Foo-Tang Clan ain't nuttin ta futz with.</p></blockquote>
+<h1>Foo-Tang Clan</h1>
 
-
-
+<h1>ain&rsquo;t nuttin ta futz with.</h1>
 
 <div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
 <noscript><pre><code>class Cohort
@@ -253,7 +252,7 @@ I&rsquo;ve found the same to be true in Programming.</p>
 <p>RIP Lorraine Brown, Rolando Hernandez, Illiana Rodriquez, Sandy Brock, Brook Stephenson, Martha Glinski and Duane Bellamy.</p>
 
 <p>All of you have very squarely supported my intention to realize the promise.
-Here&rsquo;s to /grow|with|love/</p>
+Here&rsquo;s to searching for every opportunity to /grow|with|love/im</p>
 
 <h1>Next</h1>
 
