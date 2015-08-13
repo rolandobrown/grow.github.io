@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop | /grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-11T18:40:08-04:00</updated>
+  <updated>2015-08-13T13:55:58-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -18,7 +18,7 @@
     <link href="http://rolandobrown.github.io/blog/2015/08/11/regex/"/>
     <updated>2015-08-11T08:00:00-04:00</updated>
     <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
-    <content type="html"><![CDATA[<p><strong>tldr = &ldquo;This post familiarizes you with two methods—gsub and regular expressions.&rdquo;</strong></p>
+    <content type="html"><![CDATA[<p><strong>tldr = &ldquo;Hip Hop, Foo-Tang Clan, and two methods—gsub and regular expressions.&rdquo;</strong></p>
 
 <p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
@@ -264,7 +264,7 @@ I&rsquo;ve found the same to be true in Programming.</p>
 
 <p>Thank you Nikila &amp; George!</p>
 
-<p>Also, peace to Tariq Zaid, Mike Alvarez, Malcolm Penn, Iron Mic, Paul Cantor, Rigz, RAM, Martha Diaz, Bobbito Garcia, Raquel Wilson, James Bartlett, Ricky Brown, Donald Brown, Baruthi Harith, Marc Bamuthi Joseph, Eli Jacobs Fantuzzi, Kahlil Fantuzzi, Rha Goddess, JLove Calderon, Purple Ray, Maggie Williams, James Schaffer, and the entire Ruthless Bastards, T.M.I. Productions plus Genocide squads.</p>
+<p>Also, peace to Tariq Zaid, Mike Alvarez, Malcolm Penn, Iron Mic, Paul Cantor, Rigz, RAM, Martha Diaz, Bobbito Garcia, Raquel Wilson, James Bartlett, every member of the Brown family, Baruthi Harith, Marc Bamuthi Joseph, Eli Jacobs Fantuzzi, Kahlil Fantuzzi, Rha Goddess, JLove Calderon, Purple Ray, Maggie Williams, James Schaffer, and the entire Ruthless Bastards, T.M.I. Productions plus Genocide squads.</p>
 
 <p>RIP Lorraine Brown, Rolando Hernandez, Illiana Rodriquez, Sandy Brock, Brook Stephenson, Martha Glinski and Duane Bellamy.</p>
 
@@ -274,55 +274,72 @@ Here&rsquo;s to searching for every opportunity to /grow|with|love/im</p>
 <h1>Next</h1>
 
 <ul>
-<li>Pass an argument from data sraped from the Internet (e.g. lyrics from genius.com)</li>
+<li>Pass an argument from data scraped from the Internet (e.g. lyrics from genius.com)</li>
 <li>Allow array of expletives to be set, so that those words automatically get replaced with a string of your choice.</li>
 <li>Build Command Line Interface (CLI)</li>
+<li>Open browser to song profile on Genuis</li>
 </ul>
 
 
 <h3>Contains Samples &amp; Inspiration from:</h3>
 
-<p>Lessons &amp; Tools
-- <a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School Course &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a>
-- <a href="http://www.regexr.com">Learn, build, &amp; test Regular Expressions (RegEx / RegExp)"</a>
-- <a href="http://rubular.com">Then see this Regular Expressions tool for Ruby</a></p>
+<p>Lessons &amp; Tools</p>
 
-<p>Methods
-- <a href="https://www.youtube.com/watch?v=88jr9QUxbcs">&ldquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit” Video</a>
-- <a href="http://genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics">&ldquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit” Lyrics</a>
-- <a href="http://ruby-doc.org/core-2.1.4/String.html#method-i-gsub">gsub Method</a>
-- <a href="http://www.zytrax.com/tech/web/regex.htm">General Regex</a>
-- <a href="http://ruby-doc.com/docs/ProgrammingRuby/#UJ">Ruby Regex</a>
-- <a href="http://blog.codinghorror.com/regular-expressions-now-you-have-two-problems">Jeff Atwood on &ldquo;Two Problems&rdquo;</a>
-- <a href="http://blog.codinghorror.com/if-you-like-regular-expressions-so-much-why-dont-you-marry-them">Marry Regular Expressions</a>
-- <a href="http://slides.com/stefangretcan/regex#/">Regex Slide</a>
-- <a href="http://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149">8 regexes to know</a>
-- <a href="http://www.rubyinside.com/21-ruby-tricks-902.html">21 Ruby Tricks</a>
-- <a href="http://blog.smartbear.com/development/the-developers-regex-survival-guide-15-rules-for-making-sense-of-regular-expressions">15 Rules of regex</a>
-- <a href="http://rspec.info">RSpec</a></p>
+<ul>
+<li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School Course &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a></li>
+<li><a href="http://www.regexr.com">Learn, build, &amp; test Regular Expressions (RegEx / RegExp)"</a></li>
+<li><a href="http://rubular.com">Then see this Regular Expressions tool for Ruby</a></li>
+</ul>
 
-<p>Classes
-- <a href="http://web0715.students.flatironschool.com">Foo-Tang Clan</a>
-- <a href="http://regex.info/blog/2006-09-15/247">Jamie Zawinski, “Now you have two problems” quote</a>
-- <a href="http://www.hiphop-network.com/articles/djarticles/kooldjherc.asp">Kool D.J. Herc</a>
-- <a href="http://www.zulunation.com/afrika-bambaataa">Afrikka Bambatta</a>
-- <a href="http://www.jwz.org/blog">Jamie Zawinski</a>
-- <a href="http://www.wutang-corp.com">Wu-Tang Clan</a>
-- <a href="https://en.wikipedia.org/wiki/Jay_Z">Jay-z</a>
-- <a href="http://hostiledeveloper.com">Steven Nunez</a>
-- <a href="http://web0715.students.flatironschool.com/students/niki_saravanan.html">Niki Saravanan</a>
-- <a href="http://web0715.students.flatironschool.com/students/george_toothman.html">George Toothman</a></p>
 
-<p>Environment
-- <a href="https://www.youtube.com/watch?v=CS7jN-bZ8mM">KRS-One on Afrikka Bambatta</a>
-- <a href="https://www.youtube.com/watch?v=DGQ0tBfoRVw">KRS-One on 9 Elements</a>
-- <a href="https://youtu.be/REpSdgORU5A?t=1h5m19s">KRS-One on Hiphop conciousness</a>
-- <a href="http://nymag.com/anniversary/40th/50665">The Holy House of Hip-hop, August 11, 1973</a>
-- <a href="http://cantstopwontstop.com">Can&rsquo;t Stop Won&rsquo;t Stop</a>
-- <a href="http://hiphopeducation.org">Hip-Hop Education</a>
-- <a href="ruby-doc.org/core-2.2.0/String.html">Ruby String</a>
-- <a href="ruby-doc.org/core-2.2.2/Enumerable.html">Ruby Enumerable</a>
-- <a href="http://octopress.org">Octopress</a></p>
+<p>Methods</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=88jr9QUxbcs">&ldquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit” Video</a></li>
+<li><a href="http://genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics">&ldquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit” Lyrics</a></li>
+<li><a href="http://ruby-doc.org/core-2.1.4/String.html#method-i-gsub">gsub Method</a></li>
+<li><a href="http://www.zytrax.com/tech/web/regex.htm">General Regex</a></li>
+<li><a href="http://ruby-doc.com/docs/ProgrammingRuby/#UJ">Ruby Regex</a></li>
+<li><a href="http://blog.codinghorror.com/regular-expressions-now-you-have-two-problems">Jeff Atwood on &ldquo;Two Problems&rdquo;</a></li>
+<li><a href="http://blog.codinghorror.com/if-you-like-regular-expressions-so-much-why-dont-you-marry-them">Marry Regular Expressions</a></li>
+<li><a href="http://slides.com/stefangretcan/regex#/">Regex Slide</a></li>
+<li><a href="http://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149">8 regexes to know</a></li>
+<li><a href="http://www.rubyinside.com/21-ruby-tricks-902.html">21 Ruby Tricks</a></li>
+<li><a href="http://blog.smartbear.com/development/the-developers-regex-survival-guide-15-rules-for-making-sense-of-regular-expressions">15 Rules of regex</a></li>
+<li><a href="http://rspec.info">RSpec</a></li>
+</ul>
+
+
+<p>Classes</p>
+
+<ul>
+<li><a href="http://web0715.students.flatironschool.com">Foo-Tang Clan</a></li>
+<li><a href="http://regex.info/blog/2006-09-15/247">Jamie Zawinski, “Now you have two problems” quote</a></li>
+<li><a href="http://www.hiphop-network.com/articles/djarticles/kooldjherc.asp">Kool D.J. Herc</a></li>
+<li><a href="http://www.zulunation.com/afrika-bambaataa">Afrikka Bambatta</a></li>
+<li><a href="http://www.jwz.org/blog">Jamie Zawinski</a></li>
+<li><a href="http://www.wutang-corp.com">Wu-Tang Clan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jay_Z">Jay-z</a></li>
+<li><a href="http://hostiledeveloper.com">Steven Nunez</a></li>
+<li><a href="http://web0715.students.flatironschool.com/students/niki_saravanan.html">Niki Saravanan</a></li>
+<li><a href="http://web0715.students.flatironschool.com/students/george_toothman.html">George Toothman</a></li>
+</ul>
+
+
+<p>Environment</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=CS7jN-bZ8mM">KRS-One on Afrikka Bambatta</a></li>
+<li><a href="https://www.youtube.com/watch?v=DGQ0tBfoRVw">KRS-One on 9 Elements</a></li>
+<li><a href="https://youtu.be/REpSdgORU5A?t=1h5m19s">KRS-One on Hiphop conciousness</a></li>
+<li><a href="http://nymag.com/anniversary/40th/50665">The Holy House of Hip-hop, August 11, 1973</a></li>
+<li><a href="http://cantstopwontstop.com">Can&rsquo;t Stop Won&rsquo;t Stop</a></li>
+<li><a href="http://hiphopeducation.org">Hip-Hop Education</a></li>
+<li><a href="ruby-doc.org/core-2.2.0/String.html">Ruby String</a></li>
+<li><a href="ruby-doc.org/core-2.2.2/Enumerable.html">Ruby Enumerable</a></li>
+<li><a href="http://octopress.org">Octopress</a></li>
+</ul>
+
 
 <p><div><script src='https://gist.github.com/dc999c5ed85a530896c8.js?file=footang_disclaimer.rb'></script>
 <noscript><pre><code>puts &quot;I grew up understanding that Wu-Tang Is Forever, never to be imitated or duplicated. This is simply an example of using gsub &amp; regular expressions.&quot;</code></pre></noscript></div>
