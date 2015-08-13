@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop | /grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-13T13:55:58-04:00</updated>
+  <updated>2015-08-13T18:12:11-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -23,11 +23,11 @@
 <p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
 <p><strong>Today in Hiphop:</strong>
-<em>42 years ago, on August 11, 1973, D.J. Kool Herc &amp; Cindy Campbell didn’t know they were revolutionizing pop music—they were just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, hard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant and his sister changed pop music forever while.</em></p>
+<em>42 years ago, on August 11, 1973, D.J. Kool Herc &amp; Cindy Campbell didn’t know they were revolutionizing pop music—they were just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, heard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant and his sister changed pop music forever while.</em></p>
 
-<h1>I be tossin, enforcin,</h1>
+<h1>I be tossin, enforcin&hellip;</h1>
 
-<h2>my style is awesome</h2>
+<h2>My style is awesome</h2>
 
 <p><strong>Picture me listening&hellip;</strong></p>
 
@@ -39,7 +39,7 @@
 
 <p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing  Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo; Note, we were initially named &ldquo;web_0715.&rdquo; Foo-Tang Clan is a significant improvement, one that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island <em>aka</em> Shaolin. The serendipity is => :awesome.</p>
 
-<p>Back to Steven, whose blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
+<p>Back to Steven, who&rsquo;s blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
 
 <p><div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
 <noscript><pre><code>&quot;Slang Expressions&quot; != &quot;Regular Expressions&quot;</code></pre></noscript></div>
@@ -62,7 +62,7 @@
 
 <p>If not for the Computers, and the Atom or Sublime Text Text Editors, someone might mistake our conversation for one about cultural intelligence, solving social problems, and gaining increased levels of Class mobility. In part it&rsquo;s because Ruby was made to make Humans Happy, and maybe there are some baseline human-oriented operating principles. Maybe?</p>
 
-<p>For example, we&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta, as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
+<p>For example, we&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
 
 <p><div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
 <noscript><pre><code>elements = [&quot;Breaking&quot;, &quot;Mc&#39;ing&quot;, &quot;Graffiti Art&quot;, &quot;DJ&#39;ing&quot;, &quot;Knowledge&quot;]
@@ -81,7 +81,9 @@ puts hip_hop_culture(elements)
 # &gt;&gt; 5. Knowledge</code></pre></noscript></div>
 </p>
 
-<p>Now, this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression. Both intended to communicate, transform and normalize a set of behaviors. Right? I can&rsquo;t help but do this. So, rather than waste brain cycles fighting my nature, I decided to lean into it. I&rsquo;m learning to love this code, by doing a little &ldquo;code mixing.&rdquo;</p>
+<p>Now this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression.</p>
+
+<p>Both intended to communicate, transform and normalize a set of behaviors, right? I can&rsquo;t help but do this. So rather than waste brain cycles fighting my nature, I decided to lean into it. I&rsquo;m learning to love this code, by doing a little &ldquo;code mixing.&rdquo;</p>
 
 <p>This &ldquo;can&rsquo;t help but lean in,&rdquo; better described as &ldquo;can&rsquo;t stop won&rsquo;t stop&rdquo; is a manifestation of two personal habits: I ritually reconcile languages and seek to internalize lessons. It&rsquo;s also the result of a larger cultural phenomena I imagine both Programmers and Hiphoppas share: the desire to do the Knowledge.</p>
 
@@ -123,8 +125,9 @@ puts knowledge.inspect
 
 <h2>gsub &amp; Regular Expressions</h2>
 
-<p>The sub and gsub methods (.sub &amp; .gsub) are used to replace Strings, or String objects if we want to be literal.
-In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.</p>
+<p>The sub and gsub methods (.sub &amp; .gsub) are used to replace Strings, or String objects if we want to be literal.</p>
+
+<p>In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.</p>
 
 <p><strong>For example, this is a single string of characters:</strong></p>
 
