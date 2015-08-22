@@ -9,7 +9,7 @@
   <meta name="author" content="Rolando Brown aka Grow">
 
   
-  <meta name="description" content="　 /grow|with|love/ Regex Ain't One of My Problems tldr = &ldquo;Hip Hop, Foo-Tang Clan, and two methods—gsub and regular expressions.&rdquo; summary &hellip;">
+  <meta name="description" content="　 /grow|with|love/ Regex Ain't One of My Problems tldr = &ldquo;Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular &hellip;">
   
 
   <meta name="HandheldFriendly" content="True">
@@ -107,7 +107,7 @@
   <li class="entry first-entry">
     <h2 class="entry-title"><a href="/blog/2015/08/11/regex/">Regex Ain't One of My Problems</a></h2>
     
-      <div class="entry-content"><p><strong>tldr = &ldquo;Hip Hop, Foo-Tang Clan, and two methods—gsub and regular expressions.&rdquo;</strong></p>
+      <div class="entry-content"><p><strong>tldr = &ldquo;Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular expressions.&rdquo;</strong></p>
 
 <p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
@@ -120,13 +120,15 @@
 
 <p><strong>Picture me listening&hellip;</strong></p>
 
+<p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo;</p>
+
 <iframe src="//giphy.com/embed/XKNjbiLK0e0Pm" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 
 <p><a href="http://giphy.com/gifs/wu-tang-clan-wutang-XKNjbiLK0e0Pm">via GIPHY</a></p>
 
 
-<p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing  Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo; Note, we were initially named &ldquo;web_0715.&rdquo; Foo-Tang Clan is a significant improvement, one that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island <em>aka</em> Shaolin. The serendipity is => :awesome.</p>
+<p>Note, we were initially named &ldquo;web_0715.&rdquo; Foo-Tang Clan is a significant improvement, one that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island <em>aka</em> Shaolin. The serendipity is => :awesome.</p>
 
 <p>Back to Steven, who&rsquo;s blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
 
@@ -136,9 +138,9 @@
 
 <p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental. They are not variables defined randomly. Most slang is actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions in Hip Hop as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by <em>Brolic Scholars</em>, otherwise known as <em>Honorary Sociolinguistic Prodigies</em> using something similar to gsub methods.</p>
 
-<p>With that said, Steven introduces &ldquo;Regular Expressions&rdquo;, and I begin parallel processing.</p>
+<p>With that said, Steven introduces &ldquo;Regular Expressions&rdquo;, and I begin parallel processing. I&rsquo;m thinking programming, Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.</p>
 
-<p>&ldquo;So far, we&rsquo;ve been talking Classes, Methods, and RSpec. RSpec reminds me of RESPECT. How respectable is code if it can&rsquo;t pass a self described behavior-driven development test (BDD)?</p>
+<p>So far, we&rsquo;ve been talking Classes, Methods, and RSpec. RSpec reminds me of RESPECT. How respectable is code if it can&rsquo;t pass a self described behavior-driven development test (BDD)?</p>
 
 <p><strong>Quick Review:</strong></p>
 
@@ -285,6 +287,11 @@ puts knowledge.inspect
 <p>Below is a slide of a few ideas that came to mind thinking about the relationship between Jamie Zawinski &amp; Jay-Z:</p>
 
 <iframe src="//slides.com/rolandobrown/deck/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+<script src="//repl.it/embed/BDEl/3.js"></script>
 
 
 <p><strong>Ok, now that we know what Regular Expressions are, here&rsquo;s how I used the following Regular Expressions:</strong></p>
