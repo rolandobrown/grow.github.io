@@ -6,7 +6,7 @@ comments: true
 categories: Flatiron&nbsp;School&nbsp;Hiphop
 ---
 
-**tldr = "Hip Hop, Foo-Tang Clan, and two methods—gsub and regular expressions."**
+**tldr = "Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular expressions."**
 
 summary = "I designed a simple Ruby program that transforms four lines of the award winning, world renowned 'Wu-Tang Clan Ain't Nuthing ta Fuck Wit,' into a string that begins with 'Foo-Tang Clan ain't nuttin ta futz with.' Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z."
 
@@ -18,9 +18,11 @@ summary = "I designed a simple Ruby program that transforms four lines of the aw
 
 **Picture me listening...**
 
+I'm two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka "Hostile Developer", is introducing Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort "Foo-Tang Clan."
+
 <iframe src="//giphy.com/embed/XKNjbiLK0e0Pm" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/wu-tang-clan-wutang-XKNjbiLK0e0Pm">via GIPHY</a></p>
 
-I'm two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka "Hostile Developer", is introducing  Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort "Foo-Tang Clan." Note, we were initially named "web_0715." Foo-Tang Clan is a significant improvement, one that signals we've tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island *aka* Shaolin. The serendipity is => :awesome.
+Note, we were initially named "web_0715." Foo-Tang Clan is a significant improvement, one that signals we've tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island *aka* Shaolin. The serendipity is => :awesome.
 
 Back to Steven, who's blessing us with a lesson on Regular Expressions and I'm naturally thinking about Hiphop, and a concept called "Slang Expressions." Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.
 
@@ -28,9 +30,9 @@ Back to Steven, who's blessing us with a lesson on Regular Expressions and I'm n
 
 Slang expressions are intentional constructions of language. Most slang expressions are not accidental. They are not variables defined randomly. Most slang is actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions in Hip Hop as street language: "Our verbal communication, our codes throughout the nation." Note, it's been my experience that most slang expressions are created by *Brolic Scholars*, otherwise known as *Honorary Sociolinguistic Prodigies* using something similar to gsub methods.
 
-With that said, Steven introduces "Regular Expressions", and I begin parallel processing.
+With that said, Steven introduces "Regular Expressions", and I begin parallel processing. I'm thinking programming, Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.
 
-"So far, we've been talking Classes, Methods, and RSpec. RSpec reminds me of RESPECT. How respectable is code if it can't pass a self described behavior-driven development test (BDD)?
+So far, we've been talking Classes, Methods, and RSpec. RSpec reminds me of RESPECT. How respectable is code if it can't pass a self described behavior-driven development test (BDD)?
 
 **Quick Review:**
 
@@ -153,6 +155,8 @@ Below is a slide of a few ideas that came to mind thinking about the relationshi
 
 <iframe src="//slides.com/rolandobrown/deck/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<script src="//repl.it/embed/BDEl/3.js"></script>
+
 **Ok, now that we know what Regular Expressions are, here's how I used the following Regular Expressions:**
 
 {% gist 06acc7704e7716a4e561 gsub_regexp.rb %}
@@ -177,10 +181,10 @@ Thank you Nikila & George!
 
 Also, peace to Tariq Zaid, Mike Alvarez, Malcolm Penn, Iron Mic, Paul Cantor, Rigz, RAM, Martha Diaz, Bobbito Garcia, Raquel Wilson, James Bartlett, every member of the Brown family, Baruthi Harith, Marc Bamuthi Joseph, Eli Jacobs Fantuzzi, Kahlil Fantuzzi, Rha Goddess, JLove Calderon, Purple Ray, Maggie Williams, James Schaffer, and the entire Ruthless Bastards, T.M.I. Productions plus Genocide squads.
 
-RIP Lorraine Brown, Rolando Hernandez, Illiana Rodriquez, Sandy Brock, Brook Stephenson, Martha Glinski and Duane Bellamy.
+To: Lorraine Brown, Rolando Hernandez, Illiana Rodriquez, Sandy Brock, Brook Stephenson, Martha Glinski and Duane Bellamy, we miss you!
 
-All of you have very squarely supported my intention to realize the promise.
-Here's to searching for every opportunity to /grow|with|love/im
+All of you, here and transitioned, have very squarely supported my intention to realize the promise.
+Towards every opportunity to /grow|with|love/im
 
 #Next
 
@@ -229,7 +233,7 @@ Environment
 
 - [KRS-One on Afrikka Bambatta](https://www.youtube.com/watch?v=CS7jN-bZ8mM)
 - [KRS-One on 9 Elements](https://www.youtube.com/watch?v=DGQ0tBfoRVw)
-- [KRS-One on Hiphop conciousness](https://youtu.be/REpSdgORU5A?t=1h5m19s)
+- [KRS-One on Hiphop consciousness](https://youtu.be/REpSdgORU5A?t=1h5m19s)
 - [The Holy House of Hip-hop, August 11, 1973](http://nymag.com/anniversary/40th/50665)
 - [Can't Stop Won't Stop](http://cantstopwontstop.com)
 - [Hip-Hop Education](http://hiphopeducation.org)
@@ -237,4 +241,4 @@ Environment
 - [Ruby Enumerable](ruby-doc.org/core-2.2.2/Enumerable.html)
 - [Octopress](http://octopress.org)
 
-{% gist dc999c5ed85a530896c8 footang_disclaimer.rb %}
+<script src="//repl.it/embed/BDEl/5.js"></script>
