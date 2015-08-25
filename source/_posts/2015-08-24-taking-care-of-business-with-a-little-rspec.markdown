@@ -8,7 +8,7 @@ categories: Flatiron&nbsp;School&nbsp;Hiphop&nbsp;RSpec
 
 #tldr
 
-"Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expectations as Aretha Franklin's re-authoring techniques and Seymour Papert's vision of pioneering of creative exploration as optimal learning."
+> "Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expectations as Aretha Franklin's re-authoring techniques and Seymour Papert's vision of pioneering of creative exploration as optimal learning."
 
 ![respect_RSpec](https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/RSpec_Web.png "Aretha Franklin & Seymour Papert")
 
@@ -71,16 +71,23 @@ What I will get into is how I internalize a good habit: Behaviour-Driven Develop
 
 Victoria Malawey, Associate Professor and Chair of the of the Music Department at Macalester College, provides a wonderful abstract:
 
-  {% blockquote %}
-  "In her re-authoring of Otis Redding's ‘Respect’, Aretha Franklin's seminal 1967 recording features striking changes to melodic content, vocal delivery, lyrics and form. Musical analysis and transcription reveal Franklin's re-authoring techniques, which relate to rhetorical strategies of motivated rewriting, talking texts and call-and-response introduced by Henry Louis Gates, Jr. The extent of her re-authoring grants her status as owner of the song and results in a new sonic experience that can be clearly related to the cultural work the song has performed over the past 45 years. Multiple social movements claimed Franklin's ‘Respect’ as their anthem, and her version more generally functioned as a song of empowerment for those who have been marginalised, resulting in the song's complex relationship with feminism. Franklin's ‘Respect’ speaks dialogically with Redding's version as an answer song that gives agency to a female perspective speaking within the language of soul music, which appealed to many audiences."
-  {% endblockquote %}
+
+> "In her re-authoring of Otis Redding's ‘Respect’, Aretha Franklin's seminal 1967 recording features striking changes to melodic content, vocal
+> delivery, lyrics and form. Musical analysis and transcription reveal Franklin's re-authoring techniques, which relate to rhetorical strategies of
+> motivated rewriting, talking texts and call-and-response introduced by Henry Louis Gates, Jr. The extent of her re-authoring grants her status as
+> owner of the song and results in a new sonic experience that can be clearly related to the cultural work the song has performed over the past 45
+> years. Multiple social movements claimed Franklin's ‘Respect’ as their anthem, and her version more generally functioned as a song of empowerment for
+> those who have been marginalised, resulting in the song's complex relationship with feminism. Franklin's ‘Respect’ speaks dialogically with Redding's
+> version as an answer song that gives agency to a female perspective speaking within the language of soul music, which appealed to many audiences."
+
 
 Also in 1967, Seymour Aubrey Papert designed LOGO as a computer language for children. Seymour is an MIT mathematician, computer scientist, and educator. He is one of the pioneers of artificial intelligence, and co-inventor, with Wally Feurzeig, of the Logo programming language.
 This might seem like a distraction but stay with me. Papert emphasized creative exploration over memorization of facts, stating:
 
-  {% blockquote %}
-  "People give lip service to learning to learn, but if you look at curriculum in schools, most of it is about dates, fractions, and science facts; very little of it is about learning. I like to think of learning as an expertise that every one of us can acquire."
-  {% endblockquote %}
+
+> "People give lip service to learning to learn, but if you look at curriculum in schools, most of it is about dates, fractions, and science facts;
+> very little of it is about learning. I like to think of learning as an expertise that every one of us can acquire."
+
 
 RSpec began life in 2005 as an experiment by Steven Baker, with early contributions from Dave Astels and Aslak Hellesøy. David Chelimsky joined the team that summer, and accepted leadership of the project in 2006. David also built rspec-rails, which provided tight integration with Ruby on Rails. Today, RSpec continues to "improve and evolve thanks to the input of a large community and the work of hundreds of contributors."
 
@@ -100,15 +107,16 @@ That's programming.
 - Got it?
 - Good.
 
+
 So, in respect for Team RSpec, I'll be using the spelling "Behaviour," instead of "Behavior" throughout the remainder of this post.
 
 Ok, enough exploration of music, learning and history. Let's get started.
 
 #Getting Started
 
-  {% blockquote %}
-  "RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. RSpec helps you do the TDD part of that equation, focusing on the documentation and design aspects of TDD."" -Relish App
-  {% endblockquote %}
+
+>  "RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. RSpec helps you do the TDD part of that equation, focusing on the documentation and design aspects of TDD."" -Relish App
+
 
 ##Install
 
@@ -192,7 +200,6 @@ Here're a few matchers that I found both helpful to my RSpec testing and hilario
 - Type matchers (see documentation)
 - Custom matchers (see documentation)
 
-
 Our aretha_spec.rb RSpec test above used Type matchers. I did this in order to stay with the objects found in the song, which set a fairly straightforward set of expectations (Truthy & Falsy values). However, you can use RSpec to establish very complex and dynamic expectations, compound those expectations, aggregate failures when you have multiple independent expectations, and more.
 
 For example, returning to the song for inspiration, what does R-E-S-P-E-C-T look like when there's no money coming home over a long period of time? Another example can be how does a couple of pair programmers engaged in a long-term collaboration engage in the generalized comparison of values? Hint: remember those comparison matchers.
@@ -203,9 +210,7 @@ Beyond what the red failures and the green successes does to our thinking, there
 
 In that place, a deep understanding of RSpec Expectations lead to a very flexible safe-to-fail environment. I value flexibility as much as I value a safe-to-fail environment. Like Seymour Papert, I think we can extend this way of creating over to learning.
 
-  {% blockquote %}
-  "Many children are held back in their learning because they have a model of learning in which you have either ‘got it’ or ‘got it wrong.’ But when you program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting bugs ... The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition we might all be less intimidated by our fears of ‘being wrong.’ -Seymour Papert
-  {% endblockquote %}
+> "Many children are held back in their learning because they have a model of learning in which you have either 'got it' or 'got it wrong.' But when you program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting bugs ... The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition we might all be less intimidated by our fears of 'being wrong.' -Seymour Papert
 
 Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and, of course, our animals and plants too!
 
