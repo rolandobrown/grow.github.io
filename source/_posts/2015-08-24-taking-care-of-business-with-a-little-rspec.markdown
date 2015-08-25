@@ -1,18 +1,18 @@
 ---
 layout: post
 title: "Taking Care of Business with a little RSpec"
-date: 2015-08-24 17:34:16 -0400
+date: 2015-08-24 00:36:00 -0400
 comments: true
 categories: Flatiron&nbsp;School&nbsp;Hiphop&nbsp;RSpec
 ---
 
 #tldr
 
-"Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant as Aretha Franklin re-authoring techniques and Seymour Papert vision of pioneering of creative exploration as optimal learning."
+"Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expecations as Aretha Franklin's re-authoring techniques and Seymour Papert's vision of pioneering of creative exploration as optimal learning."
 
 /
-insert image of Aretha Franklin & Seymour Papert
-insert RSpec LOGO
+![respect_RSpec](https://s-media-cache-ak0.pinimg.com/736x/ef/1e/29/ef1e29088983d6c68d96b1adea25cabd.jpg "Aretha Franklin & Seymour Papert")
+
 /
 
 #random made beautiful
