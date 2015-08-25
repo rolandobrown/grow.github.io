@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop&nbsp;rspec | /grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop-rspec/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-25T06:18:58-04:00</updated>
+  <updated>2015-08-25T06:43:42-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -20,12 +20,9 @@
     <id>http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec</id>
     <content type="html"><![CDATA[<h1>tldr</h1>
 
-<p>&ldquo;Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expecations as Aretha Franklin&rsquo;s re-authoring techniques and Seymour Papert&rsquo;s vision of pioneering of creative exploration as optimal learning.&rdquo;</p>
+<p>&ldquo;Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expectations as Aretha Franklin&rsquo;s re-authoring techniques and Seymour Papert&rsquo;s vision of pioneering of creative exploration as optimal learning.&rdquo;</p>
 
-<p>/
-<img src="https://s-media-cache-ak0.pinimg.com/736x/ef/1e/29/ef1e29088983d6c68d96b1adea25cabd.jpg" title="Aretha Franklin &amp; Seymour Papert" alt="respect_RSpec" /></p>
-
-<p>/</p>
+<p><img src="https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/RSpec_Web.png" title="Aretha Franklin &amp; Seymour Papert" alt="respect_RSpec" /></p>
 
 <h1>random made beautiful</h1>
 
@@ -37,13 +34,16 @@
 
 <p>  <blockquote><p>R-E-S-P-E-C-T<br/>  Find out what it means to me<br/>  R-E-S-P-E-C-T<br/>  Take care, TCB"</p></blockquote></p>
 
-<p>These words were as much as part of my upbringing as &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit.&rsquo; Yes, code mixing is a thing, and was a thing long before our beloved Startups. Give thanks for Linguistics!</p>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/cYbs_O_iMfU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<p>Besides it being a REMARKABLE song, sung by a REMARKABLE women, I imagine &ldquo;Respect&rdquo; became a part of my super conscious as a result of it being sampled by at least 26 popular songs. As told by WhoSampled.com, 21 times by Hip-Hop &amp; RB artists, with other songs fusing the Respect vocals with Spoken Word, Electronic/Dance and Funk tributes. Regardless of the numbers, let&rsquo;s just say that I have the lived experience of being programmatically injected with a notion that R-E-S-P-E-C-T was to be shown through song, rap, freestyle, humming, dancing, and other Linguistic movements.</p>
+
+<p>These words were as much as part of my upbringing as &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit.&rsquo; Yes, code mixing is a thing and was a thing long before our beloved Startups. Give thanks for Linguistics!</p>
+
+<p>Besides it being a REMARKABLE song, sung by a REMARKABLE woman, I imagine &ldquo;Respect&rdquo; became a part of my superconscious as a result of it being sampled by at least 26 popular songs. As told by WhoSampled.com, 21 times by Hip-Hop &amp; RB artists, with other songs fusing the Respect vocals with Spoken Word, Electronic/Dance and Funk tributes. Regardless of the numbers, let&rsquo;s just say that I have the lived experience of being programmatically injected with a notion that R-E-S-P-E-C-T was to be shown through song, rap, freestyle, humming, dancing, and other Linguistic movements.</p>
 
 <p>These body of words, this bridge to be more explicit, is both an example of cultural inheritance and an instance of some larger class of cultural progression. They embody agreements that many people who love the song have efforted to bring into multiple facets of their life. I am one of these people. I&rsquo;m sure many of you are also familiar with this effort.</p>
 
-<p>My experience with RSpect is lightweight similar. For the scope of this post, consider RSpec a domain specific language that allows me to express a shared set of expectations for the relationships between all of my code, which in this case is written in a programming language named Ruby, instead of Gospel &amp; Soul.</p>
+<p>My experience with RSpect is lightweight similar. For the scope of this post, consider RSpec a domain specific language that allows me to express a shared set of expectations for the relationships between all of my code, which, in this case, is written in a programming language named Ruby, instead of Gospel &amp; Soul.</p>
 
 <p>Ok.
 Got it?
@@ -94,6 +94,15 @@ This might seem like a distraction but stay with me. Papert emphasized creative 
 
 <p>RSpec began life in 2005 as an experiment by Steven Baker, with early contributions from Dave Astels and Aslak Hellesøy. David Chelimsky joined the team that summer, and accepted leadership of the project in 2006. David also built rspec-rails, which provided tight integration with Ruby on Rails. Today, RSpec continues to &ldquo;improve and evolve thanks to the input of a large community and the work of hundreds of contributors.&rdquo;</p>
 
+<p>What&rsquo;s the critical connection between these people?</p>
+
+<ol>
+<li>They inspire me</li>
+<li>They value learning (i.e., &ldquo;find out what it means?&rdquo; &ldquo;a little RSpec?&rdquo; &ldquo;keep on trying?&rdquo;)</li>
+<li>They all understand something about Respect.</li>
+</ol>
+
+
 <p>If you want to go fast, go alone.
 If you want to go far, go together.</p>
 
@@ -101,16 +110,16 @@ If you want to go far, go together.</p>
 Got it?
 Good.</p>
 
-<p>So, in respect for Team RSpec , I&rsquo;ll be using the spelling &ldquo;Behaviour,&rdquo; instead of &ldquo;Behavior&rdquo; throughout the remainder of this post.</p>
+<p>So, in respect for Team RSpec, I&rsquo;ll be using the spelling &ldquo;Behaviour,&rdquo; instead of &ldquo;Behavior&rdquo; throughout the remainder of this post.</p>
 
 <h1>Getting Started</h1>
 
 <p>  <blockquote><p>&ldquo;RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. RSpec helps you do the TDD part of that equation, focusing on the documentation and design aspects of TDD.&rdquo;&ldquo; -Relish App</p></blockquote></p>
 
-<p>** Install</p>
+<p><strong> Install </strong></p>
 
 <ol>
-<li>Install RSpec and run &ldquo;rspec &ndash;init&rdquo; to set up your project to use RSpec. I customized by .bash_profile, so I run &ldquo;aretha&rdquo; in order to set up my project:</li>
+<li>Install RSpec and run &ldquo;rspec &ndash;init&rdquo; to set up your project to use RSpec. I customized by .bash_profile, so I just run they command &ldquo;aretha&rdquo; in order to set up my project:</li>
 </ol>
 
 
@@ -135,7 +144,7 @@ Good.</p>
 <noscript><pre><code>rspec --help</code></pre></noscript></div>
 </p>
 
-<p>** Start Simple</p>
+<p><strong> Start Simple </strong></p>
 
 <ol>
 <li>Start with a very simple example that expresses some basic desired behaviour.</li>
@@ -166,7 +175,7 @@ end
 
 <p>(insert video)</p>
 
-<p>** Fail Fast.</p>
+<p><strong> Fail Fast. </strong> **</p>
 
 <ol>
 <li>Run the example and watch it fail.</li>
@@ -175,16 +184,16 @@ end
 
 <p>[image]</p>
 
-<p>** Implement &amp; Iterate</p>
+<p><strong> Implement &amp; Iterate  </strong></p>
 
 <ol>
-<li>Implement that basic behaviour&hellip;</li>
+<li>Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.</li>
 </ol>
 
 
 <p>(insert video)</p>
 
-<p>** Run</p>
+<p><strong> Run &amp; Refactor</strong></p>
 
 <ol>
 <li><p>Run the example and bask in the joy that is green.</p></li>
@@ -196,16 +205,11 @@ end
 
 <h2>Expectations</h2>
 
-<p>**The Expect Syntax replaced The Should Syntax</p>
+<p><strong>The Expect Syntax replaced The Should Syntax</strong></p>
 
-<p>In June 2012, RSpec launched it&rsquo;s new &ldquo;Expectation Syntax.&rdquo;</p>
+<p>In June 2012, RSpec launched its new &ldquo;Expectation Syntax.&rdquo;</p>
 
-<p>As a result, Behaviour is now asserted by pairing expect().to and expect().not_to with a Matcher predicate. In previous versions of Rspec, the behavior assertion syntax used the keyword &ldquo;should.&rdquo; Obviously, as one might expect, the shift from &ldquo;should&rdquo; to &ldquo;expect&rdquo; made much of RSpec&rsquo;s code cleaner, and unified some aspects of testing syntax.</p>
-
-<p>/
-Old: my_object.should_not_be_a_kind_of(Foo)
-New: expect(my_object).not_to be_a_kind_of(Foo)
-/</p>
+<p>As a result, Behaviour is now asserted by pairing expect().to and expect().not_to with a Matcher predicate. In previous versions of RSpec, the behavior assertion syntax used the keyword &ldquo;should.&rdquo; Obviously, as one might expect, the shift from &ldquo;should&rdquo; to &ldquo;expect&rdquo; made much of RSpec&rsquo;s code cleaner, and unified some aspects of testing syntax.</p>
 
 <p><div><script src='https://gist.github.com/fa12a3f7bb78cf4b75c2.js?file=shouldbe_expect.rb'></script>
 <noscript><pre><code>Old: my_object.should_not_be_a_kind_of(Foo)
@@ -214,7 +218,7 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 
 <p>This seems like a great shift. I imagine Programmable languages, like people, don&rsquo;t always respectfully return what they should. In other words, setting clear and clean expectations early in the process just&hellip; well&hellip; helps. Period.</p>
 
-<p>Here&rsquo;s a few matchers that I found both helpful and hilariously proximate to how some of us view R-E-S-P-E-C-T:</p>
+<p>Here&rsquo;re a few matchers that I found both helpful to my RSpec testing and hilariously proximate to how some of us view R-E-S-P-E-C-T in general:</p>
 
 <ul>
 <li><code>be</code> matchers</li>
@@ -225,7 +229,7 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 </ul>
 
 
-<p>**In brief, there are:</p>
+<p><strong>In brief, there are: </strong></p>
 
 <ul>
 <li>Equality matchers (see documentation)</li>
@@ -238,7 +242,7 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 
 <p>Our aretha_spec.rb RSpec test above used Type matchers. I did this in order to stay with the objects found in the song, which set a fairly straightforward set of expectations (Truthy &amp; Falsy values). However, you can use RSpec to establish very complex and dynamic expectations, compound those expectations, aggregate failures when you have multiple independent expectations, and more.</p>
 
-<p>For example, returning to the song for inspiration, what does R-E-S-P-E-C-T look like when there&rsquo;s no money coming home over a long period of time? Another example can be how does a couple of pair programmers engaged in a long term collaboration engage in the the generalized comparison of values? Hint: remember those comparison matchers.</p>
+<p>For example, returning to the song for inspiration, what does R-E-S-P-E-C-T look like when there&rsquo;s no money coming home over a long period of time? Another example can be how does a couple of pair programmers engaged in a long-term collaboration engage in the generalized comparison of values? Hint: remember those comparison matchers.</p>
 
 <h2>Thinking About Learning, and Learning About Thinking</h2>
 
@@ -248,7 +252,7 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 
 <p>  <blockquote><p>&ldquo;Many children are held back in their learning because they have a model of learning in which you have either ‘got it’ or ‘got it wrong.’ But when you program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting bugs &hellip; The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition we might all be less intimidated by our fears of ‘being wrong.’ -Seymour Papert</p></blockquote></p>
 
-<p>Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and of course our animals and plants too!</p>
+<p>Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and, of course, our animals and plants too!</p>
 
 <h3>Contains Samples &amp; Inspiration from:</h3>
 
@@ -256,7 +260,7 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 <li><p><a href="http://rspec.info/">RSpec Videos</a></p></li>
 <li><p><a href="https://relishapp.com/rspec">RSpec Documentation</a></p></li>
 <li><p><a href="https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf">Rspec Cheat Sheet</a></p></li>
-<li><p><a href="https://www.relishapp.com/rspec/rspec-expectations/v/3-3/docs/built-in-matchers">RSpec&rsquo;s Built in matchers</a></p></li>
+<li><p><a href="https://www.relishapp.com/rspec/rspec-expectations/v/3-3/docs/built-in-matchers">RSpec&rsquo;s Built-in matchers</a></p></li>
 <li><p><a href="http://tenderlovemaking.com/2015/01/23/my-experience-with-minitest-and-rspec.html">Aaron Patterson&rsquo;s experience with Minitest and RSpec</a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=cYbs_O_iMfU">Aretha Franklin, Respect Video</a></p></li>
 <li><p><a href="https://play.spotify.com/album/5WndWfzGwCkHzAbQXVkg2V?play=true&amp;utm_source=open.spotify.com&amp;utm_medium=open">I Never Loved A Man The Way I Love You on Spotify</a></p></li>
