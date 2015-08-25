@@ -270,14 +270,97 @@ end
 </ol>
 
 
-<p>$ rspec aretha_spec.rb</p>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/ARcKMl_qgl8?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 <p><strong> Implement &amp; Iterate  </strong></p>
 
 <ul>
-<li><p>make changes to rspec aretha.rb</p></li>
-<li><p>Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.</p></li>
+<li>make changes to rspec aretha_spec.rb</li>
 </ul>
+
+
+<div><script src='https://gist.github.com/5efb11808eaf783b008f.js?file=aretha_spec.rb'></script>
+<noscript><pre><code># aretha_spec.rb
+require_relative &#39;../aretha.rb&#39; #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe &quot;#done_you_wrong!&quot; do
+    it &quot;ain&#39;t gonna do you wrong while you&#39;re gone&quot; do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe &quot;#wanna_do_you_wrong&quot; do
+    it &quot;ain&#39;t gonna do you wrong (oo) &#39;cause I don&#39;t wanna (oo)&quot; do
+      expect(aretha.wanna_do_you_wrong(&quot;False&quot;)).not_to be_truthy
+    end
+  end
+
+  describe &quot;#sweeter_than_honey&quot; do
+    it &quot;kisses are sweeter than honey&quot; do
+      expect(aretha.sweeter_than_honey(&quot;True&quot;)).to be_truthy
+    end
+  end
+
+  describe &quot;#raise_error&quot; do
+     it &quot;raisese an error when a litle respect don&#39;t come home&quot; do
+       expect { raise StandardError, &quot;All I&#39;m askin&#39; is for a little respect when you come home (just a little bit)&quot; }.
+         to raise_error(/respect/)
+     end
+   end
+
+   describe &quot;#asks_ghostface_to_explain&quot; do
+      it &quot;answers a wonderful question Steven Baker had about holla&quot; do
+        expect(aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)).to be_truthy
+      end
+    end
+
+end
+</code></pre></noscript></div>
+
+
+<ol>
+<li>Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.</li>
+</ol>
+
+
+<div><script src='https://gist.github.com/1c854673544374a63158.js?file=aretha.rb'></script>
+<noscript><pre><code>
+class Aretha
+
+  def done_you_wrong!
+    false
+  end
+
+  def wanna_do_you_wrong(truth)
+    @truth = truth
+    false unless truth != &quot;False&quot;
+  end
+
+  def sweeter_than_honey(kisses)
+    @kisses = kisses
+    true unless kisses != &quot;True&quot;
+  end
+
+  def raise_error
+    puts &quot;Give me all of your money!&quot;
+  end
+
+# Aretha probably knows about Ghostface. Ghostface absolutely respects Aretha. Still, note Holla != R-E-S-P-E-C-T in all situations.
+
+  def asks_ghostface_to_explain(holla)
+    @holla
+    true unless holla != &quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;
+  end
+end
+
+aretha = Aretha.new
+
+aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)
+</code></pre></noscript></div>
 
 
 <p><strong> Run &amp; Refactor</strong></p>
@@ -287,10 +370,10 @@ end
 </ol>
 
 
-<p>rspec aretha_spec.rb</p>
+<p>$ rspec aretha_spec.rb</p>
 
 <ol>
-<li>Repeat, Remix (aka Refactor)</li>
+<li>Repeat, Remix, Refactor, etc.</li>
 </ol>
 
 
@@ -360,6 +443,8 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 <li><p><a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9226477&amp;fileId=S0261143014000270">‘Find out what it means to me’: Aretha Franklin&rsquo;s gendered re-authoring of Otis Redding&rsquo;s ‘Respect’. Popular Music / Volume 33 / Issue 02 / May 2014, pp 185-207Copyright © Cambridge University Press 2014</a></p></li>
 <li><p><a href="https://tltl.stanford.edu/content/seymour-papert-s-legacy-thinking-about-learning-and-learning-about-thinking">Seymour Papert’s Legacy: Thinking About Learning, and Learning About Thinking</a></p></li>
 <li><p><a href="https://twitter.com/srbaker/status/4089813992">Steven R. Baker and What does &ldquo;holla&rdquo; mean?</a></p></li>
+<li><p><a href="http://zonika.github.io/blog/2015/07/30/customize-bash/">Zoe Chodosh: Making My Bash Profile Easier and Prettier</a></p></li>
+<li><p><a href="https://medium.com/@ejlarcombe/loud-idiot-ii-parsing-the-error-message-353b741b83d8?source=rss-5647f111443b------2">Elizabeth Larcombe: LOUD IDIOT II: Parsing the Error Message</a></p></li>
 </ul>
 
 </div>
