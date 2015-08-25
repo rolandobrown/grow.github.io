@@ -8,11 +8,13 @@ categories: Flatiron&nbsp;School&nbsp;Hiphop&nbsp;RSpec
 
 #tldr
 
-> "Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. For in launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expectations as Aretha Franklin's re-authoring techniques and Seymour Papert's vision of pioneering of creative exploration as optimal learning."
+> "Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. Learn about Steven Baker, Aretha Franklin & Seymour Papert!"
 
 ![respect_RSpec](https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/RSpec_Web.png "Aretha Franklin & Seymour Papert")
 
 #random made beautiful
+
+In launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expectations as Aretha Franklin's re-authoring techniques and Seymour Papert's vision of pioneering of creative exploration as optimal learning.
 
 This post is a creative exploration.
 
