@@ -89,10 +89,12 @@ What's the critical connection between these people?
 1. They inspire me
 2. They value learning (i.e., "find out what it means?" "a little RSpec?" "keep on trying?")
 3. They all understand something about Respect.
+4. They all understand: If you want to go fast, go alone. If you want to go far, go together.
+6. And don't forget about creative exploration over memorization of facts.
 
-If you want to go fast, go alone.
-If you want to go far, go together.
-And don't forget about creative exploration over memorization of facts.
+That's song.
+That's learning.
+That's programming.
 
 - Right?
 - Got it?
@@ -116,11 +118,12 @@ Ok, enough exploration of music, learning and history. Let's get started.
 
 This installs five gems:
 
-- rspec
-- rspec-core
-- rspec-expectations
-- rspec-mocks
-- rspec-support
+1. rspec
+2. rspec-core
+3. rspec-expectations
+4. rspec-mocks
+5. rspec-support
+
 
 While using Rspec, run this command if you need any help:
 
@@ -130,17 +133,21 @@ While using Rspec, run this command if you need any help:
 
 2. Start with a very simple example that expresses some basic desired behaviour.
 
+
 {% gist 9f7005381e9771ad2a1f aretha_spec.rb %}
 
-** Fail Fast. ** **
+** Fail Fast. (Video) ** **
 
 3. Run the example and watch it fail.
 
+
 <iframe width="640" height="480" src="https://www.youtube.com/embed/ARcKMl_qgl8?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 ** Implement & Iterate  **
 
 - make changes to rspec aretha_spec.rb
+
 
 {% gist 5efb11808eaf783b008f aretha_spec.rb %}
 
@@ -184,6 +191,7 @@ Here're a few matchers that I found both helpful to my RSpec testing and hilario
 - Type matchers (see documentation)
 - Custom matchers (see documentation)
 
+
 Our aretha_spec.rb RSpec test above used Type matchers. I did this in order to stay with the objects found in the song, which set a fairly straightforward set of expectations (Truthy & Falsy values). However, you can use RSpec to establish very complex and dynamic expectations, compound those expectations, aggregate failures when you have multiple independent expectations, and more.
 
 For example, returning to the song for inspiration, what does R-E-S-P-E-C-T look like when there's no money coming home over a long period of time? Another example can be how does a couple of pair programmers engaged in a long-term collaboration engage in the generalized comparison of values? Hint: remember those comparison matchers.
@@ -200,9 +208,11 @@ In that place, a deep understanding of RSpec Expectations lead to a very flexibl
 
 Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and, of course, our animals and plants too!
 
-![hollaRSpec](https://github.com/rolandobrown/rolandobrown.github.io/blob/source/source/images/hollaRspec.png "Steven R. Baker & Rolando Brown talk about Holla")
+![hollaRSpec](https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/hollaRspec.png "Steven R. Baker & Rolando Brown talk about Holla")
 
 ###Contains Samples & Inspiration from:
+
+- [Source Code for this post on Github](https://github.com/rolandobrown/tcb)
 
 - [RSpec Videos](http://rspec.info/)
 
