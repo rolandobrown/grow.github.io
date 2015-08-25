@@ -92,12 +92,15 @@ What's the critical connection between these people?
 
 If you want to go fast, go alone.
 If you want to go far, go together.
+And don't forget about creative exploration over memorization of facts.
 
-Right?
-Got it?
-Good.
+- Right?
+- Got it?
+- Good.
 
 So, in respect for Team RSpec, I'll be using the spelling "Behaviour," instead of "Behavior" throughout the remainder of this post.
+
+Ok, enough exploration of music, learning and history. Let's get started.
 
 #Getting Started
 
@@ -129,27 +132,29 @@ While using Rspec, run this command if you need any help:
 
 {% gist 9f7005381e9771ad2a1f aretha_spec.rb %}
 
-(insert video)
-
 ** Fail Fast. ** **
 
 3. Run the example and watch it fail.
 
-[image]
+<iframe width="640" height="480" src="https://www.youtube.com/embed/ARcKMl_qgl8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ** Implement & Iterate  **
 
+- make changes to rspec aretha_spec.rb
+
+{% gist 5efb11808eaf783b008f aretha_spec.rb %}
+
 4. Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.
 
-(insert video)
+{% gist 1c854673544374a63158 aretha.rb %}
 
 ** Run & Refactor**
 
 5. Run the example and bask in the joy that is green.
 
-6. Repeat, Remix (aka Refactor)
+$ rspec aretha_spec.rb
 
-[image]
+6. Repeat, Remix, Refactor, etc.
 
 ## Expectations
 
@@ -187,13 +192,15 @@ For example, returning to the song for inspiration, what does R-E-S-P-E-C-T look
 
 Beyond what the red failures and the green successes does to our thinking, there's a way of creating. This way invites us programmers to ritually check both our assumptions and our code as we make, not after we make.
 
-In that place, a deep understanding ofRSpec Expectations lead to a very flexible safe-to-fail environment. I value flexibility as much as I value a safe-to-fail environment. Like Seymour Papert, I think we can extend this way of creating over to learning.
+In that place, a deep understanding of RSpec Expectations lead to a very flexible safe-to-fail environment. I value flexibility as much as I value a safe-to-fail environment. Like Seymour Papert, I think we can extend this way of creating over to learning.
 
   {% blockquote %}
   "Many children are held back in their learning because they have a model of learning in which you have either ‘got it’ or ‘got it wrong.’ But when you program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting bugs ... The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition we might all be less intimidated by our fears of ‘being wrong.’ -Seymour Papert
   {% endblockquote %}
 
 Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and, of course, our animals and plants too!
+
+![hollaRSpec](https://github.com/rolandobrown/rolandobrown.github.io/blob/source/source/images/hollaRspec.png "Steven R. Baker & Rolando Brown talk about Holla")
 
 ###Contains Samples & Inspiration from:
 
@@ -219,3 +226,7 @@ Hopefully, we can apply where appropriate some of these approaches to how we ext
 - [Seymour Papert’s Legacy: Thinking About Learning, and Learning About Thinking](https://tltl.stanford.edu/content/seymour-papert-s-legacy-thinking-about-learning-and-learning-about-thinking)
 
 - [Steven R. Baker and What does "holla" mean?](https://twitter.com/srbaker/status/4089813992)
+
+- [Zoe Chodosh: Making My Bash Profile Easier and Prettier](http://zonika.github.io/blog/2015/07/30/customize-bash/)
+
+- [Elizabeth Larcombe: LOUD IDIOT II: Parsing the Error Message](https://medium.com/@ejlarcombe/loud-idiot-ii-parsing-the-error-message-353b741b83d8?source=rss-5647f111443b------2)
