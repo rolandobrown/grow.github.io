@@ -110,9 +110,9 @@ Ok, enough exploration of music, learning and history. Let's get started.
   "RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. RSpec helps you do the TDD part of that equation, focusing on the documentation and design aspects of TDD."" -Relish App
   {% endblockquote %}
 
-** Install **
+##Install
 
-1. Install RSpec and run "rspec --init" to set up your project to use RSpec. I customized by .bash_profile, so I just run they command "aretha" in order to set up my project:
+Install RSpec and run "rspec --init" to set up your project to use RSpec. I customized by .bash_profile, so I just run they command "aretha" in order to set up my project:
 
 {% gist b445af05173af8014ff6 %}
 
@@ -124,46 +124,46 @@ This installs five gems:
 4. rspec-mocks
 5. rspec-support
 
-
 While using Rspec, run this command if you need any help:
 
 {% gist b8049dc4db6651060455 %}
 
-** Start Simple **
+##Start Simple
 
-2. Start with a very simple example that expresses some basic desired behaviour.
+Start with a very simple example that expresses some basic desired behaviour.
 
 
 {% gist 9f7005381e9771ad2a1f aretha_spec.rb %}
 
-** Fail Fast. (Video) ** **
+##Fail Fast. (Video)
 
-3. Run the example and watch it fail.
+Run the example and watch it fail.
 
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/ARcKMl_qgl8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 
-** Implement & Iterate  **
+##Implement & Iterate
 
 - make changes to rspec aretha_spec.rb
 
 
 {% gist 5efb11808eaf783b008f aretha_spec.rb %}
 
-4. Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.
+Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.
 
 {% gist 1c854673544374a63158 aretha.rb %}
 
-** Run & Refactor**
+##Run & Refactor
 
-5. Run the example and bask in the joy that is green.
+Run the example and bask in the joy that is green.
 
 $ rspec aretha_spec.rb
 
-6. Repeat, Remix, Refactor, etc.
+##Repeat, Remix, Refactor, etc.
 
-## Expectations
+
+# Expectations
 
 **The Expect Syntax replaced The Should Syntax**
 
@@ -182,6 +182,7 @@ Here're a few matchers that I found both helpful to my RSpec testing and hilario
 - `satisfy` matcher
 - `raise_error` matcher
 - `have_attributes` matcher
+
 
 **In brief, there are: **
 
@@ -208,7 +209,9 @@ In that place, a deep understanding of RSpec Expectations lead to a very flexibl
 
 Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and, of course, our animals and plants too!
 
-![hollaRSpec](https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/hollaRspec.png "Steven R. Baker & Rolando Brown talk about Holla")
+
+  ![hollaRSpec](https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/hollaRspec.png "Steven R. Baker & Rolando Brown talk about Holla")
+
 
 ###Contains Samples & Inspiration from:
 
