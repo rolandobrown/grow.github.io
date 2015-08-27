@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rolandobrown.github.io/blog/2015/08/26/nested-forms/</loc>
+    <lastmod>2015-08-26T23:01:50-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://rolandobrown.github.io/blog/2015/08/26/meta-recits/</loc>
+    <lastmod>2015-08-26T23:00:30-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/</loc>
     <lastmod>2015-08-24T00:36:00-04:00</lastmod>
   </url>
@@ -25,5 +33,8 @@
   </url>
   <url>
     <loc>http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop-rspec/</loc>
+  </url>
+  <url>
+    <loc>http://rolandobrown.github.io/blog/categories/metarecits/</loc>
   </url>
 </urlset>
