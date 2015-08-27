@@ -22,11 +22,14 @@ Instead of jetting back to the lab per usual, we decided to return to that Recur
 
 {% gist bdc016bb38431667a476 %}
 
-Each arrival began with a song: a listening that helped us both traverse. I chose a DSL. I think it was Sinatra 1.4.6. It must have been. Sinatra always quickly created the perfect environment. It was as if that song was written specifically for this purpose: minimal effort, maximum return. Ruby appreciated that about me. She would get gitty every time I found it—that perfect beat. A few times she would .send("you always find the right gem.")
+Each arrival began with a song: a listening that helped us both traverse. I chose a DSL. I think it was Sinatra 1.4.6. It must have been. Sinatra always quickly created the perfect environment. It was as if that song was written specifically for this purpose: minimal effort, maximum return. Ruby appreciated that about me. She would get gitty every time I found it—that perfect beat. During those times she would send me a message. Something like: .send("you always find the right gem."). I would always respond with the same statement twice in a row:
+
+> >> "I've benefited from remembering good friends and good songs."
+> >> "I've benefited from remembering good friends and good songs."
 
 {% gist 60ca0b30c96dfd5f36ec %}
 
-Mid listen, Sinatra on shotgun and ActiveRecord in use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn't need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn't really need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice to not fix it. She reminded me:
+Mid listen, [Sinatra](http://www.sinatrarb.com/) on shotgun and ActiveRecord ready for use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn't need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn't really need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice to not fix it. She reminded me:
 
 > This doesn't need to persist in memory. It is enough to just be here: in these moments with each other.
 
