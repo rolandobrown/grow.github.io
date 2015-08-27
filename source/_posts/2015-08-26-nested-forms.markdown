@@ -33,10 +33,18 @@ Each arrival began with a song: a listening that helped us both traverse. I chos
 
 {% gist 60ca0b30c96dfd5f36ec %}
 
-Mid listen, [Sinatra](http://www.sinatrarb.com/) on shotgun and ActiveRecord ready for use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn't need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn't really need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice not to fix it. She reminded me:
+Mid listen, [Sinatra](http://www.sinatrarb.com/) on shotgun and ActiveRecord ready for use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn't need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn't really need to capture every good memory of this arrival, or anything that would follow.
+
+More importantly, neither of us could ever return to these moments anyway:
+
+- the first time she would glide by my hand;
+- the initial touch;
+- the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice not to fix it.
+
+She reminded me:
 
 > This doesn't need to persist in memory. It is enough to just be here: in these moments with each other.
 
 {% gist 43bb2da34f3e451d32e8 %}
 
-<iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0 &size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
