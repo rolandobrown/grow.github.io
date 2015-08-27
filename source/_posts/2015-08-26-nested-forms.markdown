@@ -8,9 +8,13 @@ categories: MetaRecits
 
 > An introduction to this series is [here](http://rolandobrown.github.io/blog/2015/08/26/meta-recits/).
 
-Audio:
+#Audio:
 
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221084854&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+
+#Story:
 
 It was Wednesday, a hump day. Not exactly a REST day.
 
@@ -46,5 +50,3 @@ She reminded me:
 > This doesn't need to persist in memory. It is enough to just be here: in these moments with each other.
 
 {% gist 43bb2da34f3e451d32e8 %}
-
-<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
