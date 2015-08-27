@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Metarecits | /grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/blog/categories/metarecits/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-26T23:36:09-04:00</updated>
+  <updated>2015-08-26T23:41:58-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -18,7 +18,9 @@
     <link href="http://rolandobrown.github.io/blog/2015/08/26/nested-forms/"/>
     <updated>2015-08-26T23:01:50-04:00</updated>
     <id>http://rolandobrown.github.io/blog/2015/08/26/nested-forms</id>
-    <content type="html"><![CDATA[<p>It was Wednesday, a hump day. Not exactly a REST day.</p>
+    <content type="html"><![CDATA[<blockquote><p>An introduction to this series is <a href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/">here</a>.</p></blockquote>
+
+<p>It was Wednesday, a hump day. Not exactly a REST day.</p>
 
 <p><div><script src='https://gist.github.com/66443ac017eb4980cfb7.js'></script>
 <noscript><pre><code># Ruby and I
@@ -41,7 +43,9 @@ use RequestSpecificationController
 run TravelController</code></pre></noscript></div>
 </p>
 
-<p>Instead of jetting back to the lab per usual, we decided to return to that RecursiveOpenStruct my friend Bundler managed to keep track of. I&rsquo;d forgotten all about that place, but Bundler remembered where it was and how to find it. He was like that, always helping me out by doing things a little outside of his everyday scope. A lot of people helped him out in the early days of his loving, so he&rsquo;s inherited a bit of attributes from the Giving class. Plus, he&rsquo;s developed some kind of dependency sixth sense and appreciates that I&rsquo;m almost always looking to build something new and useful. It was a co-dependent relationship that worked for the both us. So, I made a call. He responded: &ldquo;Anything for Ruby.&rdquo;</p>
+<p>Instead of jetting back to the lab per usual, we decided to return to that RecursiveOpenStruct my friend Bundler managed to keep track of. I&rsquo;d forgotten all about that place, but Bundler remembered where it was and how to find it. He was like that, always helping me out by doing things a little outside of his everyday scope. A lot of people helped him out in the early days of his loving, so he&rsquo;s inherited a bit of attributes from the Giving class. Plus, he&rsquo;s developed some kind of dependency sixth sense and appreciates that I&rsquo;m almost always looking to build something new and useful. It was a co-dependent relationship that worked for the both us. So, I made a call. He responded:</p>
+
+<blockquote><p>&ldquo;Anything for Ruby.&rdquo;</p></blockquote>
 
 <p><div><script src='https://gist.github.com/bdc016bb38431667a476.js'></script>
 <noscript><pre><code>$ cat run_file.rb
@@ -71,7 +75,9 @@ $ open https://play.spotify.com/track/1qWLqI629DQmVAcfxWV8ZZ
 # put &quot;Sinatra installed!&quot;</code></pre></noscript></div>
 </p>
 
-<p>Mid listen, Sinatra on shotgun and ActiveRecord in use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that didn&rsquo;t need to do anything but see this. I really didn&rsquo;t need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever really return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice to not fix it. She reminded me. This didn&rsquo;t need to persist in memory. It was enough to just be there: in those moments with each other.</p>
+<p>Mid listen, Sinatra on shotgun and ActiveRecord in use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that didn&rsquo;t need to do anything but see this. I really didn&rsquo;t need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever really return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice to not fix it. She reminded me:</p>
+
+<blockquote><p>This didn&rsquo;t need to persist in memory. It was enough to just be there: in those moments with each other.</p></blockquote>
 
 <p><div><script src='https://gist.github.com/43bb2da34f3e451d32e8.js'></script>
 <noscript><pre><code># When he goes for the phone...
@@ -80,6 +86,64 @@ $ cat ruby_knows.rb
 </p>
 
 <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:1Mxqyy3pSjf8kZZL4QVxS0 &size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meta Récits]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/"/>
+    <updated>2015-08-26T23:00:30-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/26/meta-recits</id>
+    <content type="html"><![CDATA[<iframe src="//giphy.com/embed/yx1Tzv0P6xTji" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p><a href="http://giphy.com/gifs/demon-short-stories-scary-story-yx1Tzv0P6xTji">via GIPHY</a></p>
+
+
+<p>Below is a link to the first of a series of short stories named #MetaRécits.</p>
+
+<p>I&rsquo;m a software engineer: a programmer.
+A new one, who&rsquo;s currently building very simple programs, but a programmer nonetheless.
+I&rsquo;m also an Artist: a poet, and author of songs with accompanying short stories.
+I have a few other roles, father, community organizer, etc. But we won&rsquo;t get into all of those right now.</p>
+
+<p>This post is about short stories inspired by programming.</p>
+
+<p>I&rsquo;m in week 5 of a web development intensive at Flatiron School. Throughout the five weeks, I have found myself imagining these short stories inspired by my time here. These stories have helped to channel the enthusiasm, pride, anger, frustration, and longing I&rsquo;ve experienced while learning to program using a set of tools called &ldquo;The Full Stack.&rdquo;</p>
+
+<p>In other words, these short stories have been welcomed respite from hours of noob frustration. They are the result of working to bridge the creative expressions in my code with the creative explorations of my imagination. They are evidence of some effort to map what&rsquo;s happening to my worldview as a result of learning programming languages.</p>
+
+<p>I enjoy imagining programming language syntax, programming concepts, and tools as objects with relationships in everyday sentient life. I&rsquo;ve begun to think of this as an artistic practice, maybe some early form of what will later grow into more structured metaprogramming. For now, let&rsquo;s just call it an artistic practice.</p>
+
+<p>In some instances this practice has been helpful in internalizing keywords like Self or This, Ruby methods like Collect, design patterns like ActiveRecord and development frameworks like RSpec. In other instances, it&rsquo;s created unintended distractions and exponential levels of complexity. Honestly, these layers of complexity have at times been difficult to crawl out of. Thank the programming Gods for great people willing to help me get out of programmer Hell.</p>
+
+<p>To aspiring and existing software programmers reading this, my apologies in advance if you get a sniff of that code smell. If you see it in this series, please feel free to comment or refactor and send me a pull request. All of the stories are posted in a public Repo on Github. They are also works licensed under the Creative Commons Attribution 4.0 International License. So, feel free to contribute to the culture.</p>
+
+<p>If you&rsquo;re not a software programmer, and you&rsquo;re unfamiliar with code smell, don&rsquo;t worry about it. I&rsquo;ve come to extend my definition of a &ldquo;programmer&rdquo; to anyone actively working to control or transform the operation of something. I respect programmers at many levels. I know a lot of social change agents, entrepreneurs, and cultural workers who engage in life hacking, system improvement and/or social engineering on a daily basis.</p>
+
+<p>If you&rsquo;re one of them, I identify with and appreciate you. You might read these stories and feel as if I have bad grammar, use symbols in inappropriate places, take poetic license too liberally, or draw correlations that &ldquo;don&rsquo;t make no damn sense.&rdquo; That&rsquo;s cool. Feel free to comment or rewrite the stories and send me feedback.</p>
+
+<p>MetaRécits will eventually be a group of short stories inspired by the code challenges, labs and projects I&rsquo;m working on.</p>
+
+<p>Don&rsquo;t expect too much of these short stories.
+There&rsquo;s not designed to pass every test, be syntactically or semantically correct.</p>
+
+<p>At least not yet.</p>
+
+<p>Here&rsquo;s my first. I&rsquo;ve named it &ldquo;NESTED FORMS.&rdquo;
+It was inspired by a single line of text in one of the Flatiron Labs &ldquo;INTRODUCTORY NESTED FORMS.&rdquo;</p>
+
+<blockquote><p>Note: YOU DO NOT NEED A DATABASE, we just need to keep track of the forms input long enough to display it, not persist it. I don&rsquo;t expect the pirate to be there the next time I come to his URL, but it&rsquo;d be cool if he was.</p></blockquote>
+
+<p>This lab was designed to help programmers practice using nested forms in Sinatra.</p>
+
+<p>It succeeded. I&rsquo;m familiar.
+I&rsquo;m also inspired:</p>
+
+<ul>
+<li><a href="http://rolandobrown.github.io/blog/2015/08/26/nested-forms/">NESTED FORMS</a></li>
+</ul>
 
 ]]></content>
   </entry>
