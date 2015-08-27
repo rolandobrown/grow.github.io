@@ -3,7 +3,7 @@ layout: post
 title: "Meta Récits"
 date: 2015-08-26 23:00:30 -0400
 comments: true
-categories:
+categories: MetaRecits
 ---
 
 <iframe src="//giphy.com/embed/yx1Tzv0P6xTji" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/demon-short-stories-scary-story-yx1Tzv0P6xTji">via GIPHY</a></p>
@@ -38,7 +38,7 @@ There's not designed to pass every test, be syntactically or semantically correc
 
 At least not yet.
 
-Here's my first. It's called NESTED FORMS.
+Here's my first. I've named it "NESTED FORMS."
 It was inspired by a single line of text in one of the Flatiron Labs "INTRODUCTORY NESTED FORMS."
 
 > Note: YOU DO NOT NEED A DATABASE, we just need to keep track of the forms input long enough to display it, not persist it. I don't expect the pirate to be there the next time I come to his URL, but it'd be cool if he was.
@@ -48,4 +48,4 @@ This lab was designed to help programmers practice using nested forms in Sinatra
 It succeeded. I'm familiar.
 I'm also inspired:
 
-- [NESTED FORMS]()
+- [NESTED FORMS](http://rolandobrown.github.io/blog/2015/08/26/nested-forms/)
