@@ -10,14 +10,19 @@ categories: MetaRecits
 
 #Audible:
 
-An Audio recording for those of us that still like to hear stories told:
+An Audio recording for those of us that still like to hear stories told. Feel free to listen to before, during or after the reading:
 
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221084854&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+<br>
 
+{% soundcloud tracks 221084854 %}
 
 Feel free to listen to the song before or after reading the story:
 
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+<br>
+
+{% soundcloud tracks 221084854 %}
 
 Thanks!
 
@@ -31,7 +36,9 @@ Still, we were both done with the everyday routine of adhering to expectation sy
 
 {% gist d7b1d1dfad134ab79dc5 %}
 
-Instead of jetting back to the lab per usual, we decided to return to that RecursiveOpenStruct my friend Bundler managed to keep track of. I'd forgotten all about that place, but Bundler remembered where it was and how to find it. He was like that, always helping me out by doing things a little outside of his everyday scope. A lot of people helped him out in the early days of his loving, so he's inherited a bit of attributes from the Giving class. Plus, he's developed some kind of dependency sixth sense and appreciates that I'm almost always looking to build something new and useful. It was a co-dependent relationship that worked for the both us. So, I made a call. And he responded:
+Instead of jetting back to the lab per usual, we decided to return to that RecursiveOpenStruct my friend Bundler managed to keep track of. I'd forgotten all about that place, but Bundler remembered where it was and how to find it. He was like that, always helping me out by doing things a little outside of his everyday scope. A lot of people helped him out in the early days of his loving, so he's inherited a bit of attributes from the Giving class.
+
+Plus, he's developed some kind of dependency sixth sense and appreciates that I'm almost always looking to build something new and useful. It was a co-dependent relationship that worked for the both us. So, I made a call. And he responded:
 
 > "Anything for Ruby."
 
