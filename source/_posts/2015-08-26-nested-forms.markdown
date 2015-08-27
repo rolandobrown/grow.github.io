@@ -12,17 +12,12 @@ categories: MetaRecits
 
 An Audio recording for those of us that still like to hear stories told. Feel free to listen to before, during or after the reading:
 
-<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221084854&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
-<br>
-
 {% soundcloud tracks 221084854 %}
+
 
 Feel free to listen to the song before or after reading the story:
 
-<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
-<br>
-
-{% soundcloud tracks 221084854 %}
+{% soundcloud tracks 164655589 %}
 
 Thanks!
 
@@ -46,8 +41,8 @@ Plus, he's developed some kind of dependency sixth sense and appreciates that I'
 
 Each arrival began with a song: a listening that helped us both traverse. I chose a DSL. I think it was Sinatra 1.4.6. It must have been. Sinatra always helped to quickly created the perfect environment. It was as if that song was written specifically for this purpose: minimal effort, maximum return. Ruby appreciated that about me. She would get gitty every time I found it—that perfect beat. During those times she would send me a message. Something like: .send("you always find the right gem."). I would always respond with the same statement twice in a row:
 
-> >> "I've benefited from remembering good friends and good songs."
-> >> "I've benefited from remembering good friends and good songs."
+> "I've benefited from remembering good friends and good songs."
+> "I've benefited from remembering good friends and good songs."
 
 {% gist 60ca0b30c96dfd5f36ec %}
 
