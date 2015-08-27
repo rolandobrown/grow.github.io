@@ -4,7 +4,7 @@
   <title><![CDATA[/grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-08-27T00:17:36-04:00</updated>
+  <updated>2015-08-27T00:22:29-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -20,10 +20,17 @@
     <id>http://rolandobrown.github.io/blog/2015/08/26/nested-forms</id>
     <content type="html"><![CDATA[<blockquote><p>An introduction to this series is <a href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/">here</a>.</p></blockquote>
 
-<p>Audio:</p>
+<h1>Audio:</h1>
 
 <iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221084854&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 
+
+
+
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+
+
+<h1>Story:</h1>
 
 <p>It was Wednesday, a hump day. Not exactly a REST day.</p>
 
@@ -104,9 +111,6 @@ $ cat ruby_knows.rb
 # him.send(&quot;we&#39;re not here to store anything. We&#39;re here to enjoy.each {|other| ... }&quot;)</code></pre></noscript></div>
 
 
-
-
-<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
 
 ]]></content>
   </entry>
