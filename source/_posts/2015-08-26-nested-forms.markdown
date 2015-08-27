@@ -26,9 +26,9 @@ Each arrival began with a song: a listening that helped us both traverse. I chos
 
 {% gist 60ca0b30c96dfd5f36ec %}
 
-Mid listen, Sinatra on shotgun and ActiveRecord in use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that didn't need to do anything but see this. I really didn't need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever really return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice to not fix it. She reminded me:
+Mid listen, Sinatra on shotgun and ActiveRecord in use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn't need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn't really need to capture every good memory of this arrival, or anything that would follow. More importantly, neither of us could ever return to these moments anyway: to the first time she would glide by my hand; to the initial touch; to the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice to not fix it. She reminded me:
 
-> This didn't need to persist in memory. It was enough to just be there: in those moments with each other.
+> This doesn't need to persist in memory. It is enough to just be here: in these moments with each other.
 
 {% gist 43bb2da34f3e451d32e8 %}
 
