@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop&nbsp;rspec | /grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop-rspec/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-10-08T04:40:17-04:00</updated>
+  <updated>2015-10-08T04:47:50-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -34,12 +34,7 @@
 
 <p>When I first heard about &ldquo;RSpec,&rdquo; I immediately thought about &ldquo;Respect.&rdquo;&ldquo; Not the agreement, the best practice, or the slang expression, but the song. I literally thought about the song:</p>
 
-<p>  {% blockquote %}
-  R-E-S-P-E-C-T
-  Find out what it means to me
-  R-E-S-P-E-C-T
-  Take care, TCB"
-  {% endblockquote %}</p>
+<p>  <blockquote><p>R-E-S-P-E-C-T<br/>  Find out what it means to me<br/>  R-E-S-P-E-C-T<br/>  Take care, TCB"</p></blockquote></p>
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/cYbs_O_iMfU?rel=0" frameborder="0" allowfullscreen></iframe>
 
@@ -142,7 +137,9 @@ That&rsquo;s programming.</p>
 
 <p>Install RSpec and run &ldquo;rspec &ndash;init&rdquo; to set up your project to use RSpec. I customized by .bash_profile, so I just run they command &ldquo;aretha&rdquo; in order to set up my project:</p>
 
-<p>{% gist b445af05173af8014ff6 %}</p>
+<p><div><script src='https://gist.github.com/b445af05173af8014ff6.js'></script>
+<noscript><pre><code>$ gem install rspec</code></pre></noscript></div>
+</p>
 
 <p>This installs five gems:</p>
 
@@ -157,13 +154,35 @@ That&rsquo;s programming.</p>
 
 <p>While using Rspec, run this command if you need any help:</p>
 
-<p>{% gist b8049dc4db6651060455 %}</p>
+<p><div><script src='https://gist.github.com/b8049dc4db6651060455.js'></script>
+<noscript><pre><code>rspec --help</code></pre></noscript></div>
+</p>
 
 <h2>Start Simple</h2>
 
 <p>Start with a very simple example that expresses some basic desired behaviour.</p>
 
-<p>{% gist 9f7005381e9771ad2a1f aretha_spec.rb %}</p>
+<p><div><script src='https://gist.github.com/9f7005381e9771ad2a1f.js?file=aretha_spec.rb'></script>
+<noscript><pre><code># aretha_spec.rb
+require_relative &#39;aretha.rb&#39; #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe &quot;#done_you_wrong!&quot; do
+    it &quot;ain&#39;t gonna do you wrong while you&#39;re gone&quot; do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe &quot;#wanna_do_you_wrong&quot; do
+    it &quot;ain&#39;t gonna do you wrong (oo) &#39;cause I don&#39;t wanna (oo)&quot; do
+      expect(aretha.wanna_do_you_wrong(&quot;False&quot;)).not_to be_truthy
+    end
+  end
+end
+</code></pre></noscript></div>
+</p>
 
 <h2>Fail Fast. (Video)</h2>
 
@@ -179,11 +198,85 @@ That&rsquo;s programming.</p>
 </ul>
 
 
-<p>{% gist 5efb11808eaf783b008f aretha_spec.rb %}</p>
+<p><div><script src='https://gist.github.com/5efb11808eaf783b008f.js?file=aretha_spec.rb'></script>
+<noscript><pre><code># aretha_spec.rb
+require_relative &#39;../aretha.rb&#39; #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe &quot;#done_you_wrong!&quot; do
+    it &quot;ain&#39;t gonna do you wrong while you&#39;re gone&quot; do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe &quot;#wanna_do_you_wrong&quot; do
+    it &quot;ain&#39;t gonna do you wrong (oo) &#39;cause I don&#39;t wanna (oo)&quot; do
+      expect(aretha.wanna_do_you_wrong(&quot;False&quot;)).not_to be_truthy
+    end
+  end
+
+  describe &quot;#sweeter_than_honey&quot; do
+    it &quot;kisses are sweeter than honey&quot; do
+      expect(aretha.sweeter_than_honey(&quot;True&quot;)).to be_truthy
+    end
+  end
+
+  describe &quot;#raise_error&quot; do
+     it &quot;raisese an error when a litle respect don&#39;t come home&quot; do
+       expect { raise StandardError, &quot;All I&#39;m askin&#39; is for a little respect when you come home (just a little bit)&quot; }.
+         to raise_error(/respect/)
+     end
+   end
+
+   describe &quot;#asks_ghostface_to_explain&quot; do
+      it &quot;answers a wonderful question Steven Baker had about holla&quot; do
+        expect(aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)).to be_truthy
+      end
+    end
+
+end
+</code></pre></noscript></div>
+</p>
 
 <p>Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.</p>
 
-<p>{% gist 1c854673544374a63158 aretha.rb %}</p>
+<p><div><script src='https://gist.github.com/1c854673544374a63158.js?file=aretha.rb'></script>
+<noscript><pre><code>
+class Aretha
+
+  def done_you_wrong!
+    false
+  end
+
+  def wanna_do_you_wrong(truth)
+    @truth = truth
+    false unless truth != &quot;False&quot;
+  end
+
+  def sweeter_than_honey(kisses)
+    @kisses = kisses
+    true unless kisses != &quot;True&quot;
+  end
+
+  def raise_error
+    puts &quot;Give me all of your money!&quot;
+  end
+
+# Aretha probably knows about Ghostface. Ghostface absolutely respects Aretha. Still, note Holla != R-E-S-P-E-C-T in all situations.
+
+  def asks_ghostface_to_explain(holla)
+    @holla
+    true unless holla != &quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;
+  end
+end
+
+aretha = Aretha.new
+
+aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)
+</code></pre></noscript></div>
+</p>
 
 <h2>Run &amp; Refactor</h2>
 
@@ -201,7 +294,10 @@ That&rsquo;s programming.</p>
 
 <p>As a result, Behaviour is now asserted by pairing expect().to and expect().not_to with a Matcher predicate. In previous versions of RSpec, the behavior assertion syntax used the keyword &ldquo;should.&rdquo; Obviously, as one might expect, the shift from &ldquo;should&rdquo; to &ldquo;expect&rdquo; made much of RSpec&rsquo;s code cleaner, and unified some aspects of testing syntax.</p>
 
-<p>{% gist fa12a3f7bb78cf4b75c2 shouldbe_expect.rb %}</p>
+<p><div><script src='https://gist.github.com/fa12a3f7bb78cf4b75c2.js?file=shouldbe_expect.rb'></script>
+<noscript><pre><code>Old: my_object.should_not_be_a_kind_of(Foo)
+New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
+</p>
 
 <p>This seems like a great shift. I imagine Programmable languages, like people, don&rsquo;t always respectfully return what they should. In other words, setting clear and clean expectations early in the process just&hellip; well&hellip; helps. Period.</p>
 

@@ -29,7 +29,7 @@ Whether you're a new programmer settling into a new config/environment.rb, or an
 
 - Cultivate your imagination.
 - Make it work. Make it right. Make it fast.
-- Programming is: "The Science of Operation.", "The Art of Composition."]
+- Programming is: "The Science of Operation.", "The Art of Composition."
 - Do all things in moderation.
 - You don't start out writing good stuff. You start out writing crap and thinking it's good stuff, and then gradually you get better at it. That is why one of the most valuable traits is persistence.
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop | /grow|with|love/]]></title>
   <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop/atom.xml" rel="self"/>
   <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-10-08T04:40:17-04:00</updated>
+  <updated>2015-10-08T04:47:50-04:00</updated>
   <id>http://rolandobrown.github.io/</id>
   <author>
     <name><![CDATA[Rolando Brown aka Grow]]></name>
@@ -43,7 +43,15 @@
 
 <p>Back to Steven, who&rsquo;s blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
 
-<p>{% gist 3d647607800766c38501 slang_regular.rb %}</p>
+<p><div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
+<noscript><pre><code>
+&quot;Slang Expressions&quot; != &quot;Regular Expressions&quot;
+&quot;Regular Expressions&quot; != [&quot;Bam!&quot;, &quot;Aw, man!&quot;]
+
+#Give thanks for the Brolic Scholars, those Honorary Sociolinguistic Prodigies. 
+
+</code></pre></noscript></div>
+</p>
 
 <p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental. They are not variables defined randomly. Most slang is actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions in Hip Hop as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by <em>Brolic Scholars</em>, otherwise known as <em>Honorary Sociolinguistic Prodigies</em> using something similar to gsub methods.</p>
 
@@ -64,7 +72,27 @@
 
 <p>For example, we&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
 
-<p>{% gist 928ae13194e97b626f54 hiphop_elements.rb %}</p>
+<p><div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
+<noscript><pre><code># This method numbers the array of Hip-Hop Elements as expressed by Kool D.J. Herc and Afrikka Bambatta.
+# Note, this does not include the 9 Refinitions established by KRS-One. Also, big love to Pebblee Poo.
+
+elements = [&quot;Breaking&quot;, &quot;Mc&#39;ing&quot;, &quot;Graffiti Art&quot;, &quot;DJ&#39;ing&quot;, &quot;Knowledge&quot;]
+
+def hip_hop_culture(elements)
+  elements.map.with_index(1) { |elements, idx| puts &quot;#{idx}. #{elements}&quot;}
+  # with_index(offset = 0) {|(*args), idx| ... }
+end
+
+puts hip_hop_culture(elements)
+
+# &gt;&gt; 1. Breaking
+# &gt;&gt; 2. Mc&#39;ing
+# &gt;&gt; 3. Graffiti Art
+# &gt;&gt; 4. DJ&#39;ing
+# &gt;&gt; 5. Knowledge
+
+</code></pre></noscript></div>
+</p>
 
 <p>Now this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression.</p>
 
@@ -78,9 +106,7 @@
 
 <p><strong>Some big bold abstract statements:</strong></p>
 
-<p>{% blockquote %}
-superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
-{% endblockquote %}</p>
+<p><blockquote><p>superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;</p></blockquote></p>
 
 <ol>
 <li>In Hip Hop, you do the knowledge to access to the <em>essence</em>. Essence is a <em>superpower</em>.</li>
@@ -89,7 +115,15 @@ superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
 </ol>
 
 
-<p>{% gist fc4fbbc44873d145b926 dotheknowledge.rb %}</p>
+<p><div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
+<noscript><pre><code>knowledge = []
+%w{tools experiences teachers rabbitholes}.each do |lesson|
+  knowledge &lt;&lt; lesson and puts &quot;Added to knowledge&quot; unless lesson.include?(&quot;rabbithole&quot;)
+end
+puts knowledge.inspect
+
+# &gt;&gt; [&quot;tools&quot;, &quot;experiences&quot;, &quot;teachers&quot;]</code></pre></noscript></div>
+</p>
 
 <p>This rest of this post includes a few lessons learned on my road to being fully expressed as a Master Programmer. It&rsquo;s also an invitation to learn more about Hiphop and Hip Hop.</p>
 
@@ -110,12 +144,7 @@ superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
 
 <p><strong>For example, this is a single string of characters:</strong></p>
 
-<p>  {% blockquote %}
-  &ldquo;And if you want beef, then bring the ruckus
-  Wu Tang Clan ain&rsquo;t nuttin ta fuck with
-  Straight from the motherfucking slums that&rsquo;s busted
-  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with
-  {% endblockquote %}</p>
+<p>  <blockquote><p>&ldquo;And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with</p></blockquote></p>
 
 <p><strong>I want to perform the following actions on this text:</strong></p>
 
@@ -174,11 +203,7 @@ superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
 
 <p>There&rsquo;s this popular wisdom about Regular Expressions, a quote that&rsquo;s pretty much internet famous among Programmers. I read it. It goes a little something like this:</p>
 
-<p>  {% blockquote %}
-  Some people, when confronted with a problem, think
-  “I know, I&rsquo;ll use regular expressions.” Now they have two problems.
-  -Jamie Zawinski*
-  {% endblockquote %}</p>
+<p>  <blockquote><p>Some people, when confronted with a problem, think<br/>  “I know, I&rsquo;ll use regular expressions.” Now they have two problems.<br/>  -Jamie Zawinski*</p></blockquote></p>
 
 <p>Below is a slide of a few ideas that came to mind thinking about the relationship between Jamie Zawinski &amp; Jay-Z:</p>
 
@@ -192,7 +217,15 @@ superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
 
 <p><strong>Ok, now that we know what Regular Expressions are, here&rsquo;s how I used the following Regular Expressions:</strong></p>
 
-<p>{% gist 06acc7704e7716a4e561 gsub_regexp.rb %}</p>
+<p><div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
+<noscript><pre><code>  def alias
+    # kinda colorful transformations using gsub &amp; regexp
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i,
+    @name).gsub(/motherfucking slums/i,
+    @switchup).gsub(/fuck/i,
+    @aka).gsub(/busted/i, &quot;trusted&quot;)
+  end</code></pre></noscript></div>
+</p>
 
 <p>Notice how the gsub are chained together, one after the other, in the same method. The method doesn&rsquo;t work properly if you seperate the gsubs by line. You must apply them as a method on the result of the previous method. When coding it, it felt like passing the Mic between Emcees in a Cipher. A line break is like dropping the Mic. You keep the flow going, and everything grows as a result of momentum. That might not be what&rsquo;s happening exactly, but it felt like a good metaphor to me while coding this.</p>
 
@@ -204,7 +237,47 @@ superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;
 
 <h2>ain&rsquo;t nuttin ta futz with.</h2>
 
-<p>{% gist b97f23367db94b6a8555 footang.rb %}</p>
+<p><div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
+<noscript><pre><code>class Cohort
+  def initialize(name)
+    @name = name
+  end
+
+  def chorus(chorus)
+    @chorus = chorus  # =&gt; &quot;And if you want beef, then bring the ruckus\nWu Tang Clan ain&#39;t nuttin ta fuck with\nStraight from the motherfucking slums that&#39;s busted\nWu-Tang Clan ain&#39;t nuttin ta fuck with&quot;
+  end
+
+  def expletives(aka)
+    # colorful array of expletives
+    @aka = aka
+  end
+
+  def environment (switchup)
+    @switchup = switchup
+  end
+
+  def alias
+    # kinda colorful transformations using gsub &amp; regex
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i, @name).gsub(/motherfucking slums/i, @switchup).gsub(/fuck/i, @aka).gsub(/busted/i, &quot;trusted&quot;)
+  end
+
+end
+
+song = Cohort.new(&quot;Foo-Tang Clan&quot;)
+song.chorus (&quot;And if you want beef, then bring the ruckus\nWu Tang Clan ain&#39;t nuttin ta fuck with\nStraight from the motherfucking slums that&#39;s busted\nWu-Tang Clan ain&#39;t nuttin ta fuck with&quot;)
+song.expletives (&quot;futz&quot;)
+song.environment (&quot;Flatiron School&quot;)                                                                                                                                                             puts song.alias
+
+# &gt;&gt; And if you want beef, then bring the ruckus
+# &gt;&gt; Foo-Tang Clan ain&#39;t nuttin ta futz with
+# &gt;&gt; Straight from the Flatiron School that&#39;s trusted
+# &gt;&gt; Foo-Tang Clan ain&#39;t nuttin ta futz with
+
+## Notes
+# I grew up singing the chorus in it&#39;s trueschool form, and prefer that. Still, this is an example of using gsub &amp; regular expressions.
+# Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
+</code></pre></noscript></div>
+</p>
 
 <p>Enough respect to   Nikila Saravanan &amp; George Toothman.
 Nikila helped me craft the code above, and George accelerated my Octopress deployment.
