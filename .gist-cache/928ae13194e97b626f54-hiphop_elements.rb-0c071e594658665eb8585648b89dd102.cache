@@ -1,0 +1,18 @@
+# This method numbers the array of Hip-Hop Elements as expressed by Kool D.J. Herc and Afrikka Bambatta.
+# Note, this does not include the 9 Refinitions established by KRS-One. Also, big love to Pebblee Poo.
+
+elements = ["Breaking", "Mc'ing", "Graffiti Art", "DJ'ing", "Knowledge"]
+
+def hip_hop_culture(elements)
+  elements.map.with_index(1) { |elements, idx| puts "#{idx}. #{elements}"}
+  # with_index(offset = 0) {|(*args), idx| ... }
+end
+
+puts hip_hop_culture(elements)
+
+# >> 1. Breaking
+# >> 2. Mc'ing
+# >> 3. Graffiti Art
+# >> 4. DJ'ing
+# >> 5. Knowledge
+

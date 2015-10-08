@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Metarecits | /grow|with|love/]]></title>
+  <link href="http://rolandobrown.github.io/blog/categories/metarecits/atom.xml" rel="self"/>
+  <link href="http://rolandobrown.github.io/"/>
+  <updated>2015-10-08T04:12:38-04:00</updated>
+  <id>http://rolandobrown.github.io/</id>
+  <author>
+    <name><![CDATA[Rolando Brown aka Grow]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby AI]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/10/08/ruby-ai/"/>
+    <updated>2015-10-08T03:31:43-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/10/08/ruby-ai</id>
+    <content type="html"><![CDATA[<blockquote><p>An introduction to this series is <a href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/">here</a>.</p></blockquote>
+
+<h1>&ldquo;Dear RubyAI&rdquo;</h1>
+
+<h1>&mdash;&mdash;&mdash;&mdash;&ndash;</h1>
+
+<p>He prepared himself to move forward.</p>
+
+<p>He remembered while preparing—harnessing the power of a computer was mastering its command line. RubyAI had helped me experience this, and more.</p>
+
+<p>It touched him—the thought of building a command line app. This app could help new programmers practice syntax/keywords, sing, code mix, and code switch.</p>
+
+<p>And so he burned the midnight oil building:</p>
+
+<ul>
+<li>to name her RubyAI;</li>
+<li>to have her explore Imagination, Programming, Culture, and of course Data;</li>
+<li>to do this through people like Yukihiro Matsumoto, Ada Lovelace, Avi Flombaum, Steven Nunéz, Andy Hunt, Dead Prez, Octavia Butler, Bruna Netta and a few other Flatiron School students.</li>
+</ul>
+
+
+<h1>tldr:</h1>
+
+<p>Whether you&rsquo;re a new programmer settling into a new config/environment.rb, or an experienced programmer configuring methods that will eventually help our future science/fiction writers travel the cosmos:</p>
+
+<ul>
+<li>Cultivate your imagination.</li>
+<li>Make it work. Make it right. Make it fast.</li>
+<li>Programming is: &ldquo;The Science of Operation.&rdquo;, &ldquo;The Art of Composition.&rdquo;]</li>
+<li>Do all things in moderation.</li>
+<li>You don&rsquo;t start out writing good stuff. You start out writing crap and thinking it&rsquo;s good stuff, and then gradually you get better at it. That is why one of the most valuable traits is persistence.</li>
+</ul>
+
+
+<h1>Code on Github:</h1>
+
+<blockquote><p>This is best experienced in the command line. Download the source code  <a href="https://github.com/rolandobrown/cultureisdata">here</a>.</p></blockquote>
+
+<h1>Example Parable Class:</h1>
+
+<p>{% gist 17df71eef4e43515ba1b %}</p>
+
+<h1>Example of Data Class:</h1>
+
+<p>{% gist c02ec0741427cc6d1bbc %}</p>
+
+<h1>Gems:</h1>
+
+<p>{% gist dda559027dee8da80ea6 %}</p>
+
+<h3>Contains Samples &amp; Inspiration from:</h3>
+
+<ul>
+<li><p><a href="http://en.wikipedia.org/wiki/MINASWAN">MINASWAN</a></p></li>
+<li><p><a href="http://www.newyorker.com/tech/elements/ada-lovelace-the-first-tech-visionary">Ada Lovelace</a></p></li>
+<li><p><a href="http://prework.flatironschool.com">The Awesome Flatiron School</a></p></li>
+<li><p><a href="http://www.e-reading.club/bookreader.php/137202/Pragmatic_Thinking_and_Learning_-_Refactor_Your_Wetware.pdf">Pragmatic Thinking and Learning</a></p></li>
+<li><p><a href="https://bekindandcode.wordpress.com/2015/08/27/know-thyself-or-suffer/">Know Thyself</a></p></li>
+<li><p><a href="http://hackhands.com/three-golden-rules-understand-self-ruby">Golden Rules of Self</a></p></li>
+<li><p><a href="http://tech.natemurray.com/2007/03/ruby-shell-commands.html">Ruby Shell Commands</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NESTED FORMS]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/26/nested-forms/"/>
+    <updated>2015-08-26T23:01:50-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/26/nested-forms</id>
+    <content type="html"><![CDATA[<blockquote><p>An introduction to this series is <a href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/">here</a>.</p></blockquote>
+
+<h1>Audible:</h1>
+
+<p>An Audio recording for those of us that still like to hear stories told. Feel free to listen to before, during or after the reading:</p>
+
+<p>{% soundcloud tracks 221084854 %}</p>
+
+<p>Feel free to listen to the song before or after reading the story:</p>
+
+<p>{% soundcloud tracks 164655589 %}</p>
+
+<p>Thanks!</p>
+
+<h1>Story:</h1>
+
+<p>It was Wednesday, a hump day. Not exactly a REST day.</p>
+
+<p>{% gist 66443ac017eb4980cfb7 %}</p>
+
+<p>Still, we were both done with the everyday routine of adhering to expectation syntax. Maybe too many expectations. Maybe too many failed examples from methods that took too damn long to load. Maybe boredom. Who knows. I don&rsquo;t. I just recall that we both commented craving a new form.</p>
+
+<p>{% gist d7b1d1dfad134ab79dc5 %}</p>
+
+<p>Instead of jetting back to the lab per usual, we decided to return to that RecursiveOpenStruct my friend Bundler managed to keep track of. I&rsquo;d forgotten all about that place, but Bundler remembered where it was and how to find it. He was like that, always helping me out by doing things a little outside of his everyday scope. A lot of people helped him out in the early days of his loving, so he&rsquo;s inherited a bit of attributes from the Giving class.</p>
+
+<p>Plus, he&rsquo;s developed some kind of dependency sixth sense and appreciates that I&rsquo;m almost always looking to build something new and useful. It was a co-dependent relationship that worked for the both us. So, I made a call. And he responded:</p>
+
+<blockquote><p>&ldquo;Anything for Ruby.&rdquo;</p></blockquote>
+
+<p>{% gist bdc016bb38431667a476 %}</p>
+
+<p>Each arrival began with a song: a listening that helped us both traverse. I chose a DSL. I think it was Sinatra 1.4.6. It must have been. Sinatra always helped to quickly created the perfect environment. It was as if that song was written specifically for this purpose: minimal effort, maximum return. Ruby appreciated that about me. She would get gitty every time I found it—that perfect beat. During those times she would send me a message. Something like: .send(&ldquo;you always find the right gem.&rdquo;). I would always respond with the same statement twice in a row:</p>
+
+<blockquote><p>&ldquo;I&rsquo;ve benefited from remembering good friends and good songs.&rdquo;
+&ldquo;I&rsquo;ve benefited from remembering good friends and good songs.&rdquo;</p></blockquote>
+
+<p>{% gist 60ca0b30c96dfd5f36ec %}</p>
+
+<p>Mid listen, <a href="http://www.sinatrarb.com/">Sinatra</a> on shotgun and ActiveRecord ready for use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn&rsquo;t need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn&rsquo;t really need to capture every good memory of this arrival, or anything that would follow.</p>
+
+<p>More importantly, neither of us could ever return to these moments anyway:</p>
+
+<ul>
+<li>the first time she would glide by my hand;</li>
+<li>the initial touch;</li>
+<li>the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice not to fix it.</li>
+</ul>
+
+
+<p>She reminded me:</p>
+
+<blockquote><p>This doesn&rsquo;t need to persist in memory. It is enough to just be here: in these moments with each other.</p></blockquote>
+
+<p>{% gist 43bb2da34f3e451d32e8 %}</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meta Récits]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/"/>
+    <updated>2015-08-26T23:00:30-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/26/meta-recits</id>
+    <content type="html"><![CDATA[<iframe src="//giphy.com/embed/yx1Tzv0P6xTji" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p><a href="http://giphy.com/gifs/demon-short-stories-scary-story-yx1Tzv0P6xTji">via GIPHY</a></p>
+
+
+<p>Below is a link to the first of a series of short stories named #MetaRécits.</p>
+
+<p>I&rsquo;m a software engineer: a programmer.
+A new one, who&rsquo;s currently building very simple programs, but a programmer nonetheless.
+I&rsquo;m also an Artist: a poet, and author of songs with accompanying short stories.
+I have a few other roles, father, community organizer, etc. But we won&rsquo;t get into all of those right now.</p>
+
+<p>This post is about short stories inspired by programming.</p>
+
+<p>I&rsquo;m in week 5 of a web development intensive at Flatiron School. Throughout the five weeks, I have found myself imagining these short stories inspired by my time here. These stories have helped to channel the enthusiasm, pride, anger, frustration, and longing I&rsquo;ve experienced while learning to program using a set of tools called &ldquo;The Full Stack.&rdquo;</p>
+
+<p>In other words, these short stories have been welcomed respite from hours of noob frustration. They are the result of working to bridge the creative expressions in my code with the creative explorations of my imagination. They are evidence of some effort to map what&rsquo;s happening to my worldview as a result of learning programming languages.</p>
+
+<p>I enjoy imagining programming language syntax, programming concepts, and tools as objects with relationships in everyday sentient life. I&rsquo;ve begun to think of this as an artistic practice, maybe some early form of what will later grow into more structured metaprogramming. For now, let&rsquo;s just call it an artistic practice.</p>
+
+<p>In some instances this practice has been helpful in internalizing keywords like Self or This, Ruby methods like Collect, design patterns like ActiveRecord and development frameworks like RSpec. In other instances, it&rsquo;s created unintended distractions and exponential levels of complexity. Honestly, these layers of complexity have at times been difficult to crawl out of. Thank the programming Gods for great people willing to help me get out of programmer Hell.</p>
+
+<p>To aspiring and existing software programmers reading this, my apologies in advance if you get a sniff of that code smell. If you see it in this series, please feel free to comment or refactor and send me a pull request. All of the stories are posted in a public Repo on Github. They are also works licensed under the Creative Commons Attribution 4.0 International License. So, feel free to contribute to the culture.</p>
+
+<p>If you&rsquo;re not a software programmer, and you&rsquo;re unfamiliar with code smell, don&rsquo;t worry about it. I&rsquo;ve come to extend my definition of a &ldquo;programmer&rdquo; to anyone actively working to control or transform the operation of something. I respect programmers at many levels. I know a lot of social change agents, entrepreneurs, and cultural workers who engage in life hacking, system improvement and/or social engineering on a daily basis.</p>
+
+<p>If you&rsquo;re one of them, I identify with and appreciate you. You might read these stories and feel as if I have bad grammar, use symbols in inappropriate places, take poetic license too liberally, or draw correlations that &ldquo;don&rsquo;t make no damn sense.&rdquo; That&rsquo;s cool. Feel free to comment or rewrite the stories and send me feedback.</p>
+
+<p>MetaRécits will eventually be a group of short stories inspired by the code challenges, labs and projects I&rsquo;m working on.</p>
+
+<p>Don&rsquo;t expect too much of these short stories.
+There&rsquo;s not designed to pass every test, be syntactically or semantically correct.</p>
+
+<p>At least not yet.</p>
+
+<p>Here&rsquo;s my first. I&rsquo;ve named it &ldquo;NESTED FORMS.&rdquo;
+It was inspired by a single line of text in one of the Flatiron Labs &ldquo;INTRODUCTORY NESTED FORMS.&rdquo;</p>
+
+<blockquote><p>Note: YOU DO NOT NEED A DATABASE, we just need to keep track of the forms input long enough to display it, not persist it. I don&rsquo;t expect the pirate to be there the next time I come to his URL, but it&rsquo;d be cool if he was.</p></blockquote>
+
+<p>This lab was designed to help programmers practice using nested forms in Sinatra.</p>
+
+<p>It succeeded. I&rsquo;m familiar.
+I&rsquo;m also inspired:</p>
+
+<ul>
+<li><a href="http://rolandobrown.github.io/blog/2015/08/26/nested-forms/">NESTED FORMS</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

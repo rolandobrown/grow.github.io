@@ -1,0 +1,32 @@
+
+class Aretha
+
+  def done_you_wrong!
+    false
+  end
+
+  def wanna_do_you_wrong(truth)
+    @truth = truth
+    false unless truth != "False"
+  end
+
+  def sweeter_than_honey(kisses)
+    @kisses = kisses
+    true unless kisses != "True"
+  end
+
+  def raise_error
+    puts "Give me all of your money!"
+  end
+
+# Aretha probably knows about Ghostface. Ghostface absolutely respects Aretha. Still, note Holla != R-E-S-P-E-C-T in all situations.
+
+  def asks_ghostface_to_explain(holla)
+    @holla
+    true unless holla != "Don't believe what you see, just watch (true)\nSpeak to the seeds, give 'em lead on jobs (come on)\nEducate, keep it peace wit Gods (that's right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic's palm"
+  end
+end
+
+aretha = Aretha.new
+
+aretha.asks_ghostface_to_explain("Don't believe what you see, just watch (true)\nSpeak to the seeds, give 'em lead on jobs (come on)\nEducate, keep it peace wit Gods (that's right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic's palm")

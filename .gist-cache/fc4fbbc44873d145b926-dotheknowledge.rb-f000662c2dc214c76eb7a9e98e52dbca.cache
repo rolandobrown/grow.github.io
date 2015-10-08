@@ -1,0 +1,7 @@
+knowledge = []
+%w{tools experiences teachers rabbitholes}.each do |lesson|
+  knowledge << lesson and puts "Added to knowledge" unless lesson.include?("rabbithole")
+end
+puts knowledge.inspect
+
+# >> ["tools", "experiences", "teachers"]
