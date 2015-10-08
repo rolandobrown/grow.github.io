@@ -1,24 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop&nbsp;rspec | /grow|with|love/]]></title>
-  <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop-rspec/atom.xml" rel="self"/>
-  <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-10-08T04:47:50-04:00</updated>
-  <id>http://rolandobrown.github.io/</id>
-  <author>
-    <name><![CDATA[Rolando Brown aka Grow]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Taking Care of Business With a Little RSpec - /grow|with|love/</title>
+  <meta name="author" content="Rolando Brown aka Grow">
 
   
-  <entry>
-    <title type="html"><![CDATA[Taking Care of Business With a Little RSpec]]></title>
-    <link href="http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/"/>
-    <updated>2015-08-24T00:36:00-04:00</updated>
-    <id>http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec</id>
-    <content type="html"><![CDATA[<h1>tldr</h1>
+  <meta name="description" content="tldr &ldquo;Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. Learn about Steven Baker, Aretha Franklin &amp; Seymour &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  
+  <link rel="canonical" href="http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="/grow|with|love/" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.useso.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.useso.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body   >
+  <div id="sidebar_control"></div>
+  <div id="sidebar">
+    <div class="logo">
+      .rb
+    </div>
+    <div class="content hide">
+      <section role="navigation">
+        <header role="banner"><hgroup>
+  <h1><a href="/">Rolando Brown</a></h1>
+  
+    <h2>returning lessons while learning, loving and coding programs.</h2>
+  
+</hgroup>
+
+</header>
+        
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rolandobrown.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+  <li><a href="/">home</a></li>
+  <li><a href="//wg.dotkrnl.com/p/public">public</a></li>
+</ul>
+
+
+      </section>
+      
+        <section>
+  <h2>recent</h2>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/08/ruby-ai/">Ruby AI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/26/nested-forms/">NESTED FORMS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/26/meta-recits/">Meta Récits</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/">Taking Care of Business With a Little RSpec</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/11/regex/">Regex Ain't One of My Problems</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h2>github</h2>
+  
+  <ul id="gh_repos">
+  </ul>
+</section>
+
+
+
+
+
+      
+    </div>
+  </div>
+  <div id="main">
+    <div class="content">
+      <article class="hentry" role="article">
+  
+  
+    <header>
+      <div class="back"><a href="/" onclick="history.go(-1);return false;">← Back</a></div>
+      <h1 class="entry-title">Taking Care of Business With a Little RSpec</h1>
+    </header>
+  
+  <div class="entry-content"><h1>tldr</h1>
 
 <blockquote><p>&ldquo;Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. Learn about Steven Baker, Aretha Franklin &amp; Seymour Papert!&rdquo;</p></blockquote>
 
@@ -137,9 +233,9 @@ That&rsquo;s programming.</p>
 
 <p>Install RSpec and run &ldquo;rspec &ndash;init&rdquo; to set up your project to use RSpec. I customized by .bash_profile, so I just run they command &ldquo;aretha&rdquo; in order to set up my project:</p>
 
-<p><div><script src='https://gist.github.com/b445af05173af8014ff6.js'></script>
+<div><script src='https://gist.github.com/b445af05173af8014ff6.js'></script>
 <noscript><pre><code>$ gem install rspec</code></pre></noscript></div>
-</p>
+
 
 <p>This installs five gems:</p>
 
@@ -154,15 +250,15 @@ That&rsquo;s programming.</p>
 
 <p>While using Rspec, run this command if you need any help:</p>
 
-<p><div><script src='https://gist.github.com/b8049dc4db6651060455.js'></script>
+<div><script src='https://gist.github.com/b8049dc4db6651060455.js'></script>
 <noscript><pre><code>rspec --help</code></pre></noscript></div>
-</p>
+
 
 <h2>Start Simple</h2>
 
 <p>Start with a very simple example that expresses some basic desired behaviour.</p>
 
-<p><div><script src='https://gist.github.com/9f7005381e9771ad2a1f.js?file=aretha_spec.rb'></script>
+<div><script src='https://gist.github.com/9f7005381e9771ad2a1f.js?file=aretha_spec.rb'></script>
 <noscript><pre><code># aretha_spec.rb
 require_relative &#39;aretha.rb&#39; #connect test to code
 
@@ -182,7 +278,7 @@ RSpec.describe Aretha do
   end
 end
 </code></pre></noscript></div>
-</p>
+
 
 <h2>Fail Fast. (Video)</h2>
 
@@ -198,7 +294,7 @@ end
 </ul>
 
 
-<p><div><script src='https://gist.github.com/5efb11808eaf783b008f.js?file=aretha_spec.rb'></script>
+<div><script src='https://gist.github.com/5efb11808eaf783b008f.js?file=aretha_spec.rb'></script>
 <noscript><pre><code># aretha_spec.rb
 require_relative &#39;../aretha.rb&#39; #connect test to code
 
@@ -238,11 +334,11 @@ RSpec.describe Aretha do
 
 end
 </code></pre></noscript></div>
-</p>
+
 
 <p>Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.</p>
 
-<p><div><script src='https://gist.github.com/1c854673544374a63158.js?file=aretha.rb'></script>
+<div><script src='https://gist.github.com/1c854673544374a63158.js?file=aretha.rb'></script>
 <noscript><pre><code>
 class Aretha
 
@@ -276,7 +372,7 @@ aretha = Aretha.new
 
 aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)
 </code></pre></noscript></div>
-</p>
+
 
 <h2>Run &amp; Refactor</h2>
 
@@ -294,10 +390,10 @@ aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watc
 
 <p>As a result, Behaviour is now asserted by pairing expect().to and expect().not_to with a Matcher predicate. In previous versions of RSpec, the behavior assertion syntax used the keyword &ldquo;should.&rdquo; Obviously, as one might expect, the shift from &ldquo;should&rdquo; to &ldquo;expect&rdquo; made much of RSpec&rsquo;s code cleaner, and unified some aspects of testing syntax.</p>
 
-<p><div><script src='https://gist.github.com/fa12a3f7bb78cf4b75c2.js?file=shouldbe_expect.rb'></script>
+<div><script src='https://gist.github.com/fa12a3f7bb78cf4b75c2.js?file=shouldbe_expect.rb'></script>
 <noscript><pre><code>Old: my_object.should_not_be_a_kind_of(Foo)
 New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
-</p>
+
 
 <p>This seems like a great shift. I imagine Programmable languages, like people, don&rsquo;t always respectfully return what they should. In other words, setting clear and clean expectations early in the process just&hellip; well&hellip; helps. Period.</p>
 
@@ -357,7 +453,133 @@ New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
 <li><p><a href="https://medium.com/@ejlarcombe/loud-idiot-ii-parsing-the-error-message-353b741b83d8?source=rss-5647f111443b------2">Elizabeth Larcombe: LOUD IDIOT II: Parsing the Error Message</a></p></li>
 </ul>
 
-]]></content>
-  </entry>
+</div>
+  <footer>
+    <div class="articlemeta">
+      <span class="hide">
+        
+
+<span class="categories">
   
-</feed>
+    <a class='category' href='/blog/categories/flatiron-school-hiphop-rspec/'>flatiron&nbsp;school&nbsp;hiphop&nbsp;rspec</a>
+  
+</span>
+
+ @
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-08-24T00:36:00-04:00" pubdate data-updated="true"></time>
+      </span>
+      <span class="plus">
+        
+          <a href="#">+</a>
+        
+      </span>
+    </div>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/" data-via="rolandobrown" data-counturl="http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <div class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/08/11/regex/" title="Previous Post: regex ain't one of my problems">&laquo; regex ain't one of my problems</a>
+      
+    </div>
+  </footer>
+
+
+</article>
+
+
+    </div>
+    <footer role="contentinfo"><div class="content">
+  <p>
+    Copyright &copy; 2015 Rolando Brown aka Grow
+  </p>
+</div>
+
+</footer>
+    
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </div>
+  <script src="/javascripts/modernizr-2.0.js"></script>
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+<script src="/javascripts/libs/respond.js" type="text/javascript"></script>
+<script src="/javascripts/octopress.js" type="text/javascript"></script>
+
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'rolandobrown',
+      count: 0,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+  </script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var userAgent = navigator.userAgent.toLowerCase();
+  var isiPhone = (userAgent.indexOf('iphone') != -1 || userAgent.indexOf('ipod') != -1) ? true : false;
+  var isAndroid = (userAgent.indexOf('android') != -1) ? true : false;
+  clickEvent = (isiPhone || isAndroid) ? 'touchstart' : 'click';
+  $('#sidebar').on(clickEvent, function() {
+    $(this).toggleClass('open');
+  });
+  $('.articlemeta').on(clickEvent, function() {
+    toggleDisqus();
+    $(this).toggleClass('open');
+  });
+});
+</script>
+
+</body>
+</html>

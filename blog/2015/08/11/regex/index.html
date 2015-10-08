@@ -1,24 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Flatiron&nbsp;school&nbsp;hiphop | /grow|with|love/]]></title>
-  <link href="http://rolandobrown.github.io/blog/categories/flatiron-school-hiphop/atom.xml" rel="self"/>
-  <link href="http://rolandobrown.github.io/"/>
-  <updated>2015-10-08T04:47:50-04:00</updated>
-  <id>http://rolandobrown.github.io/</id>
-  <author>
-    <name><![CDATA[Rolando Brown aka Grow]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Regex Ain't One of My Problems - /grow|with|love/</title>
+  <meta name="author" content="Rolando Brown aka Grow">
 
   
-  <entry>
-    <title type="html"><![CDATA[Regex Ain't One of My Problems]]></title>
-    <link href="http://rolandobrown.github.io/blog/2015/08/11/regex/"/>
-    <updated>2015-08-11T08:00:00-04:00</updated>
-    <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
-    <content type="html"><![CDATA[<p><strong>tldr = &ldquo;Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular expressions.&rdquo;</strong></p>
+  <meta name="description" content="tldr = &ldquo;Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular expressions.&rdquo; summary = &ldquo;I designed a &hellip;">
+  
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  
+  <link rel="canonical" href="http://rolandobrown.github.io/blog/2015/08/11/regex">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="/grow|with|love/" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.useso.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.useso.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+  
+
+</head>
+
+<body   >
+  <div id="sidebar_control"></div>
+  <div id="sidebar">
+    <div class="logo">
+      .rb
+    </div>
+    <div class="content hide">
+      <section role="navigation">
+        <header role="banner"><hgroup>
+  <h1><a href="/">Rolando Brown</a></h1>
+  
+    <h2>returning lessons while learning, loving and coding programs.</h2>
+  
+</hgroup>
+
+</header>
+        
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:rolandobrown.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+
+<ul class="main-navigation">
+  <li><a href="/">home</a></li>
+  <li><a href="//wg.dotkrnl.com/p/public">public</a></li>
+</ul>
+
+
+      </section>
+      
+        <section>
+  <h2>recent</h2>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/08/ruby-ai/">Ruby AI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/26/nested-forms/">NESTED FORMS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/26/meta-recits/">Meta Récits</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/">Taking Care of Business With a Little RSpec</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/08/11/regex/">Regex Ain't One of My Problems</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h2>github</h2>
+  
+  <ul id="gh_repos">
+  </ul>
+</section>
+
+
+
+
+
+      
+    </div>
+  </div>
+  <div id="main">
+    <div class="content">
+      <article class="hentry" role="article">
+  
+  
+    <header>
+      <div class="back"><a href="/" onclick="history.go(-1);return false;">← Back</a></div>
+      <h1 class="entry-title">Regex Ain't One of My Problems</h1>
+    </header>
+  
+  <div class="entry-content"><p><strong>tldr = &ldquo;Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular expressions.&rdquo;</strong></p>
 
 <p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
 
@@ -43,7 +139,7 @@
 
 <p>Back to Steven, who&rsquo;s blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
 
-<p><div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
+<div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
 <noscript><pre><code>
 &quot;Slang Expressions&quot; != &quot;Regular Expressions&quot;
 &quot;Regular Expressions&quot; != [&quot;Bam!&quot;, &quot;Aw, man!&quot;]
@@ -51,7 +147,7 @@
 #Give thanks for the Brolic Scholars, those Honorary Sociolinguistic Prodigies. 
 
 </code></pre></noscript></div>
-</p>
+
 
 <p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental. They are not variables defined randomly. Most slang is actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions in Hip Hop as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by <em>Brolic Scholars</em>, otherwise known as <em>Honorary Sociolinguistic Prodigies</em> using something similar to gsub methods.</p>
 
@@ -72,7 +168,7 @@
 
 <p>For example, we&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
 
-<p><div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
+<div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
 <noscript><pre><code># This method numbers the array of Hip-Hop Elements as expressed by Kool D.J. Herc and Afrikka Bambatta.
 # Note, this does not include the 9 Refinitions established by KRS-One. Also, big love to Pebblee Poo.
 
@@ -92,7 +188,7 @@ puts hip_hop_culture(elements)
 # &gt;&gt; 5. Knowledge
 
 </code></pre></noscript></div>
-</p>
+
 
 <p>Now this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression.</p>
 
@@ -106,7 +202,8 @@ puts hip_hop_culture(elements)
 
 <p><strong>Some big bold abstract statements:</strong></p>
 
-<p><blockquote><p>superpower = &ldquo;the ability to fully express yourself.&rdquo;&ldquo;</p></blockquote></p>
+<blockquote><p>superpower = "the ability to fully express yourself.""</p></blockquote>
+
 
 <ol>
 <li>In Hip Hop, you do the knowledge to access to the <em>essence</em>. Essence is a <em>superpower</em>.</li>
@@ -115,7 +212,7 @@ puts hip_hop_culture(elements)
 </ol>
 
 
-<p><div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
+<div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
 <noscript><pre><code>knowledge = []
 %w{tools experiences teachers rabbitholes}.each do |lesson|
   knowledge &lt;&lt; lesson and puts &quot;Added to knowledge&quot; unless lesson.include?(&quot;rabbithole&quot;)
@@ -123,7 +220,7 @@ end
 puts knowledge.inspect
 
 # &gt;&gt; [&quot;tools&quot;, &quot;experiences&quot;, &quot;teachers&quot;]</code></pre></noscript></div>
-</p>
+
 
 <p>This rest of this post includes a few lessons learned on my road to being fully expressed as a Master Programmer. It&rsquo;s also an invitation to learn more about Hiphop and Hip Hop.</p>
 
@@ -217,7 +314,7 @@ puts knowledge.inspect
 
 <p><strong>Ok, now that we know what Regular Expressions are, here&rsquo;s how I used the following Regular Expressions:</strong></p>
 
-<p><div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
+<div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
 <noscript><pre><code>  def alias
     # kinda colorful transformations using gsub &amp; regexp
     @chorus.gsub(/(wu(-|\s)tang\sclan)/i,
@@ -225,7 +322,7 @@ puts knowledge.inspect
     @switchup).gsub(/fuck/i,
     @aka).gsub(/busted/i, &quot;trusted&quot;)
   end</code></pre></noscript></div>
-</p>
+
 
 <p>Notice how the gsub are chained together, one after the other, in the same method. The method doesn&rsquo;t work properly if you seperate the gsubs by line. You must apply them as a method on the result of the previous method. When coding it, it felt like passing the Mic between Emcees in a Cipher. A line break is like dropping the Mic. You keep the flow going, and everything grows as a result of momentum. That might not be what&rsquo;s happening exactly, but it felt like a good metaphor to me while coding this.</p>
 
@@ -237,7 +334,7 @@ puts knowledge.inspect
 
 <h2>ain&rsquo;t nuttin ta futz with.</h2>
 
-<p><div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
+<div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
 <noscript><pre><code>class Cohort
   def initialize(name)
     @name = name
@@ -277,7 +374,7 @@ song.environment (&quot;Flatiron School&quot;)                                  
 # I grew up singing the chorus in it&#39;s trueschool form, and prefer that. Still, this is an example of using gsub &amp; regular expressions.
 # Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
 </code></pre></noscript></div>
-</p>
+
 
 <p>Enough respect to   Nikila Saravanan &amp; George Toothman.
 Nikila helped me craft the code above, and George accelerated my Octopress deployment.
@@ -365,7 +462,131 @@ Towards every opportunity to /grow|with|love/im</p>
 
 <script src="//repl.it/embed/BDEl/5.js"></script>
 
-]]></content>
-  </entry>
+</div>
+  <footer>
+    <div class="articlemeta">
+      <span class="hide">
+        
+
+<span class="categories">
   
-</feed>
+    <a class='category' href='/blog/categories/flatiron-school-hiphop/'>flatiron&nbsp;school&nbsp;hiphop</a>
+  
+</span>
+
+ @
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-08-11T08:00:00-04:00" pubdate data-updated="true"></time>
+      </span>
+      <span class="plus">
+        
+          <a href="#">+</a>
+        
+      </span>
+    </div>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://rolandobrown.github.io/blog/2015/08/11/regex/" data-via="rolandobrown" data-counturl="http://rolandobrown.github.io/blog/2015/08/11/regex/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <div class="meta">
+      
+    </div>
+  </footer>
+
+
+</article>
+
+
+    </div>
+    <footer role="contentinfo"><div class="content">
+  <p>
+    Copyright &copy; 2015 Rolando Brown aka Grow
+  </p>
+</div>
+
+</footer>
+    
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+  </div>
+  <script src="/javascripts/modernizr-2.0.js"></script>
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+<script src="/javascripts/libs/respond.js" type="text/javascript"></script>
+<script src="/javascripts/octopress.js" type="text/javascript"></script>
+
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'rolandobrown',
+      count: 0,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+  </script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var userAgent = navigator.userAgent.toLowerCase();
+  var isiPhone = (userAgent.indexOf('iphone') != -1 || userAgent.indexOf('ipod') != -1) ? true : false;
+  var isAndroid = (userAgent.indexOf('android') != -1) ? true : false;
+  clickEvent = (isiPhone || isAndroid) ? 'touchstart' : 'click';
+  $('#sidebar').on(clickEvent, function() {
+    $(this).toggleClass('open');
+  });
+  $('.articlemeta').on(clickEvent, function() {
+    toggleDisqus();
+    $(this).toggleClass('open');
+  });
+});
+</script>
+
+</body>
+</html>

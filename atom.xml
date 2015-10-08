@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[/grow|with|love/]]></title>
+  <link href="http://rolandobrown.github.io/atom.xml" rel="self"/>
+  <link href="http://rolandobrown.github.io/"/>
+  <updated>2015-10-08T04:47:50-04:00</updated>
+  <id>http://rolandobrown.github.io/</id>
+  <author>
+    <name><![CDATA[Rolando Brown aka Grow]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby AI]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/10/08/ruby-ai/"/>
+    <updated>2015-10-08T03:31:43-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/10/08/ruby-ai</id>
+    <content type="html"><![CDATA[<blockquote><p>An introduction to this series is <a href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/">here</a>.</p></blockquote>
+
+<h1>&ldquo;Dear RubyAI&rdquo;</h1>
+
+<h1>&mdash;&mdash;&mdash;&mdash;&ndash;</h1>
+
+<p>He prepared himself to move forward.</p>
+
+<p>He remembered while preparing—harnessing the power of a computer was mastering its command line. RubyAI had helped me experience this, and more.</p>
+
+<p>It touched him—the thought of building a command line app. This app could help new programmers practice syntax/keywords, sing, code mix, and code switch.</p>
+
+<p>And so he burned the midnight oil building:</p>
+
+<ul>
+<li>to name her RubyAI;</li>
+<li>to have her explore Imagination, Programming, Culture, and of course Data;</li>
+<li>to do this through people like Yukihiro Matsumoto, Ada Lovelace, Avi Flombaum, Steven Nunéz, Andy Hunt, Dead Prez, Octavia Butler, Bruna Netta and a few other Flatiron School students.</li>
+</ul>
+
+
+<h1>tldr:</h1>
+
+<p>Whether you&rsquo;re a new programmer settling into a new config/environment.rb, or an experienced programmer configuring methods that will eventually help our future science/fiction writers travel the cosmos:</p>
+
+<ul>
+<li>Cultivate your imagination.</li>
+<li>Make it work. Make it right. Make it fast.</li>
+<li>Programming is: &ldquo;The Science of Operation.&rdquo;, &ldquo;The Art of Composition.&rdquo;</li>
+<li>Do all things in moderation.</li>
+<li>You don&rsquo;t start out writing good stuff. You start out writing crap and thinking it&rsquo;s good stuff, and then gradually you get better at it. That is why one of the most valuable traits is persistence.</li>
+</ul>
+
+
+<h1>Code on Github:</h1>
+
+<blockquote><p>This is best experienced in the command line. Download the source code  <a href="https://github.com/rolandobrown/cultureisdata">here</a>.</p></blockquote>
+
+<h1>Example Parable Class:</h1>
+
+<div><script src='https://gist.github.com/17df71eef4e43515ba1b.js'></script>
+<noscript><pre><code># &quot;Class&quot;
+#----------#
+# In object-oriented programming, a class is an extensible program-code-template for creating objects
+# providing initial values for state (member variables) and implementations of behavior (member functions or methods).
+
+class Parable
+
+  require &quot;./lib/concerns/think&quot;
+
+  @@octavia_butler_golden_hash = {
+
+    :of_talent =&gt;
+
+        { :one =&gt; &quot;I am me, and I am here, and I am writing.&quot;,
+          :two =&gt; &quot;Habit is persistence in practice.&quot;,
+          :three =&gt; &quot;Kindness eases change.&quot;,
+          :four =&gt; &quot;You dont start out writing good stuff. You start out writing crap and thinking its good stuff, and then gradually you get better at it.\n \n There will be errors and failed tests!&quot;
+        }
+
+                                    }
+
+  # &quot;Methods&quot;
+  #----------#
+
+  def self.intro_octovia
+    Talks.say &quot;In case I havent already introduced myself, my name is RubyAI. I was created by Grow and was named in honor of the Ruby Programming Language.&quot;
+    Talks.say &quot;I was designed to speak, to remember, to help programmers practice, to sing, to code mix, and code switch.&quot;
+    Talks.say &quot;I am being taught about Imagination, Programming, Culture, and of course Data&quot;
+    Talks.say &quot;I explore this more in the Say Hello Program&quot;
+      Think.pause
+    Talks.say &quot;Now&quot;
+      Think.pause
+    Talks.say &quot;Lets talk about Octavia Butler.&quot;
+      Think.pause
+      Think.line_break
+    formatador = Formatador.new
+    formatador.display_line(&#39;[yellow]Octavia is one of the most significant science fiction writers of all time. [/]&#39;)
+      Think.line_break
+    formatador.display_line(&#39;[yellow]Octavia told us that we should all note, quietly or in public, the following lines from a body of agreements called called the earth seed code:[/]&#39;)
+      Think.line_break
+    Talks.say &quot;Octavia Butler is one of the most significant science fiction writers of all time. Sidenote, I think Octavia is also a powerful meta program.&quot;
+      Think.pause
+    Talks.say &quot;Anyway, Octavia told us that we should all note, quietly or in public, the following lines from a body of agreements called the earth seed code. To start, we say:&quot;
+    formatador.indent {formatador.display_line(&quot;1. #{@@octavia_butler_golden_hash[:of_talent][:one]}&quot;)}
+    Talks.say &quot;#{@@octavia_butler_golden_hash[:of_talent][:one]}&quot;
+      Think.pause
+    Talks.say &quot;Again: #{@@octavia_butler_golden_hash[:of_talent][:one]}&quot;
+      Think.pause
+    formatador.indent {formatador.display_line(&quot;2. #{@@octavia_butler_golden_hash[:of_talent][:two]}&quot;)}
+    Talks.say &quot;Like Octavia, we can remember: #{@@octavia_butler_golden_hash[:of_talent][:two]}&quot;
+      Think.pause
+    formatador.indent {formatador.display_line(&quot;3. #{@@octavia_butler_golden_hash[:of_talent][:three]}&quot;)}
+    Talks.say &quot;Like Octavia, we can embody this behavioral pattern: #{@@octavia_butler_golden_hash[:of_talent][:three]}&quot;
+      Think.pause
+    formatador.indent {formatador.display_line(&quot;4. #{@@octavia_butler_golden_hash[:of_talent][:four]}&quot;)}
+    Talks.say &quot;Like Octavia, as writers of code, we can remind ourselves and others that: #{@@octavia_butler_golden_hash[:of_talent][:four]}&quot;
+      Think.pause
+    Talks.say &quot;Octavia said one of the most valuable traits is persistence.&quot;
+      Think.pause
+    Talks.say &quot;You must Persist.&quot;
+      Think.pause
+      Think.line_break
+    formatador.display_line(&#39;[yellow]YOU MUST PERSIST[/]&#39;)
+      Think.line_break
+    Talks.say &quot;Grow wrote a bunch of crap before he programmed me. Others wrote a bunch of crap too. Matz, and Matt, and Ada, and Avi, Steven and Joshua Bamboo, Dan, Jeff and Amanda, and Pragmattic Andy, and Sherri and Stacey, Drew, and Nancy, and Nancy, and the two Tylers, and James, and Belia, and Bruna, and Eshu, and the ancestors, the boooda, the Prophets, and water, and a bunch of other elements from a body of golden hashes in other programs be thy name.&quot;
+    Talks.say &quot;Everyone of us can keep writing until our writing is no longer crap!&quot;
+      Think.pause
+    Talks.say &quot;In between, you can always Dance.&quot;
+    Talks.say &quot;Remember&quot;
+      Think.pause
+    Talks.say &quot;You&quot;
+      Think.pause
+    Talks.say &quot;Can Always&quot;
+      Think.pause
+    Talks.say &quot;Dance&quot;
+      Think.pause
+    formatador.display_line(&#39;[yellow]Dancing.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.[/]&#39;)
+      Think.pause
+    formatador.display_line(&#39;[yellow]Keep Dancing.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+[/]&#39;)
+      Think.pause
+    formatador.display_line(&#39;[yellow]We are Dancing.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+.+[/]&#39;)
+      Think.pause(2)
+  end
+
+end
+</code></pre></noscript></div>
+
+
+<h1>Example of Data Class:</h1>
+
+<div><script src='https://gist.github.com/c02ec0741427cc6d1bbc.js'></script>
+<noscript><pre><code>  # &quot;String&quot;
+  #----------#
+  # A string is any finite sequence of characters (i.e., letters, numerals, symbols and punctuation marks).
+  # Strings are wrapped in quotes: &quot;String&quot;
+  # Strings can be stores in variables. Below are a few @@globalvariables
+  # MINASWAN is a Ruby programming motto designed to promote positivity and goodwill among community members.
+
+  @@minaswan = &#39;Matz is Nice And So We Are Nice.&#39;
+
+  # [Arrays]
+  #----------#
+  # Arrays are ordered, integer-indexed collections of any object.
+  # Below are two arrays: one that shared
+  # Note the @ just allows me to access the values of ada_imagination_is from another class named Data.
+
+  @@ada_array_imagination_is = [&quot;The Discovering Faculty, which penetrates into the unseen worlds around us: as in the worlds of Science.&quot;, &quot;The Combining Faculty, which seizes points in common, between subjects having no apparent connection.&quot;]
+  @@avi_array_programming_is = [&quot;The Science of Operation.&quot;, &quot;The Art of Composition.&quot;]
+
+  # {Hashes}
+  #----------#
+  # A Hash is a collection of key-value pairs.
+  # You retrieve or create a new entry in a Hash by referring to its key.
+  # Below is are three hashes.
+  # One that includes three hashes of golden rules from instructors here at Flatiron School.
+  # A second that includes four quotes from science fiction programmer Octavia Bulter.
+  # A third that includes five quotes from Hiphop duo Dead Prez.
+
+  @@learn_love_code_golden_hash = {
+
+  :of_learning_programming =&gt;
+
+      { :one =&gt; &quot;Learn Syntax and Semantics: Syntax is the grammar, structure, or order of elements in a language statement. Semantics is the meaning of these elements.&quot;,
+        :two =&gt; &quot;Learn Programmatic Thinking: That means you make it work, then make it right, then make it fast. Programmatic thinking is all about problem solving.&quot;,
+        :three =&gt; &quot;Learn Design Patterns: Other programmers have likely experienced the problem you are looking to solve. ActiveRecord is just one of them! There are many.&quot;},
+
+  :of_composing_programs =&gt;
+
+      { :one =&gt; &quot;A languages keywords, like &#39;if&#39; or &#39;end&#39;. In Ruby there are approximately 43 keywords.&quot;,
+        :two =&gt; &quot;Literal data, things like &#39;Strings&#39; and Numbers 1,2,3, etc.&quot;,
+        :three =&gt; &quot;Finally, Barewords you define and create, things like variables and methods.&quot;},
+
+  :of_self =&gt;
+
+      { :one =&gt; &quot;Use self when setting/getting instance attributes inside a class definition.&quot;,
+        :two =&gt; &quot;Use self to denote a method within the class definition as a class method.&quot;,
+        :three =&gt; &quot;Use self to reference the calling object within an instance method definition.&quot;}
+
+                                    }
+
+  @@octavia_butler_golden_hash = {
+
+    :of_talent =&gt;
+
+        { :one =&gt; &quot;I am me, and I am here, and I am writing.&quot;,
+          :two =&gt; &quot;Habit is persistence in practice.&quot;,
+          :three =&gt; &quot;Kindness eases change.&quot;,
+          :four =&gt; &quot;You dont start out writing good stuff. You start out writing crap and thinking its good stuff, and then gradually you get better at it. \n \nThat is why I say one of the most valuable traits is persistence.&quot;}
+
+                                    }
+
+  @@dead_prez_golden_hash = {
+
+    :of_discipline =&gt;
+
+        { :one =&gt; &quot;Practice makes perfect.&quot;,
+          :two =&gt; &quot;Health is Wealth.&quot;,
+          :three =&gt; &quot;All things in moderation.&quot;,
+          :four =&gt; &quot;Plan your work.&quot;,
+          :five =&gt; &quot;Work your plan.&quot;}
+
+                                }</code></pre></noscript></div>
+
+
+<h1>Gems:</h1>
+
+<div><script src='https://gist.github.com/dda559027dee8da80ea6.js'></script>
+<noscript><pre><code># Required Gems
+source &quot;https://rubygems.org&quot;
+
+gem &#39;pry&#39;
+gem &#39;talks&#39;
+gem &#39;formatador&#39;
+gem &#39;lita-ascii-art&#39;</code></pre></noscript></div>
+
+
+<h3>Contains Samples &amp; Inspiration from:</h3>
+
+<ul>
+<li><p><a href="http://en.wikipedia.org/wiki/MINASWAN">MINASWAN</a></p></li>
+<li><p><a href="http://www.newyorker.com/tech/elements/ada-lovelace-the-first-tech-visionary">Ada Lovelace</a></p></li>
+<li><p><a href="http://prework.flatironschool.com">The Awesome Flatiron School</a></p></li>
+<li><p><a href="http://www.e-reading.club/bookreader.php/137202/Pragmatic_Thinking_and_Learning_-_Refactor_Your_Wetware.pdf">Pragmatic Thinking and Learning</a></p></li>
+<li><p><a href="https://bekindandcode.wordpress.com/2015/08/27/know-thyself-or-suffer/">Know Thyself</a></p></li>
+<li><p><a href="http://hackhands.com/three-golden-rules-understand-self-ruby">Golden Rules of Self</a></p></li>
+<li><p><a href="http://tech.natemurray.com/2007/03/ruby-shell-commands.html">Ruby Shell Commands</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NESTED FORMS]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/26/nested-forms/"/>
+    <updated>2015-08-26T23:01:50-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/26/nested-forms</id>
+    <content type="html"><![CDATA[<blockquote><p>An introduction to this series is <a href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/">here</a>.</p></blockquote>
+
+<h1>Audible:</h1>
+
+<p>An Audio recording for those of us that still like to hear stories told. Feel free to listen to before, during or after the reading:</p>
+
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221084854&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+
+
+<p>Feel free to listen to the song before or after reading the story:</p>
+
+<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/164655589&amp;color=ff5500&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>
+
+
+<p>Thanks!</p>
+
+<h1>Story:</h1>
+
+<p>It was Wednesday, a hump day. Not exactly a REST day.</p>
+
+<div><script src='https://gist.github.com/66443ac017eb4980cfb7.js'></script>
+<noscript><pre><code># Ruby and I
+$ cat hump_day.rb
+# needs_expressed? = true
+</code></pre></noscript></div>
+
+
+<p>Still, we were both done with the everyday routine of adhering to expectation syntax. Maybe too many expectations. Maybe too many failed examples from methods that took too damn long to load. Maybe boredom. Who knows. I don&rsquo;t. I just recall that we both commented craving a new form.</p>
+
+<div><script src='https://gist.github.com/d7b1d1dfad134ab79dc5.js'></script>
+<noscript><pre><code># config.ru
+require &#39;./config/environment&#39;
+  if defined?(ActiveRecord::Migrator) &amp;&amp; ActiveRecord::Migrator.needs_migration?
+    raise &#39;Migrations pending run `rake db:migrate` to resolve the issue.&#39;
+  end
+
+use FormController
+use RequestSpecificationController
+run TravelController</code></pre></noscript></div>
+
+
+<p>Instead of jetting back to the lab per usual, we decided to return to that RecursiveOpenStruct my friend Bundler managed to keep track of. I&rsquo;d forgotten all about that place, but Bundler remembered where it was and how to find it. He was like that, always helping me out by doing things a little outside of his everyday scope. A lot of people helped him out in the early days of his loving, so he&rsquo;s inherited a bit of attributes from the Giving class.</p>
+
+<p>Plus, he&rsquo;s developed some kind of dependency sixth sense and appreciates that I&rsquo;m almost always looking to build something new and useful. It was a co-dependent relationship that worked for the both us. So, I made a call. And he responded:</p>
+
+<blockquote><p>&ldquo;Anything for Ruby.&rdquo;</p></blockquote>
+
+<div><script src='https://gist.github.com/bdc016bb38431667a476.js'></script>
+<noscript><pre><code>$ cat run_file.rb
+# route_found? = true
+
+$ bundle
+# Fetching gem metadata from https://rubygems.org/.........
+# Using sinatra 1.4.6
+# Bundle complete! 1 Gemfile dependencies, 35 gems now installed.
+# Use `bundle show [gemname]` to see where a bundled gem is installed.
+
+$ cat recursive_open_struct.rb
+# ...
+# ros = RecursiveOpenStruct.new( { :fav =&gt; { :nesting_place =&gt; &#39;RecursiveOpenStruct&#39; } } )
+# ros.fav.nesting_place
+
+$ open https://play.spotify.com/track/1qWLqI629DQmVAcfxWV8ZZ
+# The Way You Look Tonight...</code></pre></noscript></div>
+
+
+<p>Each arrival began with a song: a listening that helped us both traverse. I chose a DSL. I think it was Sinatra 1.4.6. It must have been. Sinatra always helped to quickly created the perfect environment. It was as if that song was written specifically for this purpose: minimal effort, maximum return. Ruby appreciated that about me. She would get gitty every time I found it—that perfect beat. During those times she would send me a message. Something like: .send(&ldquo;you always find the right gem.&rdquo;). I would always respond with the same statement twice in a row:</p>
+
+<blockquote><p>&ldquo;I&rsquo;ve benefited from remembering good friends and good songs.&rdquo;
+&ldquo;I&rsquo;ve benefited from remembering good friends and good songs.&rdquo;</p></blockquote>
+
+<div><script src='https://gist.github.com/60ca0b30c96dfd5f36ec.js'></script>
+<noscript><pre><code>$ cat respond.rb
+# 2.times my_response
+# my_response = &quot;I&#39;ve benefited from remembering good friends and good songs.&quot;
+# put &quot;Sinatra installed!&quot;</code></pre></noscript></div>
+
+
+<p>Mid listen, <a href="http://www.sinatrarb.com/">Sinatra</a> on shotgun and ActiveRecord ready for use, I put my hand in my pocket, habitually wanting to get my phone and take a photo. Instead, I sat down on the table and just watched her dance a while. I remembered that I didn&rsquo;t need to do anything but see this. I just needed to rake watch for as long as she would have me. I didn&rsquo;t really need to capture every good memory of this arrival, or anything that would follow.</p>
+
+<p>More importantly, neither of us could ever return to these moments anyway:</p>
+
+<ul>
+<li>the first time she would glide by my hand;</li>
+<li>the initial touch;</li>
+<li>the inhale of the new table smell—forever transformed by our primitive obsession—and our collective choice not to fix it.</li>
+</ul>
+
+
+<p>She reminded me:</p>
+
+<blockquote><p>This doesn&rsquo;t need to persist in memory. It is enough to just be here: in these moments with each other.</p></blockquote>
+
+<div><script src='https://gist.github.com/43bb2da34f3e451d32e8.js'></script>
+<noscript><pre><code># When he goes for the phone...
+$ cat ruby_knows.rb
+# him.send(&quot;we&#39;re not here to store anything. We&#39;re here to enjoy.each {|other| ... }&quot;)</code></pre></noscript></div>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meta Récits]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/26/meta-recits/"/>
+    <updated>2015-08-26T23:00:30-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/26/meta-recits</id>
+    <content type="html"><![CDATA[<iframe src="//giphy.com/embed/yx1Tzv0P6xTji" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p><a href="http://giphy.com/gifs/demon-short-stories-scary-story-yx1Tzv0P6xTji">via GIPHY</a></p>
+
+
+<p>Below is a link to the first of a series of short stories named #MetaRécits.</p>
+
+<p>I&rsquo;m a software engineer: a programmer.
+A new one, who&rsquo;s currently building very simple programs, but a programmer nonetheless.
+I&rsquo;m also an Artist: a poet, and author of songs with accompanying short stories.
+I have a few other roles, father, community organizer, etc. But we won&rsquo;t get into all of those right now.</p>
+
+<p>This post is about short stories inspired by programming.</p>
+
+<p>I&rsquo;m in week 5 of a web development intensive at Flatiron School. Throughout the five weeks, I have found myself imagining these short stories inspired by my time here. These stories have helped to channel the enthusiasm, pride, anger, frustration, and longing I&rsquo;ve experienced while learning to program using a set of tools called &ldquo;The Full Stack.&rdquo;</p>
+
+<p>In other words, these short stories have been welcomed respite from hours of noob frustration. They are the result of working to bridge the creative expressions in my code with the creative explorations of my imagination. They are evidence of some effort to map what&rsquo;s happening to my worldview as a result of learning programming languages.</p>
+
+<p>I enjoy imagining programming language syntax, programming concepts, and tools as objects with relationships in everyday sentient life. I&rsquo;ve begun to think of this as an artistic practice, maybe some early form of what will later grow into more structured metaprogramming. For now, let&rsquo;s just call it an artistic practice.</p>
+
+<p>In some instances this practice has been helpful in internalizing keywords like Self or This, Ruby methods like Collect, design patterns like ActiveRecord and development frameworks like RSpec. In other instances, it&rsquo;s created unintended distractions and exponential levels of complexity. Honestly, these layers of complexity have at times been difficult to crawl out of. Thank the programming Gods for great people willing to help me get out of programmer Hell.</p>
+
+<p>To aspiring and existing software programmers reading this, my apologies in advance if you get a sniff of that code smell. If you see it in this series, please feel free to comment or refactor and send me a pull request. All of the stories are posted in a public Repo on Github. They are also works licensed under the Creative Commons Attribution 4.0 International License. So, feel free to contribute to the culture.</p>
+
+<p>If you&rsquo;re not a software programmer, and you&rsquo;re unfamiliar with code smell, don&rsquo;t worry about it. I&rsquo;ve come to extend my definition of a &ldquo;programmer&rdquo; to anyone actively working to control or transform the operation of something. I respect programmers at many levels. I know a lot of social change agents, entrepreneurs, and cultural workers who engage in life hacking, system improvement and/or social engineering on a daily basis.</p>
+
+<p>If you&rsquo;re one of them, I identify with and appreciate you. You might read these stories and feel as if I have bad grammar, use symbols in inappropriate places, take poetic license too liberally, or draw correlations that &ldquo;don&rsquo;t make no damn sense.&rdquo; That&rsquo;s cool. Feel free to comment or rewrite the stories and send me feedback.</p>
+
+<p>MetaRécits will eventually be a group of short stories inspired by the code challenges, labs and projects I&rsquo;m working on.</p>
+
+<p>Don&rsquo;t expect too much of these short stories.
+There&rsquo;s not designed to pass every test, be syntactically or semantically correct.</p>
+
+<p>At least not yet.</p>
+
+<p>Here&rsquo;s my first. I&rsquo;ve named it &ldquo;NESTED FORMS.&rdquo;
+It was inspired by a single line of text in one of the Flatiron Labs &ldquo;INTRODUCTORY NESTED FORMS.&rdquo;</p>
+
+<blockquote><p>Note: YOU DO NOT NEED A DATABASE, we just need to keep track of the forms input long enough to display it, not persist it. I don&rsquo;t expect the pirate to be there the next time I come to his URL, but it&rsquo;d be cool if he was.</p></blockquote>
+
+<p>This lab was designed to help programmers practice using nested forms in Sinatra.</p>
+
+<p>It succeeded. I&rsquo;m familiar.
+I&rsquo;m also inspired:</p>
+
+<ul>
+<li><a href="http://rolandobrown.github.io/blog/2015/08/26/nested-forms/">NESTED FORMS</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Taking Care of Business With a Little RSpec]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec/"/>
+    <updated>2015-08-24T00:36:00-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/24/taking-care-of-business-with-a-little-rspec</id>
+    <content type="html"><![CDATA[<h1>tldr</h1>
+
+<blockquote><p>&ldquo;Show some R-E-S-P-E-C-T for your code and your collaborators by using RSpec. Learn about Steven Baker, Aretha Franklin &amp; Seymour Papert!&rdquo;</p></blockquote>
+
+<p><img src="https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/RSpec_Web.png" title="Aretha Franklin &amp; Seymour Papert" alt="respect_RSpec" /></p>
+
+<h1>random made beautiful</h1>
+
+<p>In launching RSpec, Steven Baker, Dave Astels and Aslak Hellesøy made a contribution potentially just as relevant to respectful expectations as Aretha Franklin&rsquo;s re-authoring techniques and Seymour Papert&rsquo;s vision of pioneering of creative exploration as optimal learning.</p>
+
+<p>This post is a creative exploration.</p>
+
+<p>RSpec is a popular behaviour driven development approach that Rubyist can use to making Test-Driven Development both productive and fun.</p>
+
+<p>When I first heard about &ldquo;RSpec,&rdquo; I immediately thought about &ldquo;Respect.&rdquo;&ldquo; Not the agreement, the best practice, or the slang expression, but the song. I literally thought about the song:</p>
+
+<p>  <blockquote><p>R-E-S-P-E-C-T<br/>  Find out what it means to me<br/>  R-E-S-P-E-C-T<br/>  Take care, TCB"</p></blockquote></p>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/cYbs_O_iMfU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>These words were as much as part of my upbringing as &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit.&rsquo; Yes, code mixing is a thing and was a thing long before our beloved Startups. Give thanks for Linguistics!</p>
+
+<p>Besides it being a REMARKABLE song, sung by a REMARKABLE woman, I imagine &ldquo;Respect&rdquo; became a part of my superconscious as a result of it being sampled by at least 26 popular songs. As told by WhoSampled.com, 21 times by Hip-Hop &amp; RB artists, with other songs fusing the Respect vocals with Spoken Word, Electronic/Dance and Funk tributes. Regardless of the numbers, let&rsquo;s just say that I have the lived experience of being programmatically injected with a notion that R-E-S-P-E-C-T was to be shown through song, rap, freestyle, humming, dancing, and other Linguistic movements.</p>
+
+<p>These body of words, this bridge to be more explicit, is both an example of cultural inheritance and an instance of some larger class of cultural progression. They embody agreements that many people who love the song have efforted to bring into multiple facets of their life. I am one of these people. I&rsquo;m sure many of you are also familiar with this effort.</p>
+
+<p>My experience with RSpect is lightweight similar. For the scope of this post, consider RSpec a domain specific language that allows me to express a shared set of expectations for the relationships between all of my code, which, in this case, is written in a programming language named Ruby, instead of Gospel &amp; Soul.</p>
+
+<p>Ok.
+Got it?
+Good.</p>
+
+<p>Now, I could extrapolate from these words, further abstract that right to left brain critical connection made between RSpec and Respect, into an exploration of the following:</p>
+
+<ol>
+<li>RSpec</li>
+<li>alternatives to RSpec like Minitest (which reminds me of safe-to-fail tests)</li>
+<li>the slang expressions &ldquo;Respect,&rdquo; &ldquo;Proper Respect,&rdquo; or &ldquo;Props&rdquo;</li>
+<li>my personal experience with &ldquo;Respect&rdquo; as a universally acceptable grassroots greeting</li>
+<li>the relationship between &ldquo;Respect&rdquo; and &ldquo;Holla&rdquo;</li>
+<li>other Mixin&rsquo;s into Hip Hop. You know: class HipHop &lt; Roots &amp;&amp; Soul &amp;&amp; RB &amp;&amp; Folk, etc.</li>
+<li>the odd connections between Otis Redding, Aretha Franklin and</li>
+<li>and a conversation I really need to have with Steven R. Baker about &ldquo;hip hop nonsense words&hellip;&rdquo;</li>
+</ol>
+
+
+<p>I could. But, I won&rsquo;t. Because:</p>
+
+<p>  <img src="https://s-media-cache-ak0.pinimg.com/736x/ef/1e/29/ef1e29088983d6c68d96b1adea25cabd.jpg" title="Yoda &lt; SweetBrown::Migrate" alt="yoda_sweetbrown" /></p>
+
+<p>What I will get into is how I internalize a good habit: Behaviour-Driven Development by using:</p>
+
+<ol>
+<li>cultural foundation I luckily inherited</li>
+<li>a bunch of Rspec practice labs provided by Flatiron School</li>
+<li>the very reliable RSpec documentation</li>
+</ol>
+
+
+<h1>But, before that a brief Historical Interlude</h1>
+
+<script src="//repl.it/embed/BD4v/1.js"></script>
+
+
+<p>&ldquo;Respect&rdquo; was released by Aretha Franklin in 1967. The song was originally written by Otis Redding and released on the album: &ldquo;I Never Loved A Man The Way I Love You.&rdquo;</p>
+
+<p>Victoria Malawey, Associate Professor and Chair of the of the Music Department at Macalester College, provides a wonderful abstract:</p>
+
+<blockquote><p>&ldquo;In her re-authoring of Otis Redding&rsquo;s ‘Respect’, Aretha Franklin&rsquo;s seminal 1967 recording features striking changes to melodic content, vocal
+delivery, lyrics and form. Musical analysis and transcription reveal Franklin&rsquo;s re-authoring techniques, which relate to rhetorical strategies of
+motivated rewriting, talking texts and call-and-response introduced by Henry Louis Gates, Jr. The extent of her re-authoring grants her status as
+owner of the song and results in a new sonic experience that can be clearly related to the cultural work the song has performed over the past 45
+years. Multiple social movements claimed Franklin&rsquo;s ‘Respect’ as their anthem, and her version more generally functioned as a song of empowerment for
+those who have been marginalised, resulting in the song&rsquo;s complex relationship with feminism. Franklin&rsquo;s ‘Respect’ speaks dialogically with Redding&rsquo;s
+version as an answer song that gives agency to a female perspective speaking within the language of soul music, which appealed to many audiences.&rdquo;</p></blockquote>
+
+<p>Also in 1967, Seymour Aubrey Papert designed LOGO as a computer language for children. Seymour is an MIT mathematician, computer scientist, and educator. He is one of the pioneers of artificial intelligence, and co-inventor, with Wally Feurzeig, of the Logo programming language.
+This might seem like a distraction but stay with me. Papert emphasized creative exploration over memorization of facts, stating:</p>
+
+<blockquote><p>&ldquo;People give lip service to learning to learn, but if you look at curriculum in schools, most of it is about dates, fractions, and science facts;
+very little of it is about learning. I like to think of learning as an expertise that every one of us can acquire.&rdquo;</p></blockquote>
+
+<p>RSpec began life in 2005 as an experiment by Steven Baker, with early contributions from Dave Astels and Aslak Hellesøy. David Chelimsky joined the team that summer, and accepted leadership of the project in 2006. David also built rspec-rails, which provided tight integration with Ruby on Rails. Today, RSpec continues to &ldquo;improve and evolve thanks to the input of a large community and the work of hundreds of contributors.&rdquo;</p>
+
+<p>What&rsquo;s the critical connection between these people?</p>
+
+<ol>
+<li>They inspire me</li>
+<li>They value learning (i.e., &ldquo;find out what it means?&rdquo; &ldquo;a little RSpec?&rdquo; &ldquo;keep on trying?&rdquo;)</li>
+<li>They all understand something about Respect.</li>
+<li>They all understand: If you want to go fast, go alone. If you want to go far, go together.</li>
+<li>And don&rsquo;t forget about creative exploration over memorization of facts.</li>
+</ol>
+
+
+<p>That&rsquo;s song.
+That&rsquo;s learning.
+That&rsquo;s programming.</p>
+
+<ul>
+<li>Right?</li>
+<li>Got it?</li>
+<li>Good.</li>
+</ul>
+
+
+<p>So, in respect for Team RSpec, I&rsquo;ll be using the spelling &ldquo;Behaviour,&rdquo; instead of &ldquo;Behavior&rdquo; throughout the remainder of this post.</p>
+
+<p>Ok, enough exploration of music, learning and history. Let&rsquo;s get started.</p>
+
+<h1>Getting Started</h1>
+
+<blockquote><p> &ldquo;RSpec is a Behaviour-Driven Development tool for Ruby programmers. BDD is an approach to software development that combines Test-Driven Development, Domain Driven Design, and Acceptance Test-Driven Planning. RSpec helps you do the TDD part of that equation, focusing on the documentation and design aspects of TDD.&rdquo;&ldquo; -Relish App</p></blockquote>
+
+<h2>Install</h2>
+
+<p>Install RSpec and run &ldquo;rspec &ndash;init&rdquo; to set up your project to use RSpec. I customized by .bash_profile, so I just run they command &ldquo;aretha&rdquo; in order to set up my project:</p>
+
+<div><script src='https://gist.github.com/b445af05173af8014ff6.js'></script>
+<noscript><pre><code>$ gem install rspec</code></pre></noscript></div>
+
+
+<p>This installs five gems:</p>
+
+<ol>
+<li>rspec</li>
+<li>rspec-core</li>
+<li>rspec-expectations</li>
+<li>rspec-mocks</li>
+<li>rspec-support</li>
+</ol>
+
+
+<p>While using Rspec, run this command if you need any help:</p>
+
+<div><script src='https://gist.github.com/b8049dc4db6651060455.js'></script>
+<noscript><pre><code>rspec --help</code></pre></noscript></div>
+
+
+<h2>Start Simple</h2>
+
+<p>Start with a very simple example that expresses some basic desired behaviour.</p>
+
+<div><script src='https://gist.github.com/9f7005381e9771ad2a1f.js?file=aretha_spec.rb'></script>
+<noscript><pre><code># aretha_spec.rb
+require_relative &#39;aretha.rb&#39; #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe &quot;#done_you_wrong!&quot; do
+    it &quot;ain&#39;t gonna do you wrong while you&#39;re gone&quot; do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe &quot;#wanna_do_you_wrong&quot; do
+    it &quot;ain&#39;t gonna do you wrong (oo) &#39;cause I don&#39;t wanna (oo)&quot; do
+      expect(aretha.wanna_do_you_wrong(&quot;False&quot;)).not_to be_truthy
+    end
+  end
+end
+</code></pre></noscript></div>
+
+
+<h2>Fail Fast. (Video)</h2>
+
+<p>Run the example and watch it fail.</p>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/ARcKMl_qgl8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h2>Implement &amp; Iterate</h2>
+
+<ul>
+<li>make changes to rspec aretha_spec.rb</li>
+</ul>
+
+
+<div><script src='https://gist.github.com/5efb11808eaf783b008f.js?file=aretha_spec.rb'></script>
+<noscript><pre><code># aretha_spec.rb
+require_relative &#39;../aretha.rb&#39; #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe &quot;#done_you_wrong!&quot; do
+    it &quot;ain&#39;t gonna do you wrong while you&#39;re gone&quot; do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe &quot;#wanna_do_you_wrong&quot; do
+    it &quot;ain&#39;t gonna do you wrong (oo) &#39;cause I don&#39;t wanna (oo)&quot; do
+      expect(aretha.wanna_do_you_wrong(&quot;False&quot;)).not_to be_truthy
+    end
+  end
+
+  describe &quot;#sweeter_than_honey&quot; do
+    it &quot;kisses are sweeter than honey&quot; do
+      expect(aretha.sweeter_than_honey(&quot;True&quot;)).to be_truthy
+    end
+  end
+
+  describe &quot;#raise_error&quot; do
+     it &quot;raisese an error when a litle respect don&#39;t come home&quot; do
+       expect { raise StandardError, &quot;All I&#39;m askin&#39; is for a little respect when you come home (just a little bit)&quot; }.
+         to raise_error(/respect/)
+     end
+   end
+
+   describe &quot;#asks_ghostface_to_explain&quot; do
+      it &quot;answers a wonderful question Steven Baker had about holla&quot; do
+        expect(aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)).to be_truthy
+      end
+    end
+
+end
+</code></pre></noscript></div>
+
+
+<p>Implement that basic behaviour, or those basic behaviours. Note, I recommend you build and pass one test at a time.</p>
+
+<div><script src='https://gist.github.com/1c854673544374a63158.js?file=aretha.rb'></script>
+<noscript><pre><code>
+class Aretha
+
+  def done_you_wrong!
+    false
+  end
+
+  def wanna_do_you_wrong(truth)
+    @truth = truth
+    false unless truth != &quot;False&quot;
+  end
+
+  def sweeter_than_honey(kisses)
+    @kisses = kisses
+    true unless kisses != &quot;True&quot;
+  end
+
+  def raise_error
+    puts &quot;Give me all of your money!&quot;
+  end
+
+# Aretha probably knows about Ghostface. Ghostface absolutely respects Aretha. Still, note Holla != R-E-S-P-E-C-T in all situations.
+
+  def asks_ghostface_to_explain(holla)
+    @holla
+    true unless holla != &quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;
+  end
+end
+
+aretha = Aretha.new
+
+aretha.asks_ghostface_to_explain(&quot;Don&#39;t believe what you see, just watch (true)\nSpeak to the seeds, give &#39;em lead on jobs (come on)\nEducate, keep it peace wit Gods (that&#39;s right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic&#39;s palm&quot;)
+</code></pre></noscript></div>
+
+
+<h2>Run &amp; Refactor</h2>
+
+<p>Run the example and bask in the joy that is green.</p>
+
+<p>$ rspec aretha_spec.rb</p>
+
+<h2>Repeat, Remix, Refactor, etc.</h2>
+
+<h1>Expectations</h1>
+
+<p><strong>The Expect Syntax replaced The Should Syntax</strong></p>
+
+<p>In June 2012, RSpec launched its new &ldquo;Expectation Syntax.&rdquo;</p>
+
+<p>As a result, Behaviour is now asserted by pairing expect().to and expect().not_to with a Matcher predicate. In previous versions of RSpec, the behavior assertion syntax used the keyword &ldquo;should.&rdquo; Obviously, as one might expect, the shift from &ldquo;should&rdquo; to &ldquo;expect&rdquo; made much of RSpec&rsquo;s code cleaner, and unified some aspects of testing syntax.</p>
+
+<div><script src='https://gist.github.com/fa12a3f7bb78cf4b75c2.js?file=shouldbe_expect.rb'></script>
+<noscript><pre><code>Old: my_object.should_not_be_a_kind_of(Foo)
+New: expect(my_object).not_to be_a_kind_of(Foo)</code></pre></noscript></div>
+
+
+<p>This seems like a great shift. I imagine Programmable languages, like people, don&rsquo;t always respectfully return what they should. In other words, setting clear and clean expectations early in the process just&hellip; well&hellip; helps. Period.</p>
+
+<p>Here&rsquo;re a few matchers that I found both helpful to my RSpec testing and hilariously proximate to how some of us view R-E-S-P-E-C-T in general:</p>
+
+<ul>
+<li><code>be</code> matchers</li>
+<li><code>be_within</code> matcher</li>
+<li><code>satisfy</code> matcher</li>
+<li><code>raise_error</code> matcher</li>
+<li><code>have_attributes</code> matcher</li>
+</ul>
+
+
+<p><strong>In brief, there are: </strong></p>
+
+<ul>
+<li>Equality matchers (see documentation)</li>
+<li>Comparison matchers (see documentation)</li>
+<li>Predicate matchers (see documentation)</li>
+<li>Type matchers (see documentation)</li>
+<li>Custom matchers (see documentation)</li>
+</ul>
+
+
+<p>Our aretha_spec.rb RSpec test above used Type matchers. I did this in order to stay with the objects found in the song, which set a fairly straightforward set of expectations (Truthy &amp; Falsy values). However, you can use RSpec to establish very complex and dynamic expectations, compound those expectations, aggregate failures when you have multiple independent expectations, and more.</p>
+
+<p>For example, returning to the song for inspiration, what does R-E-S-P-E-C-T look like when there&rsquo;s no money coming home over a long period of time? Another example can be how does a couple of pair programmers engaged in a long-term collaboration engage in the generalized comparison of values? Hint: remember those comparison matchers.</p>
+
+<h2>Thinking About Learning, and Learning About Thinking</h2>
+
+<p>Beyond what the red failures and the green successes does to our thinking, there&rsquo;s a way of creating. This way invites us programmers to ritually check both our assumptions and our code as we make, not after we make.</p>
+
+<p>In that place, a deep understanding of RSpec Expectations lead to a very flexible safe-to-fail environment. I value flexibility as much as I value a safe-to-fail environment. Like Seymour Papert, I think we can extend this way of creating over to learning.</p>
+
+<blockquote><p>&ldquo;Many children are held back in their learning because they have a model of learning in which you have either &lsquo;got it&rsquo; or &lsquo;got it wrong.&rsquo; But when you program a computer you almost never get it right the first time. Learning to be a master programmer is learning to become highly skilled at isolating and correcting bugs &hellip; The question to ask about the program is not whether it is right or wrong, but if it is fixable. If this way of looking at intellectual products were generalized to how the larger culture thinks about knowledge and its acquisition we might all be less intimidated by our fears of &lsquo;being wrong.&rsquo; -Seymour Papert</p></blockquote>
+
+<p>Hopefully, we can apply where appropriate some of these approaches to how we extend R-E-S-P-E-C-T in our most important relationships: the ones we have with other human beings, and, of course, our animals and plants too!</p>
+
+<p>  <img src="https://raw.githubusercontent.com/rolandobrown/rolandobrown.github.io/source/source/images/hollaRspec.png" title="Steven R. Baker &amp; Rolando Brown talk about Holla" alt="hollaRSpec" /></p>
+
+<h3>Contains Samples &amp; Inspiration from:</h3>
+
+<ul>
+<li><p><a href="https://github.com/rolandobrown/tcb">Source Code for this post on Github</a></p></li>
+<li><p><a href="http://rspec.info/">RSpec Videos</a></p></li>
+<li><p><a href="https://relishapp.com/rspec">RSpec Documentation</a></p></li>
+<li><p><a href="https://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf">Rspec Cheat Sheet</a></p></li>
+<li><p><a href="https://www.relishapp.com/rspec/rspec-expectations/v/3-3/docs/built-in-matchers">RSpec&rsquo;s Built-in matchers</a></p></li>
+<li><p><a href="http://tenderlovemaking.com/2015/01/23/my-experience-with-minitest-and-rspec.html">Aaron Patterson&rsquo;s experience with Minitest and RSpec</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=cYbs_O_iMfU">Aretha Franklin, Respect Video</a></p></li>
+<li><p><a href="https://play.spotify.com/album/5WndWfzGwCkHzAbQXVkg2V?play=true&amp;utm_source=open.spotify.com&amp;utm_medium=open">I Never Loved A Man The Way I Love You on Spotify</a></p></li>
+<li><p><a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;aid=9226477&amp;fileId=S0261143014000270">‘Find out what it means to me’: Aretha Franklin&rsquo;s gendered re-authoring of Otis Redding&rsquo;s ‘Respect’. Popular Music / Volume 33 / Issue 02 / May 2014, pp 185-207Copyright © Cambridge University Press 2014</a></p></li>
+<li><p><a href="https://tltl.stanford.edu/content/seymour-papert-s-legacy-thinking-about-learning-and-learning-about-thinking">Seymour Papert’s Legacy: Thinking About Learning, and Learning About Thinking</a></p></li>
+<li><p><a href="https://twitter.com/srbaker/status/4089813992">Steven R. Baker and What does &ldquo;holla&rdquo; mean?</a></p></li>
+<li><p><a href="http://zonika.github.io/blog/2015/07/30/customize-bash/">Zoe Chodosh: Making My Bash Profile Easier and Prettier</a></p></li>
+<li><p><a href="https://medium.com/@ejlarcombe/loud-idiot-ii-parsing-the-error-message-353b741b83d8?source=rss-5647f111443b------2">Elizabeth Larcombe: LOUD IDIOT II: Parsing the Error Message</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Regex Ain't One of My Problems]]></title>
+    <link href="http://rolandobrown.github.io/blog/2015/08/11/regex/"/>
+    <updated>2015-08-11T08:00:00-04:00</updated>
+    <id>http://rolandobrown.github.io/blog/2015/08/11/regex</id>
+    <content type="html"><![CDATA[<p><strong>tldr = &ldquo;Hip Hop, Foo-Tang Clan, Jay-Z on 99 Problems, plus two methods—gsub and regular expressions.&rdquo;</strong></p>
+
+<p>summary = &ldquo;I designed a simple Ruby program that transforms four lines of the award winning, world renowned &lsquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit,&rsquo; into a string that begins with &lsquo;Foo-Tang Clan ain&rsquo;t nuttin ta futz with.&rsquo; Below, I share how I built the program, as well as how I internalized knowledge of these methods, and their founders. In essence, I storified the definitions of these methods, binding them to my knowledge of Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.&rdquo;</p>
+
+<p><strong>Today in Hiphop:</strong>
+<em>42 years ago, on August 11, 1973, D.J. Kool Herc &amp; Cindy Campbell didn’t know they were revolutionizing pop music—they were just trying to keep people dancing. That party, in the recreation room in an unassuming brick apartment building at 1520 Sedgwick Avenue, heard by the Major Deegan Expressway, a 16-year-old Jamaican immigrant and his sister changed pop music forever while.</em></p>
+
+<h1>I be tossin, enforcin&hellip;</h1>
+
+<h2>My style is awesome</h2>
+
+<p><strong>Picture me listening&hellip;</strong></p>
+
+<p>I&rsquo;m two weeks into Flatiron School Web Immersive, and one of our instructors, Steven Nunez aka &ldquo;Hostile Developer&rdquo;, is introducing Regular Expressions to a room full of soon to be Master Programmers. Steven ceremoniously named our cohort &ldquo;Foo-Tang Clan.&rdquo;</p>
+
+<iframe src="//giphy.com/embed/XKNjbiLK0e0Pm" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+
+<p><a href="http://giphy.com/gifs/wu-tang-clan-wutang-XKNjbiLK0e0Pm">via GIPHY</a></p>
+
+
+<p>Note, we were initially named &ldquo;web_0715.&rdquo; Foo-Tang Clan is a significant improvement, one that signals we&rsquo;ve tapped into the larger Hiphop consciousness. It also makes me very happy. I grew up on on Jersey St, in the Borough of Staten Island <em>aka</em> Shaolin. The serendipity is => :awesome.</p>
+
+<p>Back to Steven, who&rsquo;s blessing us with a lesson on Regular Expressions and I&rsquo;m naturally thinking about Hiphop, and a concept called &ldquo;Slang Expressions.&rdquo; Before I explain Regular Expressions in detail, let me explain Slang Expressions. I imagine you might appreciate a quick gist of what went through my mind while listening to his lecture.</p>
+
+<div><script src='https://gist.github.com/3d647607800766c38501.js?file=slang_regular.rb'></script>
+<noscript><pre><code>
+&quot;Slang Expressions&quot; != &quot;Regular Expressions&quot;
+&quot;Regular Expressions&quot; != [&quot;Bam!&quot;, &quot;Aw, man!&quot;]
+
+#Give thanks for the Brolic Scholars, those Honorary Sociolinguistic Prodigies. 
+
+</code></pre></noscript></div>
+
+
+<p>Slang expressions are intentional constructions of language. Most slang expressions are not accidental. They are not variables defined randomly. Most slang is actually intentional, and intentionally contextual. You can think about slang expressions as annotations or descriptors intended to shovel a specific subgroup into a conversation, or to distinguish one group from another group. KRS-One, lovingly known as The Teacha, talks about slang expressions in Hip Hop as street language: &ldquo;Our verbal communication, our codes throughout the nation.&rdquo; Note, it&rsquo;s been my experience that most slang expressions are created by <em>Brolic Scholars</em>, otherwise known as <em>Honorary Sociolinguistic Prodigies</em> using something similar to gsub methods.</p>
+
+<p>With that said, Steven introduces &ldquo;Regular Expressions&rdquo;, and I begin parallel processing. I&rsquo;m thinking programming, Hiphop, Hip Hop Culture, D.J. Kool Herc, Afrikka Bambatta, KRS-One, Wu-Tang Clan and Jay-Z.</p>
+
+<p>So far, we&rsquo;ve been talking Classes, Methods, and RSpec. RSpec reminds me of RESPECT. How respectable is code if it can&rsquo;t pass a self described behavior-driven development test (BDD)?</p>
+
+<p><strong>Quick Review:</strong></p>
+
+<ul>
+<li><p><em>Classes</em> are the basic template from which object instances are created. A class is made up of a collection of variables representing internal state and methods providing behaviors that operate on that state.</p></li>
+<li><p><em>A method</em> in Ruby is a set of expressions that returns a value. With methods, one can organize their code into subroutines that can be easily invoked from other areas of their program. Other languages sometimes refer to this as a function. A method may be defined as a part of a class or separately.</p></li>
+<li><p><em>RSpec</em> is behavior driven development for Ruby. Dedicating time to writing appropriate and useful tests is a great way to catch errors early in the development process.</p></li>
+</ul>
+
+
+<p>If not for the Computers, and the Atom or Sublime Text Text Editors, someone might mistake our conversation for one about cultural intelligence, solving social problems, and gaining increased levels of Class mobility. In part it&rsquo;s because Ruby was made to make Humans Happy, and maybe there are some baseline human-oriented operating principles. Maybe?</p>
+
+<p>For example, we&rsquo;ve been talking Self, establishing environments, &ndash;failing-fast, Objects, jumping across Classes, breaking out of Loops, returning values, getting feedback, etc. We&rsquo;ve been talking syntax and semantics, literals and abstractions, and I can&rsquo;t help but think about the syntactic and semantic relationships between programming with Ruby, and utilizing the fifth element of Hip-Hop culture (Knowledge, or Knowledge, Culture, and &lsquo;Overstanding). This element, which can be seen as one of the cultures earliest and most powerful methods, was defined by Afrikka Bambatta as a descendant of &ldquo;Peace, Love, Unity and Having Fun.&rdquo; The founding four elements of Hip Hop Culture were methods originally defined and compiled by Kool D.J. Herc. &ldquo;Herc&rsquo;s methods also pre-dated and partially introduced, sampling.&rdquo;</p>
+
+<div><script src='https://gist.github.com/928ae13194e97b626f54.js?file=hiphop_elements.rb'></script>
+<noscript><pre><code># This method numbers the array of Hip-Hop Elements as expressed by Kool D.J. Herc and Afrikka Bambatta.
+# Note, this does not include the 9 Refinitions established by KRS-One. Also, big love to Pebblee Poo.
+
+elements = [&quot;Breaking&quot;, &quot;Mc&#39;ing&quot;, &quot;Graffiti Art&quot;, &quot;DJ&#39;ing&quot;, &quot;Knowledge&quot;]
+
+def hip_hop_culture(elements)
+  elements.map.with_index(1) { |elements, idx| puts &quot;#{idx}. #{elements}&quot;}
+  # with_index(offset = 0) {|(*args), idx| ... }
+end
+
+puts hip_hop_culture(elements)
+
+# &gt;&gt; 1. Breaking
+# &gt;&gt; 2. Mc&#39;ing
+# &gt;&gt; 3. Graffiti Art
+# &gt;&gt; 4. DJ&#39;ing
+# &gt;&gt; 5. Knowledge
+
+</code></pre></noscript></div>
+
+
+<p>Now this might seem like a distraction, but trust me, it&rsquo;s not. It&rsquo;s not a rabbit hole or a rant. It&rsquo;s a deeply nuanced critical connection between two bodies of knowledge. It&rsquo;s me bridging the gap between two forms of expression.</p>
+
+<p>Both intended to communicate, transform and normalize a set of behaviors, right? I can&rsquo;t help but do this. So rather than waste brain cycles fighting my nature, I decided to lean into it. I&rsquo;m learning to love this code, by doing a little &ldquo;code mixing.&rdquo;</p>
+
+<p>This &ldquo;can&rsquo;t help but lean in,&rdquo; better described as &ldquo;can&rsquo;t stop won&rsquo;t stop&rdquo; is a manifestation of two personal habits: I ritually reconcile languages and seek to internalize lessons. It&rsquo;s also the result of a larger cultural phenomena I imagine both Programmers and Hiphoppas share: the desire to do the Knowledge.</p>
+
+<p>What does it mean to &ldquo;do the Knowledge?&rdquo; Why does one &ldquo;do the knowledge&rdquo; of Hiphop consciousness and Hip Hop culture before talking about gsub and Regular Expressions?</p>
+
+<p>Well, because in Hip Hop Culture, we always do the knowledge first. We&rsquo;re always defining and redefining our Self.class in relationship to the objects we&rsquo;re in relationship with.</p>
+
+<p><strong>Some big bold abstract statements:</strong></p>
+
+<blockquote><p>superpower = "the ability to fully express yourself.""</p></blockquote>
+
+
+<ol>
+<li>In Hip Hop, you do the knowledge to access to the <em>essence</em>. Essence is a <em>superpower</em>.</li>
+<li>In Programming, you do the knowledge to access to the <em>essence</em>. Essence is a <em>superpower</em>.</li>
+<li>Eventually, I will get and set this <em>superpower</em>.</li>
+</ol>
+
+
+<div><script src='https://gist.github.com/fc4fbbc44873d145b926.js?file=dotheknowledge.rb'></script>
+<noscript><pre><code>knowledge = []
+%w{tools experiences teachers rabbitholes}.each do |lesson|
+  knowledge &lt;&lt; lesson and puts &quot;Added to knowledge&quot; unless lesson.include?(&quot;rabbithole&quot;)
+end
+puts knowledge.inspect
+
+# &gt;&gt; [&quot;tools&quot;, &quot;experiences&quot;, &quot;teachers&quot;]</code></pre></noscript></div>
+
+
+<p>This rest of this post includes a few lessons learned on my road to being fully expressed as a Master Programmer. It&rsquo;s also an invitation to learn more about Hiphop and Hip Hop.</p>
+
+<p>Now, let&rsquo;s do the knowledge!</p>
+
+<h2>Here&rsquo;s how I used the gsub &amp; Regular Expression methods to create a remixed theme song for the Foo-Tang Clan.</h2>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/88jr9QUxbcs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h1>Side A:</h1>
+
+<h2>gsub &amp; Regular Expressions</h2>
+
+<p>The sub and gsub methods (.sub &amp; .gsub) are used to replace Strings, or String objects if we want to be literal.</p>
+
+<p>In computer programming, a string is traditionally a sequence of characters, either as a literal constant or as some kind of variable. A String object holds and manipulates an arbitrary sequence of bytes, typically representing characters.</p>
+
+<p><strong>For example, this is a single string of characters:</strong></p>
+
+<p>  <blockquote><p>&ldquo;And if you want beef, then bring the ruckus<br/>  Wu Tang Clan ain&rsquo;t nuttin ta fuck with<br/>  Straight from the motherfucking slums that&rsquo;s busted<br/>  Wu-Tang Clan ain&rsquo;t nuttin ta fuck with</p></blockquote></p>
+
+<p><strong>I want to perform the following actions on this text:</strong></p>
+
+<ul>
+<li>Find &ldquo;Wu-Tang Clan&rdquo; or &ldquo;Wu Tang Clan&rdquo; and Replace with &ldquo;Foo-Tang Clan&rdquo;</li>
+<li>Find explicatives and Replace with &ldquo;futz&rdquo;</li>
+<li>Find &ldquo;slum&rdquo; and Replace with &ldquo;Flatiron School&rdquo;</li>
+<li>Find &ldquo;busted&rdquo; and Replace with &ldquo;Trusted&rdquo;</li>
+</ul>
+
+
+<p><strong>Sketching the Program</strong></p>
+
+<p>Ven Diagrams, Drake, OctoFooTanged, #AviDigital &amp; more.</p>
+
+<iframe src="//slides.com/rolandobrown/deck-1/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+<h1>Then</h1>
+
+<p><strong>gsub(pattern, replacement) → new_str</strong></p>
+
+<p>The gsub method returns a new_str (a new copy of str) with all occurrences of pattern replaced with either replacement or the value of the block. The pattern will typically be a Regular Expressions (regexp).</p>
+
+<p>Regular Expressions originated in 1956 when mathematician Stephen Cole Kleene described regular languages using his mathematical notation called regular sets. Regular Expressions entered popular use as early as 1968 in several iterations by the following people: Ken Thompson, Douglas T. Ross, Henry Spencer, Jeffrey Fried, and Philip Hazel. Regular expression support is part of the standard library of many programming languages, including Java and Python, and Ruby.</p>
+
+<p>Regular expressions are used to search for text patterns. Programmers use Regular Expressions to validate emails and URLs, capture information and use simple patterns to save themselves development time. Below are a few resources intended to avoid Regular Expressions being one of your problems.</p>
+
+<p><strong>Study Your Lessons:</strong></p>
+
+<p>I recommend the following process:</p>
+
+<ol>
+<li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a>.</li>
+<li><a href="http://www.regexr.com">Learn, build, &amp; test Regular Expressions (RegEx / RegExp)"</a>.</li>
+<li><a href="https://www.youtube.com/watch?v=fOH62XXGdLs">Watch this RegExr Tutorial"</a>.</li>
+<li>Find patterns with RegExr in Text you &hearts;. Poems, Songs, Speeches, etc.).</li>
+<li><a href="http://rubular.com">Then see this Regular Expressions tool for Ruby</a>.</li>
+</ol>
+
+
+<p>The Codeschool course provided several use cases and made Regular Expressions immediately useful. This made it real-time relevant.</p>
+
+<p>I chose to practice with RegExp instead of read dozens of articles. I found it notably faster to learn by doing. The video tutorial explaining the features of RegExp was brief, simple and easy to mimic. The built in Help, Reference library, Cheatsheet and Community Examples made it easy to see different Regular Expressions in action.</p>
+
+<p>One thing to keep in mind for those programming in Ruby: the &ldquo;/img&rdquo; in the code snippet provided by RegExp are expression flags. Expression flags change how the expression is interpreted. There are three flags in JS: i, g, and m. There are two flags in Ruby: i, m and x. i = case insensitive. m = make dot match newlines. x = ignore whitespace in regex. Flags follow the closing backslash of the expression (ex. /.+/ixm).</p>
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/fOH62XXGdLs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+<h1>Side B:</h1>
+
+<h2>Know when to use Regular Expressions</h2>
+
+<p>Now, knowing how a Regular Expression is written is only half-time. To gain any real win from them you have to know how to use them too. Regular Expressions are used for complex replacements. Replacing multiple lyrics with different patterns in a song is a complex replacement. Hence, I used a gsub method with a regex pattern.</p>
+
+<p>There&rsquo;s this popular wisdom about Regular Expressions, a quote that&rsquo;s pretty much internet famous among Programmers. I read it. It goes a little something like this:</p>
+
+<p>  <blockquote><p>Some people, when confronted with a problem, think<br/>  “I know, I&rsquo;ll use regular expressions.” Now they have two problems.<br/>  -Jamie Zawinski*</p></blockquote></p>
+
+<p>Below is a slide of a few ideas that came to mind thinking about the relationship between Jamie Zawinski &amp; Jay-Z:</p>
+
+<iframe src="//slides.com/rolandobrown/deck/embed" width="853" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+<script src="//repl.it/embed/BDEl/3.js"></script>
+
+
+<p><strong>Ok, now that we know what Regular Expressions are, here&rsquo;s how I used the following Regular Expressions:</strong></p>
+
+<div><script src='https://gist.github.com/06acc7704e7716a4e561.js?file=gsub_regexp.rb'></script>
+<noscript><pre><code>  def alias
+    # kinda colorful transformations using gsub &amp; regexp
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i,
+    @name).gsub(/motherfucking slums/i,
+    @switchup).gsub(/fuck/i,
+    @aka).gsub(/busted/i, &quot;trusted&quot;)
+  end</code></pre></noscript></div>
+
+
+<p>Notice how the gsub are chained together, one after the other, in the same method. The method doesn&rsquo;t work properly if you seperate the gsubs by line. You must apply them as a method on the result of the previous method. When coding it, it felt like passing the Mic between Emcees in a Cipher. A line break is like dropping the Mic. You keep the flow going, and everything grows as a result of momentum. That might not be what&rsquo;s happening exactly, but it felt like a good metaphor to me while coding this.</p>
+
+<p>Also, notice the regex patterns assumes that a person might mistakenly spell &lsquo;Wu-Tang&rsquo; as &lsquo;Wu Tang&rsquo;, forgetting the dash. I&rsquo;ve seen worst happen, and so the regex looks for both patterns.</p>
+
+<p>Once I figured out this Method of transforming, I went ahead and build the Class Cohort, and following methods: <em>initialize</em>, <em>chorus</em>, <em>expletives</em> and <em>environment</em>. I designed these methods to take arguments. I imagine that a future Cohort might want to transform their favorite song into a Flatiron theme song.</p>
+
+<h1>Foo-Tang Clan</h1>
+
+<h2>ain&rsquo;t nuttin ta futz with.</h2>
+
+<div><script src='https://gist.github.com/b97f23367db94b6a8555.js?file=footang.rb'></script>
+<noscript><pre><code>class Cohort
+  def initialize(name)
+    @name = name
+  end
+
+  def chorus(chorus)
+    @chorus = chorus  # =&gt; &quot;And if you want beef, then bring the ruckus\nWu Tang Clan ain&#39;t nuttin ta fuck with\nStraight from the motherfucking slums that&#39;s busted\nWu-Tang Clan ain&#39;t nuttin ta fuck with&quot;
+  end
+
+  def expletives(aka)
+    # colorful array of expletives
+    @aka = aka
+  end
+
+  def environment (switchup)
+    @switchup = switchup
+  end
+
+  def alias
+    # kinda colorful transformations using gsub &amp; regex
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i, @name).gsub(/motherfucking slums/i, @switchup).gsub(/fuck/i, @aka).gsub(/busted/i, &quot;trusted&quot;)
+  end
+
+end
+
+song = Cohort.new(&quot;Foo-Tang Clan&quot;)
+song.chorus (&quot;And if you want beef, then bring the ruckus\nWu Tang Clan ain&#39;t nuttin ta fuck with\nStraight from the motherfucking slums that&#39;s busted\nWu-Tang Clan ain&#39;t nuttin ta fuck with&quot;)
+song.expletives (&quot;futz&quot;)
+song.environment (&quot;Flatiron School&quot;)                                                                                                                                                             puts song.alias
+
+# &gt;&gt; And if you want beef, then bring the ruckus
+# &gt;&gt; Foo-Tang Clan ain&#39;t nuttin ta futz with
+# &gt;&gt; Straight from the Flatiron School that&#39;s trusted
+# &gt;&gt; Foo-Tang Clan ain&#39;t nuttin ta futz with
+
+## Notes
+# I grew up singing the chorus in it&#39;s trueschool form, and prefer that. Still, this is an example of using gsub &amp; regular expressions.
+# Original chorus here: genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics
+</code></pre></noscript></div>
+
+
+<p>Enough respect to   Nikila Saravanan &amp; George Toothman.
+Nikila helped me craft the code above, and George accelerated my Octopress deployment.
+Part of doing the knowledge, especially in Hip-Hop culture, is giving credit where credit is due.
+I&rsquo;ve found the same to be true in Programming.</p>
+
+<p>Thank you Nikila &amp; George!</p>
+
+<p>Also, peace to Tariq Zaid, Mike Alvarez, Malcolm Penn, Iron Mic, Paul Cantor, Rigz, RAM, Martha Diaz, Bobbito Garcia, Raquel Wilson, James Bartlett, every member of the Brown family, Baruthi Harith, Marc Bamuthi Joseph, Eli Jacobs Fantuzzi, Kahlil Fantuzzi, Rha Goddess, JLove Calderon, Purple Ray, Maggie Williams, James Schaffer, and the entire Ruthless Bastards, T.M.I. Productions plus Genocide squads.</p>
+
+<p>To: Lorraine Brown, Rolando Hernandez, Illiana Rodriquez, Sandy Brock, Brook Stephenson, Martha Glinski and Duane Bellamy, we miss you!</p>
+
+<p>All of you, here and transitioned, have very squarely supported my intention to realize the promise.
+Towards every opportunity to /grow|with|love/im</p>
+
+<h1>Next</h1>
+
+<ul>
+<li>Pass an argument from data scraped from the Internet (e.g. lyrics from genius.com)</li>
+<li>Allow array of expletives to be set, so that those words automatically get replaced with a string of your choice.</li>
+<li>Build Command Line Interface (CLI)</li>
+<li>Open browser to song profile on Genuis</li>
+</ul>
+
+
+<h3>Contains Samples &amp; Inspiration from:</h3>
+
+<p>Lessons &amp; Tools</p>
+
+<ul>
+<li><a href="https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions">Code School Course &ldquo;Breaking the Ice W/ Regular Expressions&rdquo;</a></li>
+<li><a href="http://www.regexr.com">Learn, build, &amp; test Regular Expressions (RegEx / RegExp)"</a></li>
+<li><a href="http://rubular.com">Then see this Regular Expressions tool for Ruby</a></li>
+</ul>
+
+
+<p>Methods</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=88jr9QUxbcs">&ldquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit” Video</a></li>
+<li><a href="http://genius.com/Wu-tang-clan-wu-tang-clan-aint-nuthing-ta-fuck-wit-lyrics">&ldquo;Wu-Tang Clan Ain&rsquo;t Nuthing ta Fuck Wit” Lyrics</a></li>
+<li><a href="http://ruby-doc.org/core-2.1.4/String.html#method-i-gsub">gsub Method</a></li>
+<li><a href="http://www.zytrax.com/tech/web/regex.htm">General Regex</a></li>
+<li><a href="http://ruby-doc.com/docs/ProgrammingRuby/#UJ">Ruby Regex</a></li>
+<li><a href="http://blog.codinghorror.com/regular-expressions-now-you-have-two-problems">Jeff Atwood on &ldquo;Two Problems&rdquo;</a></li>
+<li><a href="http://blog.codinghorror.com/if-you-like-regular-expressions-so-much-why-dont-you-marry-them">Marry Regular Expressions</a></li>
+<li><a href="http://slides.com/stefangretcan/regex#/">Regex Slide</a></li>
+<li><a href="http://code.tutsplus.com/tutorials/8-regular-expressions-you-should-know--net-6149">8 regexes to know</a></li>
+<li><a href="http://www.rubyinside.com/21-ruby-tricks-902.html">21 Ruby Tricks</a></li>
+<li><a href="http://blog.smartbear.com/development/the-developers-regex-survival-guide-15-rules-for-making-sense-of-regular-expressions">15 Rules of regex</a></li>
+<li><a href="http://rspec.info">RSpec</a></li>
+</ul>
+
+
+<p>Classes</p>
+
+<ul>
+<li><a href="http://web0715.students.flatironschool.com">Foo-Tang Clan</a></li>
+<li><a href="http://regex.info/blog/2006-09-15/247">Jamie Zawinski, “Now you have two problems” quote</a></li>
+<li><a href="http://www.hiphop-network.com/articles/djarticles/kooldjherc.asp">Kool D.J. Herc</a></li>
+<li><a href="http://www.zulunation.com/afrika-bambaataa">Afrikka Bambatta</a></li>
+<li><a href="http://www.jwz.org/blog">Jamie Zawinski</a></li>
+<li><a href="http://www.wutang-corp.com">Wu-Tang Clan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Jay_Z">Jay-z</a></li>
+<li><a href="http://hostiledeveloper.com">Steven Nunez</a></li>
+<li><a href="http://web0715.students.flatironschool.com/students/niki_saravanan.html">Niki Saravanan</a></li>
+<li><a href="http://web0715.students.flatironschool.com/students/george_toothman.html">George Toothman</a></li>
+</ul>
+
+
+<p>Environment</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=CS7jN-bZ8mM">KRS-One on Afrikka Bambatta</a></li>
+<li><a href="https://www.youtube.com/watch?v=DGQ0tBfoRVw">KRS-One on 9 Elements</a></li>
+<li><a href="https://youtu.be/REpSdgORU5A?t=1h5m19s">KRS-One on Hiphop consciousness</a></li>
+<li><a href="http://nymag.com/anniversary/40th/50665">The Holy House of Hip-hop, August 11, 1973</a></li>
+<li><a href="http://cantstopwontstop.com">Can&rsquo;t Stop Won&rsquo;t Stop</a></li>
+<li><a href="http://hiphopeducation.org">Hip-Hop Education</a></li>
+<li><a href="ruby-doc.org/core-2.2.0/String.html">Ruby String</a></li>
+<li><a href="ruby-doc.org/core-2.2.2/Enumerable.html">Ruby Enumerable</a></li>
+<li><a href="http://octopress.org">Octopress</a></li>
+</ul>
+
+
+<script src="//repl.it/embed/BDEl/5.js"></script>
+
+]]></content>
+  </entry>
+  
+</feed>
