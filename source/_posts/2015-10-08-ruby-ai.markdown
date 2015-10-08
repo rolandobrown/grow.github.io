@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Ruby AI"
+date: 2015-10-08 03:31:43 -0400
+comments: true
+categories: MetaRecits
+---
+
+> An introduction to this series is [here](http://rolandobrown.github.io/blog/2015/08/26/meta-recits/).
+
+# "Dear RubyAI"
+#--------------#
+
+He prepared himself to move forward.
+
+He remembered while preparing—harnessing the power of a computer was mastering its command line. RubyAI had helped me experience this, and more.
+
+It touched him—the thought of building a command line app. This app could help new programmers practice syntax/keywords, sing, code mix, and code switch.
+
+And so he burned the midnight oil building:
+
+- to name her RubyAI;
+- to have her explore Imagination, Programming, Culture, and of course Data;
+- to do this through people like Yukihiro Matsumoto, Ada Lovelace, Avi Flombaum, Steven Nunéz, Andy Hunt, Dead Prez, Octavia Butler, Bruna Netta and a few other Flatiron School students.
+
+#tldr:
+
+Whether you're a new programmer settling into a new config/environment.rb, or an experienced programmer configuring methods that will eventually help our future science/fiction writers travel the cosmos:
+
+- Cultivate your imagination.
+- Make it work. Make it right. Make it fast.
+- Programming is: "The Science of Operation.", "The Art of Composition."]
+- Do all things in moderation.
+- You don't start out writing good stuff. You start out writing crap and thinking it's good stuff, and then gradually you get better at it. That is why one of the most valuable traits is persistence.
+
+#Code on Github:
+
+> This is best experienced in the command line. Download the source code  [here](https://github.com/rolandobrown/cultureisdata).
+
+#Example Parable Class:
+
+{% gist 17df71eef4e43515ba1b %}
+
+#Example of Data Class:
+
+{% gist c02ec0741427cc6d1bbc %}
+
+#Gems:
+
+{% gist dda559027dee8da80ea6 %}
+
+###Contains Samples & Inspiration from:
+
+- [MINASWAN](http://en.wikipedia.org/wiki/MINASWAN)
+
+- [Ada Lovelace](http://www.newyorker.com/tech/elements/ada-lovelace-the-first-tech-visionary)
+
+- [The Awesome Flatiron School](http://prework.flatironschool.com)
+
+- [Pragmatic Thinking and Learning](http://www.e-reading.club/bookreader.php/137202/Pragmatic_Thinking_and_Learning_-_Refactor_Your_Wetware.pdf)
+
+- [Know Thyself](https://bekindandcode.wordpress.com/2015/08/27/know-thyself-or-suffer/)
+
+- [Golden Rules of Self](http://hackhands.com/three-golden-rules-understand-self-ruby)
+
+- [Ruby Shell Commands](http://tech.natemurray.com/2007/03/ruby-shell-commands.html)

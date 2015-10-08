@@ -1,0 +1,7 @@
+  def alias
+    # kinda colorful transformations using gsub & regexp
+    @chorus.gsub(/(wu(-|\s)tang\sclan)/i,
+    @name).gsub(/motherfucking slums/i,
+    @switchup).gsub(/fuck/i,
+    @aka).gsub(/busted/i, "trusted")
+  end
