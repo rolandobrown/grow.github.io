@@ -1,0 +1,18 @@
+# aretha_spec.rb
+require_relative 'aretha.rb' #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe "#done_you_wrong!" do
+    it "ain't gonna do you wrong while you're gone" do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe "#wanna_do_you_wrong" do
+    it "ain't gonna do you wrong (oo) 'cause I don't wanna (oo)" do
+      expect(aretha.wanna_do_you_wrong("False")).not_to be_truthy
+    end
+  end
+end

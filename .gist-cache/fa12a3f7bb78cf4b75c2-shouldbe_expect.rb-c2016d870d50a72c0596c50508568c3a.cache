@@ -1,0 +1,2 @@
+Old: my_object.should_not_be_a_kind_of(Foo)
+New: expect(my_object).not_to be_a_kind_of(Foo)

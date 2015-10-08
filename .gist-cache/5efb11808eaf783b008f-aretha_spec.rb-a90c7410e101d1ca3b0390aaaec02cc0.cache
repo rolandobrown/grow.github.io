@@ -1,0 +1,38 @@
+# aretha_spec.rb
+require_relative '../aretha.rb' #connect test to code
+
+aretha = Aretha.new
+
+RSpec.describe Aretha do
+  describe "#done_you_wrong!" do
+    it "ain't gonna do you wrong while you're gone" do
+      expect(aretha.done_you_wrong!).not_to be_truthy
+    end
+  end
+
+  describe "#wanna_do_you_wrong" do
+    it "ain't gonna do you wrong (oo) 'cause I don't wanna (oo)" do
+      expect(aretha.wanna_do_you_wrong("False")).not_to be_truthy
+    end
+  end
+
+  describe "#sweeter_than_honey" do
+    it "kisses are sweeter than honey" do
+      expect(aretha.sweeter_than_honey("True")).to be_truthy
+    end
+  end
+
+  describe "#raise_error" do
+     it "raisese an error when a litle respect don't come home" do
+       expect { raise StandardError, "All I'm askin' is for a little respect when you come home (just a little bit)" }.
+         to raise_error(/respect/)
+     end
+   end
+
+   describe "#asks_ghostface_to_explain" do
+      it "answers a wonderful question Steven Baker had about holla" do
+        expect(aretha.asks_ghostface_to_explain("Don't believe what you see, just watch (true)\nSpeak to the seeds, give 'em lead on jobs (come on)\nEducate, keep it peace wit Gods (that's right)\nIn return, happiness in globs (yeah)\nWe see the future like a psychic's palm")).to be_truthy
+      end
+    end
+
+end
