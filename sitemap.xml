@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://rolandobrown.github.io/blog/2015/10/08/ruby-ai/</loc>
+    <lastmod>2015-10-08T03:31:43-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://rolandobrown.github.io/blog/2015/08/26/nested-forms/</loc>
     <lastmod>2015-08-26T23:01:50-04:00</lastmod>
   </url>
